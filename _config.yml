@@ -1,0 +1,8 @@
+name: NeurIPS 2020 Workshop on Muslims in ML
+markdown: kramdown
+
+navigation:
+- text: Description
+  url: /
+- text: Organizers 
+  url: /organizers/
