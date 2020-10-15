@@ -19,6 +19,6 @@ title: Muslims in ML
 
 Muslims In ML (MusIML) is an affinity workshop for the NeurIPS community. 
 
-We focus on both the potential for advancement and harm to those who religiously identify, culturally associate, or are classified by proximity, as 'Muslim'.
+We focus on both the potential for advancement and harm to muslims and those in muslim-majority countries who religiously identify, culturally associate, or are classified by proximity, as “muslim”.
 
-Workshop will run on Friday for 3 hrs. We will feature 4 pre-recorded 15 min talks, with live Q/A sessions on Friday. This will be followed by a short panel discussion.
+Workshop will run on Friday, Dec 12 . We will feature pre-recorded talks, with live Q/A sessions on Friday. This will be followed by a short panel discussion.
