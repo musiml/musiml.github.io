@@ -4,16 +4,17 @@ title: Muslims in ML
 ---
 
 ## Keynote Talks
-#<table>
-#<tr>
-#<td width="50%"><img src="{{site.baseurl}}/images/speaker.png" width="100px" align="bottom"></td>
-#<td width="50%"><img src="{{site.baseurl}}/images/speaker.png" width="100px" align="bottom"></td>
-#</tr>
-#<tr>
-#<td>Speaker 1</td>
-#<td>Speaker 2</td>
-#</tr>
-#</table>
+<!-- <table>
+ <tr>
+ <td width="50%"><img src="{{site.baseurl}}/images/speaker.png" width="100px" align="bottom"></td>
+ <td width="50%"><img src="{{site.baseurl}}/images/speaker.png" width="100px" align="bottom"></td>
+ </tr>
+ <tr>
+ <td>Speaker 1</td>
+ <td>Speaker 2</td>
+ </tr>
+ </table>
+-->
 TBD
 
 ## Overview
