@@ -4,5 +4,7 @@ markdown: kramdown
 navigation:
 - text: Description
   url: /
+- text: Talks 
+  url: /talks/
 - text: Organizers 
   url: /organizers/

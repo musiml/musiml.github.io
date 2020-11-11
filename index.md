@@ -3,20 +3,6 @@ layout: default
 title: Muslims in ML
 ---
 
-## Keynote Talks
-<!-- <table>
- <tr>
- <td width="50%"><img src="{{site.baseurl}}/images/speaker.png" width="100px" align="bottom"></td>
- <td width="50%"><img src="{{site.baseurl}}/images/speaker.png" width="100px" align="bottom"></td>
- </tr>
- <tr>
- <td>Speaker 1</td>
- <td>Speaker 2</td>
- </tr>
- </table>
--->
-TBD
-
 ## Overview
 
 Muslims In ML (MusIML) is an affinity workshop for the NeurIPS community. 
@@ -26,3 +12,27 @@ We focus on both the potential for advancement and harm to muslims and those in 
 Workshop will run on Friday, Dec 12. 
 
 We will feature pre-recorded talks, with live Q/A sessions on Friday. This will be followed by a short panel discussion.
+
+## Invited Speakers
+
+<table>
+<tr>
+<td width="50%"><img src="{{site.baseurl}}/images/anver_emon.jpg" width="100px" align="bottom"></td>
+<td width="50%"><img src="{{site.baseurl}}/images/darren_byler.jpg" width="100px" align="bottom"></td>
+</tr>
+<tr>
+<td><b>Anver Emon</b><br /><a href="talks/">Taking from the Hands that Give: CRA audits of Muslim-led Charities</a></td>
+<td><b>Darren Byler</b><br /><a href="talks/">The Digital Enclosure of Turkic Muslims in Northwest China</a></td>
+</tr>
+<tr>
+<td></td><td></td>
+</tr>
+<tr>
+<td width="50%"><img src="{{site.baseurl}}/images/abubakar_abid.jpg" width="100px" align="bottom"></td>
+<td width="50%"></td>
+</tr>
+<tr>
+<td><b>Abubakar Abid</b><br /><a href="talks/">Investigating Anti-Muslim Bias in GPT-3 through Words, Images and Stories</a></td>
+<td></td>
+</tr>
+</table>
