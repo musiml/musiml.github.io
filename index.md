@@ -29,10 +29,10 @@ We will feature pre-recorded talks, with live Q/A sessions on Friday. This will 
 </tr>
 <tr>
 <td width="50%"><img src="{{site.baseurl}}/images/abubakar_abid.jpg" width="100px" align="bottom"></td>
-<td width="50%"></td>
+<td width="50%"><img src="{{site.baseurl}}/images/ted_pedersen.jpg" width="100px" align="bottom"></td>
 </tr>
 <tr>
 <td><b>Abubakar Abid</b><br /><a href="talks/">Investigating Anti-Muslim Bias in GPT-3 through Words, Images and Stories</a></td>
-<td></td>
+<td><b>Ted Pedersen</b><br /><a href="talks/">Automatically Identifying Islamophobia in Social Media</a></td>
 </tr>
 </table>

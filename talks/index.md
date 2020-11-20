@@ -37,3 +37,18 @@ Darren Byler is a postdoctoral fellow at the Center for Asian Studies at the Uni
 ### Speaker Biography:
 
 Abubakar Abid is a 5th year PhD student in machine learning at Stanford, supervised by Professor James Zou. His research interests include machine learning transparency and accessibility, generative models, and applications of machine learning to biology and medicine
+
+<hr/>
+
+## Automatically Identifying Islamophobia in Social Media
+### Ted Pedersen
+
+<img src="{{site.baseurl}}/images/ted_pedersen.jpg" width="170px" align="bottom">
+
+### Abstract:
+
+Social media continues to grow in its scope, importance, and toxicity. Hate speech is ever-present in today’s social media, and causes or contributes to dangerous situations in the real world for those it targets. Anti-Muslim bias and hatred has escalated in both public life and social media in recent years. This talk will overview a new and ongoing project in identifying Islamophobia in social media using techniques from Natural Language Processing. I will describe our methods of data collection and annotation,and discuss some of the challenges we have encountered thus far. In addition I’ll describe some of the pitfalls that exist for any effort attempting to identify hate speech (automatically or not).
+
+### Speaker Biography:
+
+Ted Pedersen is a Professor in the Department of Computer Science at the University of Minnesota, Duluth. His research interests are in Natural Language Processing and most recently are focused on computational humor and identifying hate speech. His research has previously been supported by the National Institutes of Health (NIH) and a National Science Foundation (NSF) CAREER award.
