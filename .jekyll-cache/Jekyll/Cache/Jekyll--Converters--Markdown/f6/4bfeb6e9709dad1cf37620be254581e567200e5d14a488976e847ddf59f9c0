@@ -1,0 +1,130 @@
+I"�<h2 id="overview">Overview</h2>
+
+<p>Muslims In ML (MusIML) is an affinity workshop for the NeurIPS community.</p>
+
+<p>We focus on both the potential for advancement and harm to muslims and those in muslim-majority countries who religiously identify, culturally associate, or are classified by proximity, as “muslim”.</p>
+
+<p>The workshop will run on Tuesday, December 8 10:30AM - 1:30PM EST.</p>
+
+<p>We will feature pre-recorded talks, with live Q/A sessions on Friday. This will be followed by a short panel discussion.</p>
+
+<h2 id="invited-speakers">Invited Speakers</h2>
+
+<table>
+<tr>
+<td width="50%"><img src="/images/samhaa_elbeltagy.jpg" width="100px" align="bottom" /></td>
+<td width="50%"><img src="/images/mona_diab.jpg" width="100px" align="bottom" /></td>
+</tr>
+<tr>
+<td><b>Samhaa El-Beltagy</b><br /><a href="talks/">Live talk</a></td>
+<td><b>Mona Diab</b><br /><a href="talks/">Data Paucity and Low Resource Scenarios: Challenges and Opportunities</a></td>
+</tr>
+<tr>
+<td width="50%"><img src="/images/anver_emon.jpg" width="100px" align="bottom" /></td>
+<td width="50%"><img src="/images/darren_byler.jpg" width="100px" align="bottom" /></td>
+</tr>
+<tr>
+<td><b>Anver Emon</b><br /><a href="talks/">Taking from the Hands that Give: CRA audits of Muslim-led Charities</a></td>
+<td><b>Darren Byler</b><br /><a href="talks/">The Digital Enclosure of Turkic Muslims in Northwest China</a></td>
+</tr>
+<tr>
+<td></td><td></td>
+</tr>
+<tr>
+<td width="50%"><img src="/images/abubakar_abid.jpg" width="100px" align="bottom" /></td>
+<td width="50%"><img src="/images/ted_pedersen.jpg" width="100px" align="bottom" /></td>
+</tr>
+<tr>
+<td><b>Abubakar Abid</b><br /><a href="talks/">Investigating Anti-Muslim Bias in GPT-3 through Words, Images and Stories</a></td>
+<td><b>Ted Pedersen</b><br /><a href="talks/">Automatically Identifying Islamophobia in Social Media</a></td>
+</tr>
+<tr>
+<td width="50%"><img src="/images/nayel_shafei.jpg" width="100px" align="bottom" /></td>
+<td width="50%"></td>
+</tr>
+<tr>
+<td><b>Nayel Shafei</b><br /><a href="talks/">Creating Multilingual Corpora for Arabic Characterset</a></td>
+</tr>
+</table>
+
+<table>
+<tr>
+	<td width="50%"><img src="/images/abubakar_abid.jpg" width="100px" align="bottom" /></td>
+	<td width="50%"><img src="/images/darren_byler.jpg" width="100px" align="bottom" /></td>
+</tr>
+<tr>
+	<td><b>Abubakar Abid</b><br /><a href="talks/">Investigating Anti-Muslim Bias in GPT-3 through Words, Images and Stories</a></td>
+	<td><b>Darren Byler</b><br /><a href="talks/">The Digital Enclosure of Turkic Muslims in Northwest China</a></td>
+</tr>
+<tr>
+	<td width="50%"><img src="/images/mona_diab.jpg" width="100px" align="bottom" /></td>
+</tr>
+	<td><b>Mona Diab</b><br /><a href="talks/">Data Paucity and Low Resource Scenarios: Challenges and Opportunities</a></td>
+	<td><b>Samhaa El-Beltagy</b><br /><a href="talks/">Live talk</a></td>
+<tr>
+</tr>
+<tr>
+</tr>
+<tr>
+</tr>
+<tr>
+</tr>
+<tr>
+</tr>
+<tr>
+</tr>
+</table>
+
+<h2 id="schedule">Schedule</h2>
+
+<p>All times in EST.</p>
+
+<table>
+	<tr>
+		<td>10:30AM</td>
+		<td>Welcome and Opening Remarks</td>
+		<td>Live</td>
+	</tr>
+	<tr>
+		<td>10:35AM</td>
+		<td>Invited Talk: Investigating Anti-Muslim Bias in GPT-3 through Words, Images, &amp; Stories - Abubakar Abid</td>
+		<td>Recorded</td>
+	</tr>
+	<tr>
+		<td>11:00AM</td>
+		<td>Invited Talk: Taking from the Hands that Give: CRA audits of Muslim-led Charities - Anver Emon</td>
+		<td>Recorded</td>
+	</tr>
+	<tr>
+		<td>11:25AM</td>
+		<td>Invited Talk: Automatically Identifying Islamophobia in Social Media - Ted Pedersen</td>
+		<td>Recorded</td>
+	</tr>
+	<tr>
+		<td>11:50AM</td>
+		<td>Invited Talk: The Digital Enclosure of Turkic Muslims in Northwest China - Darren Byler</td>
+		<td>Recorded</td>
+	</tr>
+	<tr>
+		<td>12:15PM</td>
+		<td>Invited Talk: Creating Multilingual Corpora for Arabic Characterset - Nayel Shafei </td>
+		<td>Live</td>
+	</tr>
+	<tr>
+		<td>12:40PM</td>
+		<td>Invited Talk: Data Paucity and Low Resource Scenarios: Challenges and Opportunities - Mona Diab</td>
+		<td>Live</td>
+	</tr>
+	<tr>
+		<td>1:05PM</td>
+		<td>Invited Talk: Samhaa El-Beltagy</td>
+		<td>Live</td>
+	</tr>
+	<tr>
+		<td>1:30PM</td>
+		<td>Panel Discussion and Q&amp;A</td>
+		<td>Live</td>
+	</tr>
+</table>
+
+:ET

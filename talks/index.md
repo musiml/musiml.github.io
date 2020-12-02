@@ -3,39 +3,14 @@ layout: default
 title: Talks
 ---
 
-### Samhaa El-Beltagy
+## Investigating Anti-Muslim Bias in GPT-3 through Words, Images and Stories
+### Abubakar Abid 
 
-<img src="{{site.baseurl}}/images/samhaa_elbeltagy.jpg" width="170px" align="bottom">
-
-### Speaker Biography:
-
-Samhaa R. El-Beltagy is a Professor of Computer Science and the Dean of the School of Information Technology at Newgiza University. She’s also an NLP R&D consultant for Optomatica (a company dedicated to the development of AI solutions to real-life complex problems), as well as a co-founder of AIM Technologies (an NLP  start-up), and a member of the technical board for the National Council for  AI in Egypt. Prof. El-Beltagy’s primary research area is in Arabic NLP, but her research interests include AI and NLP at large.  
-
-<hr/>
-
-## Data Paucity and Low Resource Scenarios: Challenges and Opportunities
-### Mona Diab
-
-<img src="{{site.baseurl}}/images/mona_diab.jpg" width="170px" align="bottom">
-
-### Abstract:
-
-In an era unstructured data abundance, you would think that we have solved our data requirements for building robust systems for language processing. However, this is not the case if we think on a global scale with over 7000 languages where only a handful have digital resources. Moreover, systems at scale with good performance typically require annotated resources.The existence of a handful of resources in a some languages is a reflection of the digital disparity in various societies leading to inadvertent biases in systems. In this talk I will show some solutions for low resource scenarios, both cross domain and genres as well as cross lingually.
+<img src="{{site.baseurl}}/images/abubakar_abid.jpg" width="170px" align="bottom">
 
 ### Speaker Biography:
 
-Professor Mona Diab conducts research in Statistical Natural Language Processing (NLP) is a rapidly growing, exciting field of research in artificial intelligence and computer science. Interdisciplinarity is inherent to NLP, drawing on the fields of computer algorithms, software engineering, statistics, machine learning, linguistics, pragmatics, information technology, etc. In NLP, researchers model language and its use, and build both analytical models and predictive ones. In Professor Diab's NLP lab, they address problems in social media processing, building robust enabling technologies such as syntactic and semantic processing tools for written texts in different languages, information extraction tools for large data, multilingual processing, machine translation, and computational sociolinguistic processing. Professor Diab has a special interest in Arabic NLP, where the emphasis has been on investigating Arabic dialect processing where there are very few available automated resources.
-
-<hr/>
-
-## Taking from the Hands that Give: CRA audits of Muslim-led Charities
-### Anver Emon
-
-<img src="{{site.baseurl}}/images/anver_emon.jpg" width="170px" align="bottom">
-
-### Speaker Biography:
-
-Anver M. Emon is Professor of Law and History at the Faculty of Law and Department of History at the University of Toronto, where he also directs the University’s Institute of Islamic Studies.  His research focuses on premodern and modern Islamic legal history, having written extensively on the subject. He is the author of Islamic Natural Law Theories (2010) and Religious Pluralism and Islamic Law (2014), both published by Oxford University Press.  As director of the IIS, he has fostered a research lab that integrates religious studies and national security considerations in the ongoing War on Terror.
+Abubakar Abid is a 5th year PhD student in machine learning at Stanford, supervised by Professor James Zou. His research interests include machine learning transparency and accessibility, generative models, and applications of machine learning to biology and medicine
 
 <hr/>
 
@@ -54,14 +29,39 @@ Darren Byler is a postdoctoral fellow at the Center for Asian Studies at the Uni
 
 <hr/>
 
-## Investigating Anti-Muslim Bias in GPT-3 through Words, Images and Stories
-### Abubakar Abid 
+## Data Paucity and Low Resource Scenarios: Challenges and Opportunities
+### Mona Diab
 
-<img src="{{site.baseurl}}/images/abubakar_abid.jpg" width="170px" align="bottom">
+<img src="{{site.baseurl}}/images/mona_diab.jpg" width="170px" align="bottom">
+
+### Abstract:
+
+In an era unstructured data abundance, you would think that we have solved our data requirements for building robust systems for language processing. However, this is not the case if we think on a global scale with over 7000 languages where only a handful have digital resources. Moreover, systems at scale with good performance typically require annotated resources.The existence of a handful of resources in a some languages is a reflection of the digital disparity in various societies leading to inadvertent biases in systems. In this talk I will show some solutions for low resource scenarios, both cross domain and genres as well as cross lingually.
 
 ### Speaker Biography:
 
-Abubakar Abid is a 5th year PhD student in machine learning at Stanford, supervised by Professor James Zou. His research interests include machine learning transparency and accessibility, generative models, and applications of machine learning to biology and medicine
+Professor Mona Diab conducts research in Statistical Natural Language Processing (NLP) is a rapidly growing, exciting field of research in artificial intelligence and computer science. Interdisciplinarity is inherent to NLP, drawing on the fields of computer algorithms, software engineering, statistics, machine learning, linguistics, pragmatics, information technology, etc. In NLP, researchers model language and its use, and build both analytical models and predictive ones. In Professor Diab's NLP lab, they address problems in social media processing, building robust enabling technologies such as syntactic and semantic processing tools for written texts in different languages, information extraction tools for large data, multilingual processing, machine translation, and computational sociolinguistic processing. Professor Diab has a special interest in Arabic NLP, where the emphasis has been on investigating Arabic dialect processing where there are very few available automated resources.
+
+<hr/>
+
+### Samhaa El-Beltagy
+
+<img src="{{site.baseurl}}/images/samhaa_elbeltagy.jpg" width="170px" align="bottom">
+
+### Speaker Biography:
+
+Samhaa R. El-Beltagy is a Professor of Computer Science and the Dean of the School of Information Technology at Newgiza University. She’s also an NLP R&D consultant for Optomatica (a company dedicated to the development of AI solutions to real-life complex problems), as well as a co-founder of AIM Technologies (an NLP  start-up), and a member of the technical board for the National Council for  AI in Egypt. Prof. El-Beltagy’s primary research area is in Arabic NLP, but her research interests include AI and NLP at large.  
+
+<hr/>
+
+## Taking from the Hands that Give: CRA audits of Muslim-led Charities
+### Anver Emon
+
+<img src="{{site.baseurl}}/images/anver_emon.jpg" width="170px" align="bottom">
+
+### Speaker Biography:
+
+Anver M. Emon is Professor of Law and History at the Faculty of Law and Department of History at the University of Toronto, where he also directs the University’s Institute of Islamic Studies.  His research focuses on premodern and modern Islamic legal history, having written extensively on the subject. He is the author of Islamic Natural Law Theories (2010) and Religious Pluralism and Islamic Law (2014), both published by Oxford University Press.  As director of the IIS, he has fostered a research lab that integrates religious studies and national security considerations in the ongoing War on Terror.
 
 <hr/>
 
