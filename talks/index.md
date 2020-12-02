@@ -91,6 +91,8 @@ Nayel Shafei graduated from Cairo University (BS 1981), MIT (SM ’86, PhD. ’9
 
 ## Schedule
 
+All times in EST.
+
 <table>
 	<tr>
 		<td>10:30AM</td>

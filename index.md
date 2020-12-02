@@ -9,7 +9,7 @@ Muslims In ML (MusIML) is an affinity workshop for the NeurIPS community.
 
 We focus on both the potential for advancement and harm to muslims and those in muslim-majority countries who religiously identify, culturally associate, or are classified by proximity, as “muslim”.
 
-The workshop will run on Tuesday, December 8 10:30 am - 1:30 pm EST. 
+The workshop will run on Tuesday, December 8 10:30AM - 1:30PM EST. 
 
 We will feature pre-recorded talks, with live Q/A sessions on Friday. This will be followed by a short panel discussion.
 
@@ -53,6 +53,8 @@ We will feature pre-recorded talks, with live Q/A sessions on Friday. This will 
 </table>
 
 ## Schedule
+
+All times in EST.
 
 <table>
 	<tr>

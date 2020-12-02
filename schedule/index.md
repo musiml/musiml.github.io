@@ -5,6 +5,8 @@ title: Schedule
 
 ## Schedule
 
+All times in EST.
+
 <table>
 	<tr>
 		<td>10:30AM</td>
