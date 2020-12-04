@@ -44,6 +44,7 @@ Professor Mona Diab conducts research in Statistical Natural Language Processing
 
 <hr/>
 
+## NLU Meets Islamic Religious Phrases: Highlighting the Challenges
 ### Samhaa El-Beltagy
 
 <img src="{{site.baseurl}}/images/samhaa_elbeltagy.jpg" width="170px" align="bottom">
@@ -125,18 +126,18 @@ All times in EST.
 		<td>Live</td>
 	</tr>
 	<tr>
-		<td>12:40PM</td>
+		<td>12:30PM</td>
 		<td>Invited Talk: Data Paucity and Low Resource Scenarios: Challenges and Opportunities - Mona Diab</td>
 		<td>Live</td>
 	</tr>
 	<tr>
-		<td>1:05PM</td>
-		<td>Invited Talk: Samhaa El-Beltagy</td>
+		<td>12:45PM</td>
+		<td>Invited Talk: NLU Meets Islamic Religious Phrases: Highlighting the Challenges - Samhaa El-Beltagy</td>
 		<td>Live</td>
 	</tr>
 	<tr>
-		<td>1:30PM</td>
-		<td>Panel Discussion and Q&A</td>
+		<td>1:00PM</td>
+		<td>Panel Discussion: The Intersection of Policy, Technology, and Muslims - Roya Pakzad and Dia Kayyali </td>
 		<td>Live</td>
 	</tr>
 </table>

@@ -7,11 +7,11 @@ title: Muslims in ML
 
 Muslims In ML (MusIML) is an affinity workshop for the NeurIPS community. 
 
-We focus on both the potential for advancement and harm to muslims and those in muslim-majority countries who religiously identify, culturally associate, or are classified by proximity, as “muslim”.
+We focus on both the potential for advancement and harm to Muslims and those in Muslim-majority countries who religiously identify, culturally associate, or are classified by proximity, as “Muslim”.
 
-The workshop will run on Tuesday, December 8 10:30AM - 1:30PM EST. 
+The workshop will run on Tuesday, December 8, 2020 from 10:30AM - 1:30PM EST. 
 
-We will feature pre-recorded talks, with live Q/A sessions on Friday. This will be followed by a short panel discussion.
+We will feature a combination of pre-recorded and live talks, followed by a panel discussion with authors on the intersection of policy, technology, and Muslim communities. 
 
 ## Invited Speakers
 
@@ -30,7 +30,7 @@ We will feature pre-recorded talks, with live Q/A sessions on Friday. This will 
 </tr>
 <tr>
 	<td><b>Mona Diab</b><br /><a href="talks/">Data Paucity and Low Resource Scenarios: Challenges and Opportunities</a></td>
-	<td><b>Samhaa El-Beltagy</b><br /><a href="talks/">Live talk</a></td>
+	<td><b>Samhaa El-Beltagy</b><br /><a href="talks/">NLU Meets Islamic Religious Phrases: Highlighting the Challenges</a></td>
 </tr>
 <tr>
 	<td width="50%"><img src="{{site.baseurl}}/images/anver_emon.jpg" width="100px" align="bottom"></td>
@@ -91,18 +91,18 @@ All times in EST.
 		<td>Live</td>
 	</tr>
 	<tr>
-		<td>12:40PM</td>
+		<td>12:30PM</td>
 		<td>Invited Talk: Data Paucity and Low Resource Scenarios: Challenges and Opportunities - Mona Diab</td>
 		<td>Live</td>
 	</tr>
 	<tr>
-		<td>1:05PM</td>
-		<td>Invited Talk: Samhaa El-Beltagy</td>
+		<td>12:45PM</td>
+		<td>Invited Talk: NLU Meets Islamic Religious Phrases: Highlighting the Challenges - Samhaa El-Beltagy</td>
 		<td>Live</td>
 	</tr>
 	<tr>
-		<td>1:30PM</td>
-		<td>Panel Discussion and Q&A</td>
+		<td>1:00PM</td>
+		<td>Panel Discussion: The Intersection of Policy, Technology, and Muslims - Roya Pakzad and Dia Kayyali </td>
 		<td>Live</td>
 	</tr>
 </table>

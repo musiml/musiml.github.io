@@ -8,5 +8,7 @@ navigation:
   url: /talks/
 - text: Schedule 
   url: /schedule/
+- text: Registration 
+  url: /registration/
 - text: Organizers 
   url: /organizers/

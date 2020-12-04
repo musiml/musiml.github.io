@@ -1,11 +1,6 @@
----
-layout: default
-title: Schedule
----
+I"|<h2 id="schedule">Schedule</h2>
 
-## Schedule
-
-All times in EST.
+<p>All times in EST.</p>
 
 <table>
 	<tr>
@@ -15,7 +10,7 @@ All times in EST.
 	</tr>
 	<tr>
 		<td>10:35AM</td>
-		<td>Invited Talk: Investigating Anti-Muslim Bias in GPT-3 through Words, Images, & Stories - Abubakar Abid</td>
+		<td>Invited Talk: Investigating Anti-Muslim Bias in GPT-3 through Words, Images, &amp; Stories - Abubakar Abid</td>
 		<td>Recorded</td>
 	</tr>
 	<tr>
@@ -54,3 +49,4 @@ All times in EST.
 		<td>Live</td>
 	</tr>
 </table>
+:ET
