@@ -3,7 +3,22 @@ layout: default
 title: Talks
 ---
 
-## Investigating Anti-Muslim Bias in GPT-3 through Words, Images and Stories
+## Themes
+
+Language and Speech: Many Muslim-majority groups communicate in language that use Arabic character sets, yet there is a gap in learning and machine learning tools that work well in these environments. The following invited talks consider potential solutions such as extending resources to include Arabic character sets to decrease disparity in Arabic-speaking groups. 
+* Abubakar Abid: Investigating Anti-Muslim Bias in GPT-3 through Words, Images, & Stories
+* Nayel Shafei: Creating Multilingual Corpora for Arabic Characterset 
+* Mona Diab: Data Paucity and Low Resource Scenarios: Challenges and Opportunities
+* Samhaa El-Beltagy: NLU Meets Islamic Religious Phrases: Highlighting the Challenges 
+
+Algorithmic Bias: These invited talks explore how technology is used to identify ways in which algorithms and models are used to discriminate against Muslim individuals and communities in different contexts. 
+* Anver Emon - Taking from the Hands that Give: CRA audits of Muslim-led Charities
+* Ted Pedersen - Automatically Identifying Islamophobia in Social Media
+* Darren Byler - The Digital Enclosure of Turkic Muslims in Northwest China
+
+## Talk details
+
+### Investigating Anti-Muslim Bias in GPT-3 through Words, Images and Stories
 ### Abubakar Abid 
 
 <img src="{{site.baseurl}}/images/abubakar_abid.jpg" width="170px" align="bottom">
@@ -14,7 +29,7 @@ Abubakar Abid is a 5th year PhD student in machine learning at Stanford, supervi
 
 <hr/>
 
-## The Digital Enclosure of Turkic Muslims in Northwest China
+### The Digital Enclosure of Turkic Muslims in Northwest China
 ### Darren Byler 
 
 <img src="{{site.baseurl}}/images/darren_byler.jpg" width="170px" align="bottom">
@@ -29,7 +44,7 @@ Darren Byler is a postdoctoral fellow at the Center for Asian Studies at the Uni
 
 <hr/>
 
-## Data Paucity and Low Resource Scenarios: Challenges and Opportunities
+### Data Paucity and Low Resource Scenarios: Challenges and Opportunities
 ### Mona Diab
 
 <img src="{{site.baseurl}}/images/mona_diab.jpg" width="170px" align="bottom">
@@ -44,7 +59,7 @@ Professor Mona Diab conducts research in Statistical Natural Language Processing
 
 <hr/>
 
-## NLU Meets Islamic Religious Phrases: Highlighting the Challenges
+### NLU Meets Islamic Religious Phrases: Highlighting the Challenges
 ### Samhaa El-Beltagy
 
 <img src="{{site.baseurl}}/images/samhaa_elbeltagy.jpg" width="170px" align="bottom">
@@ -55,7 +70,7 @@ Samhaa R. El-Beltagy is a Professor of Computer Science and the Dean of the Scho
 
 <hr/>
 
-## Taking from the Hands that Give: CRA audits of Muslim-led Charities
+### Taking from the Hands that Give: CRA audits of Muslim-led Charities
 ### Anver Emon
 
 <img src="{{site.baseurl}}/images/anver_emon.jpg" width="170px" align="bottom">
@@ -66,7 +81,22 @@ Anver M. Emon is Professor of Law and History at the Faculty of Law and Departme
 
 <hr/>
 
-## Automatically Identifying Islamophobia in Social Media
+### Nuanced Counter-Narratives of Being Muslim Online
+### Roya Pakzad
+
+<img src="{{site.baseurl}}/images/roya_pakzad.jpg" width="170px" align="bottom">
+
+### Abstract:
+
+In this short talk, Roya Pakzad will speak about her current project entitled "Nuanced Counter-Narratives of Being Muslim Online." The goal of this project is to gain a deeper understanding of how marginalized groups create counter-narratives, who amplifies them, how sustainable they are, and how their impact differs. By providing various examples, she will also touch on how technology companies' business models and their third-party relationships impact Muslims and people from Muslim-majority countries. The talk will conclude with recommendations for design and policy interventions.
+
+### Speaker Biography:
+
+Roya Pakzad is the founder of Taraaz, a research and advocacy organization working at the intersection of technology and human rights. She is also an affiliated scholar at UC Berkeley’s CITRIS Policy Lab. In her work, Roya examines the human rights implications of socio-technical systems in their design, development, and deployment phases. Previously, she served as a Project Leader in Technology and Human Rights at Stanford University’s Global Digital Policy Incubator (GDPi) and was a resident fellow at the Rockefeller Foundation’s Bellagio Center. Prior to entering the human rights field, she was an electrical engineer at Advanced Micro Devices (AMD). Born and raised in Tehran, Iran, Roya holds degrees from the University of Southern California (M.Sc. in Electrical Engineering) and Columbia University (M.A. in Human Rights Studies). She lives in Santa Cruz, California.
+
+<hr/>
+
+### Automatically Identifying Islamophobia in Social Media
 ### Ted Pedersen
 
 <img src="{{site.baseurl}}/images/ted_pedersen.jpg" width="170px" align="bottom">
@@ -81,7 +111,7 @@ Ted Pedersen is a Professor in the Department of Computer Science at the Univers
 
 <hr/>
 
-## Creating Multilingual Corpora for Arabic Characterset
+### Creating Multilingual Corpora for Arabic Characterset
 ### Nayel Shafei
 
 <img src="{{site.baseurl}}/images/nayel_shafei.jpg" width="170px" align="bottom">
@@ -98,46 +128,56 @@ All times in EST.
 	<tr>
 		<td>10:30AM</td>
 		<td>Welcome and Opening Remarks</td>
+		<td></td>
 		<td>Live</td>
 	</tr>
 	<tr>
 		<td>10:35AM</td>
 		<td>Invited Talk: Investigating Anti-Muslim Bias in GPT-3 through Words, Images, & Stories - Abubakar Abid</td>
+		<td>Language and speech</td>
 		<td>Recorded</td>
 	</tr>
 	<tr>
 		<td>11:00AM</td>
 		<td>Invited Talk: Taking from the Hands that Give: CRA audits of Muslim-led Charities - Anver Emon</td>
+		<td>Algorithmic bias</td>
 		<td>Recorded</td>
 	</tr>
 	<tr>
 		<td>11:25AM</td>
 		<td>Invited Talk: Automatically Identifying Islamophobia in Social Media - Ted Pedersen</td>
+		<td>Algorithmic bias</td>
 		<td>Recorded</td>
 	</tr>
 	<tr>
 		<td>11:50AM</td>
 		<td>Invited Talk: The Digital Enclosure of Turkic Muslims in Northwest China - Darren Byler</td>
+		<td>Algorithmic bias</td>
 		<td>Recorded</td>
 	</tr>
 	<tr>
 		<td>12:15PM</td>
 		<td>Invited Talk: Creating Multilingual Corpora for Arabic Characterset - Nayel Shafei </td>
+		<td>Language and speech</td>
 		<td>Live</td>
 	</tr>
 	<tr>
 		<td>12:30PM</td>
 		<td>Invited Talk: Data Paucity and Low Resource Scenarios: Challenges and Opportunities - Mona Diab</td>
+		<td>Language and speech</td>
 		<td>Live</td>
 	</tr>
 	<tr>
 		<td>12:45PM</td>
 		<td>Invited Talk: NLU Meets Islamic Religious Phrases: Highlighting the Challenges - Samhaa El-Beltagy</td>
+		<td>Language and speech</td>
 		<td>Live</td>
 	</tr>
 	<tr>
 		<td>1:00PM</td>
 		<td>Panel Discussion: The Intersection of Policy, Technology, and Muslims - Roya Pakzad and Dia Kayyali </td>
+		<td></td>
 		<td>Live</td>
 	</tr>
 </table>
+
