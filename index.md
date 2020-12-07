@@ -54,7 +54,7 @@ We will feature a combination of pre-recorded and live talks, followed by a pane
 </tr>
 <tr>
 	<td><b>Nayel Shafei</b><br /><a href="talks/">Creating Multilingual Corpora for Arabic Characterset</a></td>
-	</td></td>
+	<td></td>
 </tr>
 <tr>
 	<td></td>
