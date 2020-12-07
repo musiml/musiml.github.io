@@ -1,4 +1,4 @@
-I"6<h2 id="themes">Themes</h2>
+I"p=<h2 id="themes">Themes</h2>
 
 <p>Language and Speech: Many Muslim-majority groups communicate in language that use Arabic character sets, yet there is a gap in learning and machine learning tools that work well in these environments. The following invited talks consider potential solutions such as extending resources to include Arabic character sets to decrease disparity in Arabic-speaking groups.</p>
 <ul>
@@ -22,6 +22,10 @@
 
 <p><img src="/images/abubakar_abid.jpg" width="170px" align="bottom" /></p>
 
+<h3 id="abstract">Abstract:</h3>
+
+<p>Large language models such as GPT-3 have gained significant attention for capturing complex associations between linguistic concepts, allowing them to perform well on various natural language tasks. In this short paper, we ask: what kinds of associations (or biases) has GPT-3 captured about the concepts: Muslim and Islam? We probe OpenAI’s GPT-3 Playground in various ways to understand these biases. We find that, as expected, problematic biases have been learned by the language model. What is more surprising is how difficult it is to debias GPT-3 and how biases appear consistently in different uses of the model. We quantify the persistency and consistency of these biases and demonstrate that they are severe even relative to other religious groups. Finally, we end with a suggestion to be explored in future work – prompt modifications that debias the output of language models.</p>
+
 <h3 id="speaker-biography">Speaker Biography:</h3>
 
 <p>Abubakar Abid is a 5th year PhD student in machine learning at Stanford, supervised by Professor James Zou. His research interests include machine learning transparency and accessibility, generative models, and applications of machine learning to biology and medicine</p>
@@ -33,7 +37,7 @@
 
 <p><img src="/images/darren_byler.jpg" width="170px" align="bottom" /></p>
 
-<h3 id="abstract">Abstract:</h3>
+<h3 id="abstract-1">Abstract:</h3>
 
 <p>In this short talk I use the conceptual framing of a digital enclosure to consider the way Uyghur and Kazakh societies in Northwest China have been enveloped by a surveillance system over the past decade. I show how novel enclosures are produced and, in turn, construct new frontiers in capital accumulation and state power. The Turkic Muslim digital enclosure system began with the construction of 3-G cellular wireless networks which provided Uyghurs and Kazakhs with interactive smart-phone enabled capabilities across time and space. But over time state authorities paid private technology companies to build a data-intensive system with a wide range of spatial scales and information analytics that came to center on “Muslim” social media assessment and ethno-racialized face recognition technology. This complex matrix of overlaid enclosures assessed and controlled the movements and behavior of Muslims in increasingly intimate ways, resulting in mass detentions in “reeducation” camps. What makes the case in Northwest China unique beyond its scale and cruelty, is that in this context rather than banishing targeted populations solely to human warehousing spaces such as peripheral ghettos, camps or prisons, the digital enclosure works to explicitly “reeducate” the population as industrial workers and implement a forced labor regime.</p>
 
@@ -48,7 +52,7 @@
 
 <p><img src="/images/mona_diab.jpg" width="170px" align="bottom" /></p>
 
-<h3 id="abstract-1">Abstract:</h3>
+<h3 id="abstract-2">Abstract:</h3>
 
 <p>In an era unstructured data abundance, you would think that we have solved our data requirements for building robust systems for language processing. However, this is not the case if we think on a global scale with over 7000 languages where only a handful have digital resources. Moreover, systems at scale with good performance typically require annotated resources.The existence of a handful of resources in a some languages is a reflection of the digital disparity in various societies leading to inadvertent biases in systems. In this talk I will show some solutions for low resource scenarios, both cross domain and genres as well as cross lingually.</p>
 
@@ -80,16 +84,27 @@
 
 <hr />
 
+<h3 id="taking-from-the-hands-that-give-cra-audits-of-muslim-led-charities-1">Taking from the Hands that Give: CRA audits of Muslim-led Charities</h3>
+<h3 id="dia-kayyali">Dia Kayyali</h3>
+
+<p><img src="/images/anver_emon.jpg" width="170px" align="bottom" /></p>
+
+<h3 id="speaker-biography-5">Speaker Biography:</h3>
+
+<p>Anver M. Emon is Professor of Law and History at the Faculty of Law and Department of History at the University of Toronto, where he also directs the University’s Institute of Islamic Studies.  His research focuses on premodern and modern Islamic legal history, having written extensively on the subject. He is the author of Islamic Natural Law Theories (2010) and Religious Pluralism and Islamic Law (2014), both published by Oxford University Press.  As director of the IIS, he has fostered a research lab that integrates religious studies and national security considerations in the ongoing War on Terror.</p>
+
+<hr />
+
 <h3 id="nuanced-counter-narratives-of-being-muslim-online">Nuanced Counter-Narratives of Being Muslim Online</h3>
 <h3 id="roya-pakzad">Roya Pakzad</h3>
 
 <p><img src="/images/roya_pakzad.jpg" width="170px" align="bottom" /></p>
 
-<h3 id="abstract-2">Abstract:</h3>
+<h3 id="abstract-3">Abstract:</h3>
 
 <p>In this short talk, Roya Pakzad will speak about her current project entitled “Nuanced Counter-Narratives of Being Muslim Online.” The goal of this project is to gain a deeper understanding of how marginalized groups create counter-narratives, who amplifies them, how sustainable they are, and how their impact differs. By providing various examples, she will also touch on how technology companies’ business models and their third-party relationships impact Muslims and people from Muslim-majority countries. The talk will conclude with recommendations for design and policy interventions.</p>
 
-<h3 id="speaker-biography-5">Speaker Biography:</h3>
+<h3 id="speaker-biography-6">Speaker Biography:</h3>
 
 <p>Roya Pakzad is the founder of Taraaz, a research and advocacy organization working at the intersection of technology and human rights. She is also an affiliated scholar at UC Berkeley’s CITRIS Policy Lab. In her work, Roya examines the human rights implications of socio-technical systems in their design, development, and deployment phases. Previously, she served as a Project Leader in Technology and Human Rights at Stanford University’s Global Digital Policy Incubator (GDPi) and was a resident fellow at the Rockefeller Foundation’s Bellagio Center. Prior to entering the human rights field, she was an electrical engineer at Advanced Micro Devices (AMD). Born and raised in Tehran, Iran, Roya holds degrees from the University of Southern California (M.Sc. in Electrical Engineering) and Columbia University (M.A. in Human Rights Studies). She lives in Santa Cruz, California.</p>
 
@@ -100,11 +115,11 @@
 
 <p><img src="/images/ted_pedersen.jpg" width="170px" align="bottom" /></p>
 
-<h3 id="abstract-3">Abstract:</h3>
+<h3 id="abstract-4">Abstract:</h3>
 
 <p>Social media continues to grow in its scope, importance, and toxicity. Hate speech is ever-present in today’s social media, and causes or contributes to dangerous situations in the real world for those it targets. Anti-Muslim bias and hatred has escalated in both public life and social media in recent years. This talk will overview a new and ongoing project in identifying Islamophobia in social media using techniques from Natural Language Processing. I will describe our methods of data collection and annotation,and discuss some of the challenges we have encountered thus far. In addition I’ll describe some of the pitfalls that exist for any effort attempting to identify hate speech (automatically or not).</p>
 
-<h3 id="speaker-biography-6">Speaker Biography:</h3>
+<h3 id="speaker-biography-7">Speaker Biography:</h3>
 
 <p>Ted Pedersen is a Professor in the Department of Computer Science at the University of Minnesota, Duluth. His research interests are in Natural Language Processing and most recently are focused on computational humor and identifying hate speech. His research has previously been supported by the National Institutes of Health (NIH) and a National Science Foundation (NSF) CAREER award.</p>
 
@@ -115,14 +130,13 @@
 
 <p><img src="/images/nayel_shafei.jpg" width="170px" align="bottom" /></p>
 
-<h3 id="speaker-biography-7">Speaker Biography:</h3>
+<h3 id="speaker-biography-8">Speaker Biography:</h3>
 
 <p>Nayel Shafei graduated from Cairo University (BS 1981), MIT (SM ’86, PhD. ’90 in Machine learning). He has worked in CAD/CAM and telecommunication. He founded a company for Fiber-optic telecom, and established marefa.org, the largest Arabic-language encyclopedia in 2007. The website has 6.5 million visitors a month.</p>
 
 <h2 id="schedule">Schedule</h2>
 
 <p>All times in EST.</p>
-
 <table>
 	<tr>
 		<td>10:30AM</td>
@@ -134,7 +148,7 @@
 		<td>10:35AM</td>
 		<td>Invited Talk: Investigating Anti-Muslim Bias in GPT-3 through Words, Images, &amp; Stories - Abubakar Abid</td>
 		<td>Language and speech</td>
-		<td>Recorded</td>
+		<td>Live</td>
 	</tr>
 	<tr>
 		<td>11:00AM</td>

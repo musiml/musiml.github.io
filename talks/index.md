@@ -85,14 +85,22 @@ Anver M. Emon is Professor of Law and History at the Faculty of Law and Departme
 
 <hr/>
 
-### Nuanced Counter-Narratives of Being Muslim Online
+### The Intersection of Policy, Technology, and Muslims
+### Dia Kayyali
+
+<img src="{{site.baseurl}}/images/dia_kayyali.jpg" width="170px" align="bottom">
+
+### Speaker Biography:
+
+Dia Kayyali is Associate Director for Advocacy at Mnemonic, the umbrella organization for Syrian Archive, Yemeni Archive, and Sudanese Archive. In their role, Dia focuses on the real-life impact of policy decisions made by lawmakers and technology companies about content moderation and related topics. Previously, Dia served as Program Manager for tech + advocacy at WITNESS. They got their start in digital rights as an Activist at the Electronic Frontier Foundation. Dia serves as co-chair for the Advisory Network to the Christchurch Call, is a member of the Legal Frameworks and Content-sharing Algorithms, Processes, and Positive Interventions working groups of the GIFCT, and is on the Advisory Board for OnlineCensorship.org.They hold a JD from University of California Hastings College of the Law. 
+
+
+<hr/>
+
+### The Intersection of Policy, Technology, and Muslims
 ### Roya Pakzad
 
 <img src="{{site.baseurl}}/images/roya_pakzad.jpg" width="170px" align="bottom">
-
-### Abstract:
-
-In this short talk, Roya Pakzad will speak about her current project entitled "Nuanced Counter-Narratives of Being Muslim Online." The goal of this project is to gain a deeper understanding of how marginalized groups create counter-narratives, who amplifies them, how sustainable they are, and how their impact differs. By providing various examples, she will also touch on how technology companies' business models and their third-party relationships impact Muslims and people from Muslim-majority countries. The talk will conclude with recommendations for design and policy interventions.
 
 ### Speaker Biography:
 

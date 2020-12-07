@@ -34,19 +34,27 @@ We will feature a combination of pre-recorded and live talks, followed by a pane
 </tr>
 <tr>
 	<td width="50%"><img src="{{site.baseurl}}/images/anver_emon.jpg" width="100px" align="bottom"></td>
-	<td width="50%"><img src="{{site.baseurl}}/images/roya_pakzad.jpg" width="100px" align="bottom"></td>
+	<td width="50%"><img src="{{site.baseurl}}/images/dia_kayyali.jpg" width="100px" align="bottom"></td>
 </tr>
 <tr>
 	<td><b>Anver Emon</b><br /><a href="talks/">Taking from the Hands that Give: CRA audits of Muslim-led Charities</a></td>
-	<td><b>Roya Pakzad</b><br /><a href="talks/">Nuanced Counter-Narratives of Being Muslim Online</a></td>
+	<td><b>Dia Kayyali</b><br /><a href="talks/">The Intersection of Policy, Technology, and Muslims</a></td>
 </tr>
 <tr>
+	<td width="50%"><img src="{{site.baseurl}}/images/roya_pakzad.jpg" width="100px" align="bottom"></td>
 	<td width="50%"><img src="{{site.baseurl}}/images/ted_pedersen.jpg" width="100px" align="bottom"></td>
-	<td width="50%"><img src="{{site.baseurl}}/images/nayel_shafei.jpg" width="100px" align="bottom"></td>
 </tr>
 <tr>
+	<td><b>Roya Pakzad</b><br /><a href="talks/">The Intersection of Policy, Technology, and Muslims</a></td>
 	<td><b>Ted Pedersen</b><br /><a href="talks/">Automatically Identifying Islamophobia in Social Media</a></td>
+</tr>
+<tr>
+	<td width="50%"><img src="{{site.baseurl}}/images/nayel_shafei.jpg" width="100px" align="bottom"></td>
+	<td></td>
+</tr>
+<tr>
 	<td><b>Nayel Shafei</b><br /><a href="talks/">Creating Multilingual Corpora for Arabic Characterset</a></td>
+	</td></td>
 </tr>
 <tr>
 	<td></td>
