@@ -7,3 +7,4 @@ title: Organizers
 * [Mohammad Norouzi](https://norouzi.github.io/) (Google Brain)
 * [Shakir Mohamed](http://shakirm.com) (DeepMind)
 * [Aya Salama](https://twitter.com/2ayasalama) (Aigorithm)
+* [S. M. Ali Eslami](http://arkitus.com/research) (DeepMind)
