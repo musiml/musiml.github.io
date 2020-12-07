@@ -23,6 +23,10 @@ Algorithmic Bias: These invited talks explore how technology is used to identify
 
 <img src="{{site.baseurl}}/images/abubakar_abid.jpg" width="170px" align="bottom">
 
+### Abstract:
+
+Large language models such as GPT-3 have gained significant attention for capturing complex associations between linguistic concepts, allowing them to perform well on various natural language tasks. In this short paper, we ask: what kinds of associations (or biases) has GPT-3 captured about the concepts: Muslim and Islam? We probe OpenAI's GPT-3 Playground in various ways to understand these biases. We find that, as expected, problematic biases have been learned by the language model. What is more surprising is how difficult it is to debias GPT-3 and how biases appear consistently in different uses of the model. We quantify the persistency and consistency of these biases and demonstrate that they are severe even relative to other religious groups. Finally, we end with a suggestion to be explored in future work -- prompt modifications that debias the output of language models. 
+
 ### Speaker Biography:
 
 Abubakar Abid is a 5th year PhD student in machine learning at Stanford, supervised by Professor James Zou. His research interests include machine learning transparency and accessibility, generative models, and applications of machine learning to biology and medicine
@@ -123,7 +127,6 @@ Nayel Shafei graduated from Cairo University (BS 1981), MIT (SM ’86, PhD. ’9
 ## Schedule
 
 All times in EST.
-
 <table>
 	<tr>
 		<td>10:30AM</td>
@@ -135,7 +138,7 @@ All times in EST.
 		<td>10:35AM</td>
 		<td>Invited Talk: Investigating Anti-Muslim Bias in GPT-3 through Words, Images, & Stories - Abubakar Abid</td>
 		<td>Language and speech</td>
-		<td>Recorded</td>
+		<td>Live</td>
 	</tr>
 	<tr>
 		<td>11:00AM</td>

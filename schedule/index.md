@@ -6,7 +6,6 @@ title: Schedule
 ## Schedule
 
 All times in EST.
-
 <table>
 	<tr>
 		<td>10:30AM</td>
@@ -18,7 +17,7 @@ All times in EST.
 		<td>10:35AM</td>
 		<td>Invited Talk: Investigating Anti-Muslim Bias in GPT-3 through Words, Images, & Stories - Abubakar Abid</td>
 		<td>Language and speech</td>
-		<td>Recorded</td>
+		<td>Live</td>
 	</tr>
 	<tr>
 		<td>11:00AM</td>
@@ -63,3 +62,4 @@ All times in EST.
 		<td>Live</td>
 	</tr>
 </table>
+

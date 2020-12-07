@@ -1,19 +1,23 @@
-I"Ê5<h2 id="talks">Talks</h2>
+I"6<h2 id="themes">Themes</h2>
 
 <p>Language and Speech: Many Muslim-majority groups communicate in language that use Arabic character sets, yet there is a gap in learning and machine learning tools that work well in these environments. The following invited talks consider potential solutions such as extending resources to include Arabic character sets to decrease disparity in Arabic-speaking groups.</p>
 <ul>
-  <li>Abubakar Abid - Investigating Anti-Muslim Bias in GPT-3 through Words, Images, &amp; Stories</li>
-  <li>Nayel Shafei - Creating Multilingual Corpora for Arabic Characterset</li>
-  <li>Mona Diab - Data Paucity and Low Resource Scenarios: Challenges and Opportunities</li>
-  <li>Samhaa El-Beltagy - NLU Meets Islamic Religious Phrases: Highlighting the Challenges</li>
+  <li>Abubakar Abid: Investigating Anti-Muslim Bias in GPT-3 through Words, Images, &amp; Stories</li>
+  <li>Nayel Shafei: Creating Multilingual Corpora for Arabic Characterset</li>
+  <li>Mona Diab: Data Paucity and Low Resource Scenarios: Challenges and Opportunities</li>
+  <li>Samhaa El-Beltagy: NLU Meets Islamic Religious Phrases: Highlighting the Challenges</li>
 </ul>
 
-<p>Algorithmic Bias: These invited talks explore how technology is used to identify ways in which algorithms and models are used to discriminate against Muslim individuals and communities in different contexts. 
-Anver Emon - Taking from the Hands that Give: CRA audits of Muslim-led Charities
-Ted Pedersen - Automatically Identifying Islamophobia in Social Media
-Darren Byler - The Digital Enclosure of Turkic Muslims in Northwest China</p>
+<p>Algorithmic Bias: These invited talks explore how technology is used to identify ways in which algorithms and models are used to discriminate against Muslim individuals and communities in different contexts.</p>
+<ul>
+  <li>Anver Emon - Taking from the Hands that Give: CRA audits of Muslim-led Charities</li>
+  <li>Ted Pedersen - Automatically Identifying Islamophobia in Social Media</li>
+  <li>Darren Byler - The Digital Enclosure of Turkic Muslims in Northwest China</li>
+</ul>
 
-<h2 id="investigating-anti-muslim-bias-in-gpt-3-through-words-images-and-stories">Investigating Anti-Muslim Bias in GPT-3 through Words, Images and Stories</h2>
+<h2 id="talk-details">Talk details</h2>
+
+<h3 id="investigating-anti-muslim-bias-in-gpt-3-through-words-images-and-stories">Investigating Anti-Muslim Bias in GPT-3 through Words, Images and Stories</h3>
 <h3 id="abubakar-abid">Abubakar Abid</h3>
 
 <p><img src="/images/abubakar_abid.jpg" width="170px" align="bottom" /></p>
@@ -24,7 +28,7 @@ Darren Byler - The Digital Enclosure of Turkic Muslims in Northwest China</p>
 
 <hr />
 
-<h2 id="the-digital-enclosure-of-turkic-muslims-in-northwest-china">The Digital Enclosure of Turkic Muslims in Northwest China</h2>
+<h3 id="the-digital-enclosure-of-turkic-muslims-in-northwest-china">The Digital Enclosure of Turkic Muslims in Northwest China</h3>
 <h3 id="darren-byler">Darren Byler</h3>
 
 <p><img src="/images/darren_byler.jpg" width="170px" align="bottom" /></p>
@@ -39,7 +43,7 @@ Darren Byler - The Digital Enclosure of Turkic Muslims in Northwest China</p>
 
 <hr />
 
-<h2 id="data-paucity-and-low-resource-scenarios-challenges-and-opportunities">Data Paucity and Low Resource Scenarios: Challenges and Opportunities</h2>
+<h3 id="data-paucity-and-low-resource-scenarios-challenges-and-opportunities">Data Paucity and Low Resource Scenarios: Challenges and Opportunities</h3>
 <h3 id="mona-diab">Mona Diab</h3>
 
 <p><img src="/images/mona_diab.jpg" width="170px" align="bottom" /></p>
@@ -54,7 +58,7 @@ Darren Byler - The Digital Enclosure of Turkic Muslims in Northwest China</p>
 
 <hr />
 
-<h2 id="nlu-meets-islamic-religious-phrases-highlighting-the-challenges">NLU Meets Islamic Religious Phrases: Highlighting the Challenges</h2>
+<h3 id="nlu-meets-islamic-religious-phrases-highlighting-the-challenges">NLU Meets Islamic Religious Phrases: Highlighting the Challenges</h3>
 <h3 id="samhaa-el-beltagy">Samhaa El-Beltagy</h3>
 
 <p><img src="/images/samhaa_elbeltagy.jpg" width="170px" align="bottom" /></p>
@@ -65,7 +69,7 @@ Darren Byler - The Digital Enclosure of Turkic Muslims in Northwest China</p>
 
 <hr />
 
-<h2 id="taking-from-the-hands-that-give-cra-audits-of-muslim-led-charities">Taking from the Hands that Give: CRA audits of Muslim-led Charities</h2>
+<h3 id="taking-from-the-hands-that-give-cra-audits-of-muslim-led-charities">Taking from the Hands that Give: CRA audits of Muslim-led Charities</h3>
 <h3 id="anver-emon">Anver Emon</h3>
 
 <p><img src="/images/anver_emon.jpg" width="170px" align="bottom" /></p>
@@ -76,7 +80,7 @@ Darren Byler - The Digital Enclosure of Turkic Muslims in Northwest China</p>
 
 <hr />
 
-<h2 id="nuanced-counter-narratives-of-being-muslim-online">Nuanced Counter-Narratives of Being Muslim Online</h2>
+<h3 id="nuanced-counter-narratives-of-being-muslim-online">Nuanced Counter-Narratives of Being Muslim Online</h3>
 <h3 id="roya-pakzad">Roya Pakzad</h3>
 
 <p><img src="/images/roya_pakzad.jpg" width="170px" align="bottom" /></p>
@@ -91,7 +95,7 @@ Darren Byler - The Digital Enclosure of Turkic Muslims in Northwest China</p>
 
 <hr />
 
-<h2 id="automatically-identifying-islamophobia-in-social-media">Automatically Identifying Islamophobia in Social Media</h2>
+<h3 id="automatically-identifying-islamophobia-in-social-media">Automatically Identifying Islamophobia in Social Media</h3>
 <h3 id="ted-pedersen">Ted Pedersen</h3>
 
 <p><img src="/images/ted_pedersen.jpg" width="170px" align="bottom" /></p>
@@ -106,7 +110,7 @@ Darren Byler - The Digital Enclosure of Turkic Muslims in Northwest China</p>
 
 <hr />
 
-<h2 id="creating-multilingual-corpora-for-arabic-characterset">Creating Multilingual Corpora for Arabic Characterset</h2>
+<h3 id="creating-multilingual-corpora-for-arabic-characterset">Creating Multilingual Corpora for Arabic Characterset</h3>
 <h3 id="nayel-shafei">Nayel Shafei</h3>
 
 <p><img src="/images/nayel_shafei.jpg" width="170px" align="bottom" /></p>
@@ -118,7 +122,6 @@ Darren Byler - The Digital Enclosure of Turkic Muslims in Northwest China</p>
 <h2 id="schedule">Schedule</h2>
 
 <p>All times in EST.</p>
-
 <table>
 	<tr>
 		<td>10:30AM</td>
@@ -130,7 +133,7 @@ Darren Byler - The Digital Enclosure of Turkic Muslims in Northwest China</p>
 		<td>10:35AM</td>
 		<td>Invited Talk: Investigating Anti-Muslim Bias in GPT-3 through Words, Images, &amp; Stories - Abubakar Abid</td>
 		<td>Language and speech</td>
-		<td>Recorded</td>
+		<td>Live</td>
 	</tr>
 	<tr>
 		<td>11:00AM</td>
