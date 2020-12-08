@@ -8,3 +8,4 @@ title: Organizers
 * [Shakir Mohamed](http://shakirm.com) (DeepMind)
 * [Aya Salama](https://twitter.com/2ayasalama) (Aigorithm)
 * [S. M. Ali Eslami](http://arkitus.com/research) (DeepMind)
+* [Tasmie Sarker](https://twitter.com/tasmiesarker?lang=en) (UToronto)

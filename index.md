@@ -3,6 +3,8 @@ layout: default
 title: Muslims in ML
 ---
 
+Click here to view the stream, and to join the chat: [https://neurips.cc/virtual/2020/protected/affinity_workshop_19591.html](https://neurips.cc/virtual/2020/protected/affinity_workshop_19591.html)
+
 ## Overview
 
 Muslims In ML (MusIML) is an affinity workshop for the NeurIPS community. 
