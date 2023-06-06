@@ -5,7 +5,9 @@ title: Schedule
 
 ## Schedule
 
-All times in EST.
+Stay tuned for details!
+
+<!-- All times in EST.
 <table>
 	<tr>
 		<td>10:30AM</td>
@@ -63,3 +65,4 @@ All times in EST.
 	</tr>
 </table>
 
+ -->
