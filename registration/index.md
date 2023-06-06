@@ -5,4 +5,5 @@ title: Registration
 
 ## Registration
 
-Please click <a href="https://forms.gle/SfRtsaRFnE4bxyYX9">here</a>.
+Stay tuned for details!
+<!-- Please click <a href="https://forms.gle/SfRtsaRFnE4bxyYX9">here</a>. -->
