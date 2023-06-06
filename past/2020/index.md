@@ -141,6 +141,7 @@ All times in EST.
 <a id="talks">## Talk details  </a>
 <section id="talks">
 <h2>Talk details</h2>
+</section>
 
 ### Investigating Anti-Muslim Bias in GPT-3 through Words, Images and Stories
 ### Abubakar Abid 
@@ -246,7 +247,6 @@ Social media continues to grow in its scope, importance, and toxicity. Hate spee
 Ted Pedersen is a Professor in the Department of Computer Science at the University of Minnesota, Duluth. His research interests are in Natural Language Processing and most recently are focused on computational humor and identifying hate speech. His research has previously been supported by the National Institutes of Health (NIH) and a National Science Foundation (NSF) CAREER award.
 
 <hr/>
-</section>
 
 ### Creating Multilingual Corpora for Arabic Characterset
 ### Nayel Shafei
