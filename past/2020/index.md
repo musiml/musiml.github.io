@@ -21,39 +21,39 @@ We will feature a combination of pre-recorded and live talks, followed by a pane
 	<td width="50%"><img src="{{site.baseurl}}/images/darren_byler.jpg" width="100px" align="bottom"></td>
 </tr>
 <tr>
-	<td><b>Abubakar Abid</b><br /><a href="#TALKS">Investigating Anti-Muslim Bias in GPT-3 through Words, Images and Stories</a></td>
-	<td><b>Darren Byler</b><br /><a href="#TALKS">The Digital Enclosure of Turkic Muslims in Northwest China</a></td>
+	<td><b>Abubakar Abid</b><br /><a href="#talks">Investigating Anti-Muslim Bias in GPT-3 through Words, Images and Stories</a></td>
+	<td><b>Darren Byler</b><br /><a href="#talks">The Digital Enclosure of Turkic Muslims in Northwest China</a></td>
 </tr>
 <tr>
 	<td width="50%"><img src="{{site.baseurl}}/images/mona_diab.jpg" width="100px" align="bottom"></td>
 	<td width="50%"><img src="{{site.baseurl}}/images/samhaa_elbeltagy.jpg" width="100px" align="bottom"></td>
 </tr>
 <tr>
-	<td><b>Mona Diab</b><br /><a href="talks/">Data Paucity and Low Resource Scenarios: Challenges and Opportunities</a></td>
-	<td><b>Samhaa El-Beltagy</b><br /><a href="talks/">NLU Meets Islamic Religious Phrases: Highlighting the Challenges</a></td>
+	<td><b>Mona Diab</b><br /><a href="#talks">Data Paucity and Low Resource Scenarios: Challenges and Opportunities</a></td>
+	<td><b>Samhaa El-Beltagy</b><br /><a href="#talks">NLU Meets Islamic Religious Phrases: Highlighting the Challenges</a></td>
 </tr>
 <tr>
 	<td width="50%"><img src="{{site.baseurl}}/images/anver_emon.jpg" width="100px" align="bottom"></td>
 	<td width="50%"><img src="{{site.baseurl}}/images/dia_kayyali.jpg" width="100px" align="bottom"></td>
 </tr>
 <tr>
-	<td><b>Anver Emon</b><br /><a href="talks/">Taking from the Hands that Give: CRA audits of Muslim-led Charities</a></td>
-	<td><b>Dia Kayyali</b><br /><a href="talks/">The Intersection of Policy, Technology, and Muslims</a></td>
+	<td><b>Anver Emon</b><br /><a href="#talks">Taking from the Hands that Give: CRA audits of Muslim-led Charities</a></td>
+	<td><b>Dia Kayyali</b><br /><a href="#talks">The Intersection of Policy, Technology, and Muslims</a></td>
 </tr>
 <tr>
 	<td width="50%"><img src="{{site.baseurl}}/images/roya_pakzad.jpg" width="100px" align="bottom"></td>
 	<td width="50%"><img src="{{site.baseurl}}/images/ted_pedersen.jpg" width="100px" align="bottom"></td>
 </tr>
 <tr>
-	<td><b>Roya Pakzad</b><br /><a href="talks/">The Intersection of Policy, Technology, and Muslims</a></td>
-	<td><b>Ted Pedersen</b><br /><a href="talks/">Automatically Identifying Islamophobia in Social Media</a></td>
+	<td><b>Roya Pakzad</b><br /><a href="#talks">The Intersection of Policy, Technology, and Muslims</a></td>
+	<td><b>Ted Pedersen</b><br /><a href="#talks">Automatically Identifying Islamophobia in Social Media</a></td>
 </tr>
 <tr>
 	<td width="50%"><img src="{{site.baseurl}}/images/nayel_shafei.jpg" width="100px" align="bottom"></td>
 	<td></td>
 </tr>
 <tr>
-	<td><b>Nayel Shafei</b><br /><a href="talks/">Creating Multilingual Corpora for Arabic Characterset</a></td>
+	<td><b>Nayel Shafei</b><br /><a href="#talks">Creating Multilingual Corpora for Arabic Characterset</a></td>
 	<td></td>
 </tr>
 <tr>
@@ -138,8 +138,8 @@ All times in EST.
 	</tr>
 </table>
 
+<a id="talks">
 ## Talk details
-<a id="TALKS">
 
 ### Investigating Anti-Muslim Bias in GPT-3 through Words, Images and Stories
 ### Abubakar Abid 
