@@ -11,7 +11,7 @@ Muslims In ML (MusIML) is an affinity workshop for the NeurIPS community.
 
 We focus on both the potential for advancement and harm to Muslims and those in Muslim-majority countries who religiously identify, culturally associate, or are classified by proximity, as “Muslim”.
 
-We plan to host our next workship at NeurIPS in 2023. Stay tuned for details!
+We plan to host our next workshop at NeurIPS in 2023. Stay tuned for details!
 
 <!-- The workshop will run on Tuesday, December 8, 2020 from 10:30AM - 1:30PM EST.  -->
 
