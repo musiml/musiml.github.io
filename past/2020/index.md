@@ -21,8 +21,8 @@ We will feature a combination of pre-recorded and live talks, followed by a pane
 	<td width="50%"><img src="{{site.baseurl}}/images/darren_byler.jpg" width="100px" align="bottom"></td>
 </tr>
 <tr>
-	<td><b>Abubakar Abid</b><br /><a href="TALKS">Investigating Anti-Muslim Bias in GPT-3 through Words, Images and Stories</a></td>
-	<td><b>Darren Byler</b><br /><a href="TALKS">The Digital Enclosure of Turkic Muslims in Northwest China</a></td>
+	<td><b>Abubakar Abid</b><br /><a href="#TALKS">Investigating Anti-Muslim Bias in GPT-3 through Words, Images and Stories</a></td>
+	<td><b>Darren Byler</b><br /><a href="#TALKS">The Digital Enclosure of Turkic Muslims in Northwest China</a></td>
 </tr>
 <tr>
 	<td width="50%"><img src="{{site.baseurl}}/images/mona_diab.jpg" width="100px" align="bottom"></td>
