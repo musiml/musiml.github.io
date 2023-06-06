@@ -138,7 +138,7 @@ All times in EST.
 	</tr>
 </table>
 
-<a id="talks">## Talk details</a>
+<a id="talks">## Talk details  </a>
 
 ### Investigating Anti-Muslim Bias in GPT-3 through Words, Images and Stories
 ### Abubakar Abid 
