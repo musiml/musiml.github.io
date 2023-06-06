@@ -3,6 +3,9 @@ layout: default
 title: Talks
 ---
 
+Stay tuned for details on the 2023 Workshop. Previous themes at MusiML have included hate speech, algorithmic bias, and language modeling with Arabic character sets.
+and other issues 
+<!-- 
 ## Themes
 
 Language and Speech: Many Muslim-majority groups communicate in language that use Arabic character sets, yet there is a gap in learning and machine learning tools that work well in these environments. The following invited talks consider potential solutions such as extending resources to include Arabic character sets to decrease disparity in Arabic-speaking groups. 
@@ -191,4 +194,4 @@ All times in EST.
 		<td>Live</td>
 	</tr>
 </table>
-
+ -->
