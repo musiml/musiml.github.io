@@ -12,3 +12,5 @@ navigation:
   url: /registration/
 - text: Organizers 
   url: /organizers/
+- text: Past Workshops 
+  url: /past/2020/
