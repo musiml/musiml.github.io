@@ -138,7 +138,6 @@ All times in EST.
 	</tr>
 </table>
 
-<a id="talks">## Talk details  </a>
 <section id="talks">
 <h2>Talk details</h2>
 </section>
