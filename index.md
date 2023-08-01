@@ -21,12 +21,7 @@ Location: New Orleans, USA (+ virtual on Zoom)
 
 Tentative schedule: Our workshop will host a mix of invited talks, contributed posters, and mentorships sessions. 
 
-<style>
-td, th {
-   border: none!important;
-}
-</style>
-
+| ------------------ | ---------------------------- |
 | 8:30am  - 8:35am   | Opening remarks              |
 | 8:35am  - 9:00am   | Invited talk                 | 
 | 9:00am  - 9:25am   | Contributed lightning talks  | 
