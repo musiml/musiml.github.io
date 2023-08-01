@@ -5,7 +5,7 @@ title: Schedule
 
 ## Schedule
 
-**Tentative schedule**: Our workshop will host a mix of invited talks, contributed posters, and mentorships sessions. All times are in Central Standard Time (i.e., local time in New Orleans)
+Our workshop will host a mix of invited talks, contributed posters, and mentorships sessions. All times are in Central Standard Time (i.e., local time in New Orleans)
 
 | Time               | Event                        |
 | ------------------ | ---------------------------- |
