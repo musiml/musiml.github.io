@@ -21,13 +21,20 @@ Location: New Orleans, USA (+ virtual on Zoom)
 
 Tentative schedule: Our workshop will host a mix of invited talks, contributed posters, and mentorships sessions. 
 
+<style>
+td, th {
+   border: none!important;
+}
+</style>
 
-| Time             | Length          |
-| ---------------- | --------------- |
-| 8:30am  - 8:35am | Opening remarks |
-| Second           | Centimetre      | 
-| Minute           | Inch            | 
-
+| 8:30am  - 8:35am   | Opening remarks              |
+| 8:35am  - 9:00am   | Invited talk                 | 
+| 9:00am  - 9:25am   | Contributed lightning talks  | 
+| 9:25am  - 10:30am  | Poster session               | 
+| 10:30am - 10:55am  | Invited talk                 | 
+| 10:55am - 11:20am  | Invited talk                 | 
+| 1:20am - 12:15pm   | Roundtable discussions       | 
+| 12:15pm - 1:00pm   | Social mixer and lunch       | 
 
 Call for abstracts: Our workshop will invite submissions of extended abstracts on original machine learning research. We invite submissions both from authors who identify as Muslim (Track 1) and by authors researching topics that address challenges faced by the Muslim community (Track 2). A more detailed call for abstracts (with submission information) will be available in mid-August.
 
