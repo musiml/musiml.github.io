@@ -15,11 +15,11 @@ Our next workshop will be held in New Orleans at NeurIPS 2023. While the majorit
 
 ## 2023 Workshop
 
-Date: Monday, December 11, 2023 (8:30 - 13:00 CST)
+**Date**: Monday, December 11, 2023 (8:30 - 13:00 CST)
 
-Location: New Orleans, USA (+ virtual on Zoom)
+**Location**: New Orleans, USA (+ virtual on Zoom)
 
-Tentative schedule: Our workshop will host a mix of invited talks, contributed posters, and mentorships sessions. 
+**Tentative schedule**: Our workshop will host a mix of invited talks, contributed posters, and mentorships sessions. 
 
 | Time               | Event                        |
 | ------------------ | ---------------------------- |
@@ -32,7 +32,7 @@ Tentative schedule: Our workshop will host a mix of invited talks, contributed p
 | 1:20am - 12:15pm   | Roundtable discussions       | 
 | 12:15pm - 1:00pm   | Social mixer and lunch       | 
 
-Call for abstracts: Our workshop will invite submissions of extended abstracts on original machine learning research. We invite submissions both from authors who identify as Muslim (Track 1) and by authors researching topics that address challenges faced by the Muslim community (Track 2). A more detailed call for abstracts (with submission information) will be available in mid-August.
+**Call for abstracts**: Our workshop will invite submissions of extended abstracts on original machine learning research. We invite submissions both from authors who identify as Muslim (Track 1) and by authors researching topics that address challenges faced by the Muslim community (Track 2). A more detailed call for abstracts (with submission information) will be available in mid-August.
 
 <!-- The workshop will run on Tuesday, December 8, 2020 from 10:30AM - 1:30PM EST.  -->
 
