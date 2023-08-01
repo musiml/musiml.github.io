@@ -11,7 +11,7 @@ Muslims In ML (MusIML) is an affinity workshop for the machine learning communit
 
 We focus on both the potential for advancement and harm to Muslims and those in Muslim-majority countries who religiously identify, culturally associate, or are classified by proximity, as “Muslim”.
 
-Our next workshop will be held in New Orleans at NeurIPS 2023. While the majority of the workship will happen in-person, we will also offer virtual attendance options for those unable to attend
+Our next workshop will be held in New Orleans at NeurIPS 2023. While the majority of the workship will happen in-person, we will also offer virtual attendance options for those unable to attend.
 
 ## 2023 Workshop
 
