@@ -1,9 +1,9 @@
 ---
 layout: default
-title: Call for Papers
+title: Call for Abstracts
 ---
 
-## Call for Papers
+## Call for Abstracts
 
 We invite submissions of extended abstracts for the Muslims in ML Workshop at NeurIPS 2023. We invite submissions both from authors who self-identify as Muslim (Track 1) and by authors researching topics that address challenges faced by the Muslim community (Track 2). Papers are published in a non-archival format and may have been published in other venues before or may be published in other venues in the future.
 
