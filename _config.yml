@@ -10,7 +10,7 @@ navigation:
   url: /schedule/
 - text: Registration 
   url: /registration/
-- text: Call for Papers 
+- text: Call for Abstracts 
   url: /cfp/
 - text: Organizers 
   url: /organizers/
