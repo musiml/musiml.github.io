@@ -5,11 +5,11 @@ title: Call for Papers
 
 ## Call for Papers
 
-Submission Link: [https://openreview.net/group?id=NeurIPS.cc/2023/Workshop/MusIML](https://openreview.net/group?id=NeurIPS.cc/2023/Workshop/MusIML)
-
 We invite submissions of extended abstracts for the Muslims in ML Workshop at NeurIPS 2023. We invite submissions both from authors who self-identify as Muslim (Track 1) and by authors researching topics that address challenges faced by the Muslim community (Track 2). Papers are published in a non-archival format and may have been published in other venues before or may be published in other venues in the future.
 
 Authors of accepted abstracts will be invited to a poster session. Selected abstracts will be additionally invited to give a lighting talk. Talks will follow a hybrid format, with authors having the option to present in person or remotely; however, all posters must be presented in person. Additionally, participants will have the exciting opportunity to present at a joint poster session with all affinity groups at NeurIPS (e.g. Women in ML, Black in AI.). We will recognize outstanding posters with a Best Poster Award.
+
+Submission Link: [https://openreview.net/group?id=NeurIPS.cc/2023/Workshop/MusIML](https://openreview.net/group?id=NeurIPS.cc/2023/Workshop/MusIML)
 
 #### Important Dates
 
