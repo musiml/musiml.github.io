@@ -10,6 +10,8 @@ navigation:
   url: /schedule/
 - text: Registration 
   url: /registration/
+- text: Call for Papers 
+  url: /cfp/
 - text: Organizers 
   url: /organizers/
 - text: 2020 Workshop
