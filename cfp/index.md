@@ -15,15 +15,15 @@ Submission Link: [https://openreview.net/group?id=NeurIPS.cc/2023/Workshop/MusIM
 
 All deadlines are Anywhere On Earth (AoE).
 
-Call for submission opens: August 18, 2023
+* Call for submission opens: August 18, 2023
 
-Submissions Deadline: September 22, 2023
+* Submissions Deadline: September 22, 2023
 
-Author Notifications: October 13, 2023
+* Author Notifications: October 13, 2023
 
-NeurIPS Early Registration Deadline: October 21, 2023
+* NeurIPS Early Registration Deadline: October 21, 2023
 
-Workshop Date: December 11, 2023
+* Workshop Date: December 11, 2023
 
 #### Areas of interest
 
