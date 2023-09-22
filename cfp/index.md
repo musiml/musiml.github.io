@@ -13,11 +13,11 @@ Submission Link: [https://openreview.net/group?id=NeurIPS.cc/2023/Workshop/MusIM
 
 #### Important Dates
 
-All deadlines are Anywhere On Earth (AoE).
+All deadlines are by the end of day, Anywhere On Earth (AoE).
 
 * Call for submission opens: August 18, 2023
 
-* Submissions Deadline: September 22, 2023
+* Submissions Deadline: ~~September 22, 2023~~ October 6, 2023
 
 * Author Notifications: October 13, 2023
 
