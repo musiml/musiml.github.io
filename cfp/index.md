@@ -19,7 +19,7 @@ All deadlines are by the end of day, Anywhere On Earth (AoE).
 
 * Submissions Deadline: ~~September 22, 2023~~ October 6, 2023
 
-* Author Notifications: October 13, 2023
+* Author Notifications: ~~October 13, 2023~~ October 16, 2023
 
 * NeurIPS Early Registration Deadline: October 21, 2023
 
