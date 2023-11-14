@@ -35,9 +35,7 @@ Our next workshop will be held in New Orleans at NeurIPS 2023. While the majorit
 
 **Call for Abstracts**: Our workshop invites submissions of [extended abstracts](cfp/index.md) on original machine learning research. We invite submissions both from authors who identify as Muslim (Track 1) and by authors researching topics that address challenges faced by the Muslim community (Track 2). The submission deadline has been extended to Oct 6, 2023 11:59 p.m. AoE.
 
-**Call for Participation**: You can register to attend the MusIML workshop, either in person or virtually, by filling out the [participation form](https://forms.gle/hKXBgAUokUhmhRzh8). This form notifies us of your interest in attending the MusIML Workshop, and will provide you with participant access to the workshop's components. 
-
-To attend the workshop in person, you will also need to [register for NeurIPS](https://nips.cc/Register/view-registration). No NeurIPS registration is required to attend virtually; a Zoom link will be shared closer to the date.
+**Call for Participation**: You can register to attend the MusIML workshop, either in person or virtually, by filling out the [participation form](https://forms.gle/hKXBgAUokUhmhRzh8). This form notifies us of your interest in attending the MusIML Workshop, and will provide you with participant access to the workshop's components. To attend the workshop in person, you will also need to [register for NeurIPS](https://nips.cc/Register/view-registration). No NeurIPS registration is required to attend virtually; a Zoom link will be shared closer to the date.
 
 <!-- The workshop will run on Tuesday, December 8, 2020 from 10:30AM - 1:30PM EST.  -->
 
