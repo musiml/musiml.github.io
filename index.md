@@ -24,13 +24,13 @@ Our next workshop will be held in New Orleans at NeurIPS 2023. While the majorit
 | Time               | Event                        |
 | ------------------ | ---------------------------- |
 |  8:55am -  9:00am  | Opening remarks              |
-|  9:00am -  9:30am  | Invited talk                 | 
+|  9:00am -  9:30am  | Keynote talk                 | 
 |  9:30am -  9:45am  | Contributed lightning talks  | 
 |  9:45am - 10:05am  | Coffee break                 | 
-| 10:05am - 10:35am  | Invited talk                 | 
-| 10:35am - 11:05am  | Invited talk                 | 
+| 10:05am - 10:35am  | Keynote talk                 | 
+| 10:35am - 11:05am  | Keynote talk                 | 
 | 11:05am - 11:45pm  | Poster session               | 
-| 11:45am - 12:15pm  | Invited talk                 |  
+| 11:45am - 12:15pm  | Keynote talk                 |  
 | 12:15pm -  1:00pm  | Roundtable discussions       | 
 
 **Call for Abstracts**: Our workshop invites submissions of [extended abstracts](cfp/index.md) on original machine learning research. We invite submissions both from authors who identify as Muslim (Track 1) and by authors researching topics that address challenges faced by the Muslim community (Track 2). The submission deadline has been extended to Oct 6, 2023 11:59 p.m. AoE.
