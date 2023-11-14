@@ -15,7 +15,7 @@ Our workshop in 2023 will feature keynote addresses from four exciting speakers:
 	<td><b>Lama Ahmad</b><br /><a href="#lama">Red Teaming Generative AI Systems</a></td>
 </tr>
 <tr>
-	<td width="50%"><img src="{{site.baseurl}}/images/hadi_salman.jpeg" width="100px" align="bottom"></td>
+	<td width="50%"><img src="{{site.baseurl}}/images/hadi_salman.png" width="100px" align="bottom"></td>
 	<td width="50%"><img src="{{site.baseurl}}/images/feyza_akyurek.jpeg" width="100px" align="bottom"></td>
 </tr>
 <tr>
@@ -70,7 +70,7 @@ Lama Ahmad is a Policy Researcher at OpenAI on the Trustworthy AI Team, where sh
 <h2>Hadi Salman</h2>
 </section>
 
-<img src="{{site.baseurl}}/images/hadi_salman.jpeg" width="170px" align="bottom">
+<img src="{{site.baseurl}}/images/hadi_salman.png" width="170px" align="bottom">
 
 #### Talk Title
 
