@@ -37,6 +37,8 @@ Our next workshop will be held in New Orleans at NeurIPS 2023. While the majorit
 
 **Call for Participation**: You can register to attend the MusIML workshop, either in person or virtually, by filling out the [participation form](https://forms.gle/hKXBgAUokUhmhRzh8). This form notifies us of your interest in attending the MusIML Workshop, and will provide you with participant access to the workshop's components. 
 
+To attend the workshop in person, you will also need to [register for NeurIPS](https://nips.cc/Register/view-registration). No NeurIPS registration is required to attend virtually; a Zoom link will be shared closer to the date.
+
 <!-- The workshop will run on Tuesday, December 8, 2020 from 10:30AM - 1:30PM EST.  -->
 
 <!-- We will feature a combination of pre-recorded and live talks, followed by a panel discussion with authors on the intersection of policy, technology, and Muslim communities.  -->
