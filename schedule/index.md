@@ -9,14 +9,15 @@ Our workshop will host a mix of invited talks, contributed posters, and mentorsh
 
 | Time               | Event                        |
 | ------------------ | ---------------------------- |
-| 8:30am  - 8:35am   | Opening remarks              |
-| 8:35am  - 9:00am   | Invited talk                 | 
-| 9:00am  - 9:25am   | Contributed lightning talks  | 
-| 9:25am  - 10:30am  | Poster session               | 
-| 10:30am - 10:55am  | Invited talk                 | 
-| 10:55am - 11:20am  | Invited talk                 | 
-| 1:20am - 12:15pm   | Roundtable discussions       | 
-| 12:15pm - 1:00pm   | Social mixer and lunch       | 
+|  8:55am -  9:00am  | Opening remarks              |
+|  9:00am -  9:30am  | Invited talk                 | 
+|  9:30am -  9:45am  | Contributed lightning talks  | 
+|  9:45am - 10:05am  | Coffee break                 | 
+| 10:05am - 10:35am  | Invited talk                 | 
+| 10:35am - 11:05am  | Invited talk                 | 
+| 11:05am - 11:45pm  | Poster session               | 
+| 11:45am - 12:15pm  | Invited talk                 |  
+| 12:15pm -  1:00pm  | Roundtable discussions       | 
 
 <!-- All times in EST.
 <table>
