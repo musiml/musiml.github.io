@@ -9,7 +9,8 @@ Our workshop will host a mix of invited talks, contributed posters, and mentorsh
 
 | Time               | Event                        |
 | ------------------ | ---------------------------- |
-|  8:55am -  9:00am  | Opening remarks              |
+|  8:30am -  8:45am  | Registration                 |
+|  8:45am -  9:00am  | Opening remarks              |
 |  9:00am -  9:30am  | Keynote talk                 | 
 |  9:30am -  9:45am  | Contributed lightning talks  | 
 |  9:45am - 10:05am  | Coffee break                 | 
