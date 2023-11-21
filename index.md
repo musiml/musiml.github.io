@@ -23,7 +23,8 @@ Our next workshop will be held in New Orleans at NeurIPS 2023. While the majorit
 
 | Time               | Event                        |
 | ------------------ | ---------------------------- |
-|  8:55am -  9:00am  | Opening remarks              |
+|  8:30am -  8:45am  | Registration                 |
+|  8:45am -  9:00am  | Opening remarks              |
 |  9:00am -  9:30am  | Keynote talk                 | 
 |  9:30am -  9:45am  | Contributed lightning talks  | 
 |  9:45am - 10:05am  | Coffee break                 | 
