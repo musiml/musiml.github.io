@@ -11,7 +11,7 @@ Our workshop in 2023 will feature keynote addresses from four exciting speakers:
 	<td width="50%"><img src="{{site.baseurl}}/images/lama_ahmad.jpeg" width="100px" align="bottom"></td>
 </tr>
 <tr>
-	<td><b>Madiha Tahir</b><br /><a href="#madiha">Title TBD</a></td>
+	<td><b>Madiha Tahir</b><br /><a href="#madiha">Unruly Data: On the Archives and Counter-Archives of Drone Warfare</a></td>
 	<td><b>Lama Ahmad</b><br /><a href="#lama">Red Teaming Generative AI Systems</a></td>
 </tr>
 <tr>
@@ -34,11 +34,11 @@ Our workshop in 2023 will feature keynote addresses from four exciting speakers:
 
 #### Talk title
 
-TBD
+Unruly Data: On the Archives and Counter-Archives of Drone Warfare 
 
 #### Abstract
 
-TBD
+This talk asks: what can a standpoint situated amidst the smoldering ruins of drone bombardment in a post-colonial village in a post-colonial country teach us about the racial technics of digital war? US drones began bombing the Pakistan-Afghan borderlands in 2004. Over two decades of the war on terror, the weaponized drone has become the emblem of US techno-imperial power. It inspires terror and awe. Scholarship on the drone war has yielded important insights into the sociotechnical assemblage that constitutes the drone—from image analysts to pilots, to drone cameras, algorithmic kill lists, and data mining. In so doing however, it has tended to orient around US technics and the figure of the US drone pilot. Such work, while sympathetic to the racialized victims of war and colonialism, has nevertheless sometimes treated these subaltern social worlds as un-generative sites for elaborating an analytics of digital war. This presentation draws on ethnographic fieldwork amidst populations from the Pakistan-Afghan borderlands to decenter the drone so that we can better understand the drone war. It asks about the possibilities for generating what I tentatively term unruly data, forms of knowledge that is not reducible to the categories of “militants” or “civilians” often used to debate, discuss, and adjudicate drone bombardment.  
 
 #### Speaker Biography
 
