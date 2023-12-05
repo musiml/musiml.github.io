@@ -26,13 +26,13 @@ Our next workshop will be held in New Orleans at NeurIPS 2023. While the majorit
 |  8:30am -  8:45am  | Registration                 |
 |  8:45am -  9:00am  | Opening remarks              |
 |  9:00am -  9:30am  | **Keynote 1: Lama Ahmad**. Red Teaming Generative AI Systems |
-|  9:30am -  9:45am  | Contributed lightning talks  |
+|  9:30am -  9:45am  | **Contributed lightning talks**  |
 |  9:45am - 10:05am  | Coffee break                 |
 | 10:05am - 10:35am  | **Keynote 2: Madiha Tahir**. Unruly Data: On the Archives and Counter-Archives of Drone Warfare |
 | 10:35am - 11:05am  | **Keynote 3: Hadi Salman**. Adversarial Examples Beyond Security |
-| 11:05am - 11:45pm  | Poster session               | 
+| 11:05am - 11:45pm  | **Poster session**               | 
 | 11:45am - 12:15pm  | **Keynote 4: Afra Feyza Akyürek**. Editing Language Models with Natural Language Feedback |
-| 12:15pm -  1:00pm  | Roundtable discussions       | 
+| 12:15pm -  1:00pm  | **Roundtable discussions**       | 
 
 **Call for Abstracts**: Our workshop invites submissions of [extended abstracts](cfp/index.md) on original machine learning research. We invite submissions both from authors who identify as Muslim (Track 1) and by authors researching topics that address challenges faced by the Muslim community (Track 2). The submission deadline has been extended to Oct 6, 2023 11:59 p.m. AoE.
 
