@@ -26,7 +26,7 @@ Our next workshop will be held in New Orleans at NeurIPS 2023. While the majorit
 |  8:30am -  8:45am  | Registration                 |
 |  8:45am -  9:00am  | Opening remarks              |
 |  9:00am -  9:30am  | **Keynote 1: Lama Ahmad**. Red Teaming Generative AI Systems |
-|  9:30am -  9:45am  | **Contributed lightning talks**  |
+|  9:30am -  9:45am  | Contributed lightning talks  |
 |  9:45am - 10:05am  | Coffee break                 |
 | 10:05am - 10:35am  | **Keynote 2: Madiha Tahir**. Unruly Data: On the Archives and Counter-Archives of Drone Warfare |
 | 10:35am - 11:05am  | **Keynote 3: Hadi Salman**. Adversarial Examples Beyond Security |
