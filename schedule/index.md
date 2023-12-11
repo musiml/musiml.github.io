@@ -13,12 +13,19 @@ Our workshop will host a mix of invited talks, contributed posters, and mentorsh
 |  8:45am -  9:00am  | Opening remarks              |
 |  9:00am -  9:30am  | **Keynote 1: Lama Ahmad**. Red Teaming Generative AI Systems |
 |  9:30am -  9:45am  | **Contributed lightning talks**  |
+|    | **Kumail Alhamoud**. Unraveling the Effects of Age-Based Distribution Shifts on Medical Image Classifiers  |
+|    | **Razan Baltaji**. Muslim-Violence Bias Persists in Debiased GPT Models |
+|     | **Gasser Elbanna**. Towards Understanding Speaker Identity Coding in Data-driven Speech Models  |
 |  9:45am - 10:05am  | Coffee break                 |
 | 10:05am - 10:35am  | **Keynote 2: Madiha Tahir**. Unruly Data: On the Archives and Counter-Archives of Drone Warfare |
 | 10:35am - 11:05am  | **Keynote 3: Hadi Salman**. Adversarial Examples Beyond Security |
 | 11:05am - 11:45pm  | **Poster session**               | 
 | 11:45am - 12:15pm  | **Keynote 4: Afra Feyza Akyürek**. Editing Language Models with Natural Language Feedback |
 | 12:15pm -  1:00pm  | **Roundtable discussions**       | 
+|     | Table 1: How to deal with biases, stereotypes, and disinformation in ML?     | 
+|     | Table 2: Researcher growth and development as an early stage researcher     | 
+|     | Table 3: Opportunities for collaboration and building ML communities in Muslim countries   | 
+|     | Table 4: Mental health and building a supportive academic culture/community     | 
 
 <!-- All times in EST.
 <table>
