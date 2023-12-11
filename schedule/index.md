@@ -27,6 +27,24 @@ Our workshop will host a mix of invited talks, contributed posters, and mentorsh
 |     | Table 3: Opportunities for collaboration and building ML communities in Muslim countries   | 
 |     | Table 4: Mental health and building a supportive academic culture/community     | 
 
+## Posters
+
+### In-person posters
+
+*Towards Understanding Speaker Identity Coding in Data-driven Speech Models*. **Gasser Elbanna**, Fabio Catania, Satrajit Ghosh.
+*Building Domain-Specific LLMs Faithful To The Islamic Worldview: Mirage or Technical Possibility?* Shabaz Basheer Patel, **Mohamed Kane**.
+*Unraveling the Effects of Age-Based Distribution Shifts on Medical Image Classifiers*. **Kumail Alhamoud**, Yasir Ghunaim, Motasem Alfarra, Philip Torr, Thomas Hartvigsen, Bernard Ghanem, Adel Bibi, Marzyeh Ghassemi.
+*Qalama: Towards Semantic Autocomplete System for Indonesian Quran*. **Rian Adam Rajagede**, Kholid Haryono, Rochana Hastuti.
+*Muslim-Violence Bias Persists in Debiased GPT Models*. Babak Hemmatian, **Razan Baltaji**, Lav Varshney.
+
+### Virtual posters
+
+*Explainable Identification of Hate Speech towards Islam using Graph Neural Networks*. **Azmine Toushik Wasi**.
+*DGCF: Deep Graph-based Collaborative Filtering recommender system*. **Sofia Bourhim**.
+*Towards Trustworthy Autonomous Ground Vehicles Design in Nigeria*. **Memunat A Ibrahim**.
+*Geosemantic Surveillance And Profiling Of Abduction Locations And Risk Hotspots Using Print Media Reports.* **Toyib Ogunremi**, Olubayo Adekanmbi, Anthony Soronnadi, David Akanji.
+*MED-NAS-Bench: Towards a Multi-task Neural Architecture Search Benchmark for Advancing Medical Imaging Analysis*. **Hadjer Benmeziane**, Kaoutar El Maghraoui, Hamza Ouarnoughi, Smail Niar.
+
 <!-- All times in EST.
 <table>
 	<tr>
