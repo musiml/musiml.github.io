@@ -36,6 +36,10 @@ Our next workshop will be held in New Orleans at NeurIPS 2023. While the majorit
 | 11:05am - 11:45pm  | **Poster session**               | 
 | 11:45am - 12:15pm  | **Keynote 4: Afra Feyza Akyürek**. Editing Language Models with Natural Language Feedback |
 | 12:15pm -  1:00pm  | **Roundtable discussions**       | 
+|     | Table 1: How to deal with biases, stereotypes, and disinformation in ML?     | 
+|     | Table 2: Researcher growth and development as an early stage researcher     | 
+|     | Table 3: Opportunities for collaboration and building ML communities in Muslim countries   | 
+|     | Table 4: Mental health and building a supportive academic culture/community     | 
 
 **Call for Abstracts**: Our workshop invites submissions of [extended abstracts](cfp/index.md) on original machine learning research. We invite submissions both from authors who identify as Muslim (Track 1) and by authors researching topics that address challenges faced by the Muslim community (Track 2). The submission deadline has been extended to Oct 6, 2023 11:59 p.m. AoE.
 
