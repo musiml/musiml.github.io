@@ -31,7 +31,7 @@ Our next workshop will be held in New Orleans at NeurIPS 2023. While the majorit
 |    | **Razan Baltaji**. Muslim-Violence Bias Persists in Debiased GPT Models |
 |     | **Gasser Elbanna**. Towards Understanding Speaker Identity Coding in Data-driven Speech Models  |
 |  9:45am - 10:05am  | Coffee break                 |
-| 10:05am - 10:35am  | **Keynote 2: Madiha Tahir**. Unruly Data: On the Archives and Counter-Archives of Drone Warfare |
+| 10:05am - 10:35am  | **Keynote 2: Marzyeh Ghassemi**. The Pulse of Ethical Machine Learning in Health |
 | 10:35am - 11:05am  | **Keynote 3: Hadi Salman**. Adversarial Examples Beyond Security |
 | 11:05am - 11:45pm  | **Poster session**               | 
 | 11:45am - 12:15pm  | **Keynote 4: Afra Feyza Akyürek**. Editing Language Models with Natural Language Feedback |
