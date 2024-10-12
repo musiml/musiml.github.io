@@ -1,0 +1,15 @@
+<a href="http://nips.cc"> 
+  <img class="logo" src="{{site.baseurl}}/images/nips_logo.png" width="100px" align="bottom"> 
+</a>
+<h1>Muslims in ML</h1>
+<h3>NeurIPS 2023 Workshop, New Orleans, USA.</h3>
+<ul >
+  {% for link in site.navigation %}
+  {% capture url %}{{site.baseurl}}{{link.url}}{% endcapture %}
+  {% capture longurl %}{{url|append:"index.html"}}{% endcapture %}
+  <li {% if (page.url == url) or (page.url == longurl) %}class="active"{% endif %}>
+    <a href="{{url}}" title="{{link.title}}">{{link.text}}</a>
+  </li>
+  {% endfor %}
+</ul>
+<hr>
