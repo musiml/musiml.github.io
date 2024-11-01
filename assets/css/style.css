@@ -599,13 +599,13 @@ body {
     outline: thick solid #3be1c5; }
 
     a {
-      color: #5469d4;
+      color: #96021b;
       font-weight: bolder;
       text-decoration: none;
     }
     
     a:hover {
-       color: #223490;
+       color: #44161a;
     }
 
     a:hover, a:focus {
