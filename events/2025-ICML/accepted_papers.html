@@ -1,0 +1,357 @@
+<!--Todo: -->
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Muslims in ML Workshop | ICML'25 ">
+    <meta name="author" content="Muslims in ML Workshop | ICML'25">
+    <meta property="og:image" content="../../assets/images/COVER.jpg">
+    <link rel="shortcut icon" href="../../assets/images/logo.png" type="image/png">
+    <title>Muslims in ML Workshop | ICML'25 </title>
+    <meta name="theme-color" content="#157878" />
+    <meta
+      name="apple-mobile-web-app-status-bar-style"
+      content="black-translucent"
+    />
+    <link rel="stylesheet" href="../../assets/css/style.css?v=" />
+    <link rel="stylesheet" href="../../assets/css/speaker.css?v=" />
+  </head>
+  <body>
+
+    
+
+    
+    <header class="page-header" role="banner">
+     
+
+      <img src="../../assets/images/logo.png" style="border-radius: 10%;" alt="MuslinsInML logo" width="100" height="100"> &nbsp;
+      <img src="../../assets/images/NeurIPS_logo.png" style="border-radius: 10%;" alt="NeurIPS logo" width="100" height="100">
+      
+
+
+      
+      <h1 class="project-name" style="margin-bottom: 0;">Muslims in ML Workshop</h1>
+      <h2  style="margin-top: 0;">Co-located with <a href="https://neurips.cc/" target="_blank" style="color: white">ICML'25</a></h2>
+      <p></p>
+
+      <a href="../../index.html" class="btn bf">Community Home</a>
+      <a href="./index.html" class="btn bf">Home</a>
+      <a href="./cfp.html" class="btn bf">Call for Papers</a>
+      <a href="./program.html" class="btn bf">Program</a>
+      <a href="./accepted_papers.html" class="btn bf bactive">Accepted Papers</a>
+      <a href="./organizers.html" class="btn bf">Organizers</a>
+      <a href="./past_editions.html" class="btn bf">Past Editions</a> 
+
+        <div class="dropdown"> 
+          <button class="btn" onclick="toggleDropdown()">Menu &#9662;</button>
+          <div id="dropdownContent"  style="width: 92%; align-self: center;  display: none; position: absolute; background-color: rgb(231, 225, 188);  z-index: 1;">
+            <a href="../../index.html" class="short-btn">Community Home</a>
+            <a href="./index.html" class="short-btn">Home</a>
+            <a href="./cfp.html" class="short-btn">Call for Papers</a>
+            <a href="./program.html" class="short-btn">Program</a>
+            <a href="./accepted_papers.html" class="short-btn">Accepted Papers</a>
+            <a href="./organizers.html" class="short-btn">Organizers</a>
+            <a href="./past_editions.html" class="short-btn">Past Editions</a>
+            
+          </div>
+        </div>
+        <script>
+          function toggleDropdown() {
+            var dropdownContent = document.getElementById("dropdownContent");
+            dropdownContent.style.display = (dropdownContent.style.display === "none" || dropdownContent.style.display === "") ? "block" : "none";
+          }
+        </script>
+
+
+
+    </header>
+  
+
+<main id="content" class="main-content" role="main">
+
+<h2 id="overview">Accepted Papers</h2>
+  <hr style="height:6px;border-width:0;color:gray;background-color:gray">
+
+
+  
+  <style>
+    .paper-section {
+        margin-bottom: 20px;
+        padding: 10px;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+    }
+    .paper-title {
+        font-weight: bold;
+    }
+    .authors {
+        font-style: italic;
+    }
+    .abstract {
+        display: none;
+        margin-top: 10px;
+        font-size: 14px;
+        color: #555;
+    }
+    .expand-btn {
+        color: #007bff;
+        cursor: pointer;
+    }
+</style>
+
+<div class="paper-section">
+    <div class="paper-title">Machine Learning-Based Optimization of Site-Specific Fertilizer Recommendation</div>
+    <div class="authors">Oumnia Ennaji, Abdelghani Belgaid, Achraf El Allali</div>
+    <div><a href="https://openreview.net/pdf?id=uk3KQHZkS1" target="_blank">Read Paper</a></div>
+    <div class="expand-btn" onclick="toggleAbstract('uk3KQHZkS1')">Show Abstract</div>
+    <div class="abstract" id="abstract-uk3KQHZkS1">This paper presents a machine learning (ML) approach for generating site-specific fertilizer recommendations that maximize crop yield and nutrient efficiency while minimizing environmental impact. Using a rich agronomic dataset from the Al Moutmir program in Morocco, we train various ML models (linear, tree-based, ensemble, and neural networks) to predict crop yield responses to nitrogen (N), phosphorus (P), and potassium (K) inputs under diverse soil and climate conditions. The best predictive model (an XGBoost regressor) achieved a Mean Absolute Percentage Error (MAPE) of ~8.9%, substantially outperforming baseline approaches. We then integrate the predictive model with optimization algorithms (including Simulated Annealing and Particle Swarm Optimization) to identify the optimal N, P, K levels for each site. Simulated application of these recommendations indicates an average yield improvement of about 544 kg/ha over current practices, along with more efficient fertilizer use and low environmental impact. We discuss the importance of key features (soil properties, weather, and location) in the recommendations, and we provide an open analysis of model limitations. All results are validated with statistical tests for significance. The proposed framework demonstrates how advanced ML and optimization techniques can enhance precision agriculture by tailoring fertilizer strategies to local needs.</div>
+</div>
+
+
+
+<div class="paper-section">
+    <div class="paper-title">Graph-Guided Prompting for Zero-Shot Multi-Hop Question Generation: Gains without Fine-Tuning, Limits without Adaptation</div>
+    <div class="authors">Samin Jamshidi, Morteza Mahdiani</div>
+    <div><a href="https://openreview.net/pdf?id=q8FVv3LLgW" target="_blank">Read Paper</a></div>
+    <div class="expand-btn" onclick="toggleAbstract('q8FVv3LLgW')">Show Abstract</div>
+    <div class="abstract" id="abstract-q8FVv3LLgW">We propose a zero-shot framework for multi-hop question generation that couples a lightweight Graph Attention Network (GAT) with pretrained large language models. The GAT is trained to identify the entities most indicative of the reasoning chain within a passage–answer pair and to propagate relational information across the resulting entity graph. These predicted entities are then woven back into the passage, forming an entity-enriched prompt that is fed directly to existing language models, specifically LLAMA-2-7B and DEEPSEEK-CODER-6.7B, without additional fine-tuning. This decoupled design lets a single reasoning module enhance diverse language models at negligible computational cost. Preliminary results on HotpotQA show that the GAT-augmented prompts yield consistent improvements in answer containment, syntactic diversity, and automatic metrics such as BLEU and ROUGE-L over plain zero-shot prompting and joint-training baselines. At the same time, per-performance still trails that of fully fine-tuned task-specific systems, suggesting that structured entity reasoning is complementary rather than a complete substitute for end-to-end adaptation.</div>
+</div>
+
+
+
+<div class="paper-section">
+    <div class="paper-title">Network Inversion for Generating Confidently Classified Counterfeits</div>
+    <div class="authors">Pirzada Suhail, Pravesh Khaparde, Amit Sethi</div>
+    <div><a href="https://openreview.net/pdf?id=oLKqjJK5Dt" target="_blank">Read Paper</a></div>
+    <div class="expand-btn" onclick="toggleAbstract('oLKqjJK5Dt')">Show Abstract</div>
+    <div class="abstract" id="abstract-oLKqjJK5Dt">In vision classification, generating inputs that elicit confident predictions is key to understanding model behavior and reliability, especially under adversarial or out-of-distribution (OOD) conditions. While traditional adversarial methods rely on perturbing existing inputs to fool a model, they are inherently input-dependent and often fail to ensure both high confidence and meaningful deviation from the training data. In this work, we extend network inversion techniques to generate Confidently Classified Counterfeits (CCCs), synthetic samples that are confidently classified by the model despite being significantly different from the training distribution and independent of any specific input. We alter inversion technique by replacing soft vector conditioning with one-hot class conditioning and introducing a Kullback-Leibler divergence loss between the one-hot label and the classifier’s output distribution. CCCs offer a model-centric perspective on confidence, revealing that models can assign high confidence to entirely synthetic, out-of-distribution inputs. This challenges the core assumption behind many OOD detection techniques based on thresholding prediction confidence, which assume that high-confidence outputs imply in-distribution data, and highlights the need for more robust uncertainty estimation in safety-critical applications.</div>
+</div>
+
+
+
+<div class="paper-section">
+    <div class="paper-title">Latent Data Augmentation for Graph Neural Networks: Applications to Node Classification and Link Prediction</div>
+    <div class="authors">Abderaouf GACEM, Hamida SEBA, Mohammed HADDAD</div>
+    <div><a href="https://openreview.net/pdf?id=oIFDUwx5kz" target="_blank">Read Paper</a></div>
+    <div class="expand-btn" onclick="toggleAbstract('oIFDUwx5kz')">Show Abstract</div>
+    <div class="abstract" id="abstract-oIFDUwx5kz">This work addresses the challenge of data augmentation in graph neural networks (GNNs), where the intricate structure and interdependencies of graph data limit the applicability of conventional augmentation techniques. While prior approaches focus on perturbing the input graph (such as masking features or dropping nodes and edges) we explore augmentation in the latent space. We propose a novel architecture that incorporates a data augmentation module with integrated denoising and structural refinement capabilities. Leveraging supervised signals, our framework guides the GNN toward learning enhanced latent representations with reduced noise and irrelevant connections. Extensive experiments on diverse graph datasets demonstrate that our method consistently outperforms standard GNN architectures in node classification tasks.</div>
+</div>
+
+
+
+<div class="paper-section">
+    <div class="paper-title">From RAG to Agentic: Validating Islamic-Medicine Responses with LLM Agents</div>
+    <div class="authors">Mohammad Amaan Sayeed, Mohammed Talha Alam, Raza Imam, SHAHAB SAQUIB SOHAIL, Amir Hussain</div>
+    <div><a href="https://openreview.net/pdf?id=ks8euqCC8G" target="_blank">Read Paper</a></div>
+    <div class="expand-btn" onclick="toggleAbstract('ks8euqCC8G')">Show Abstract</div>
+    <div class="abstract" id="abstract-ks8euqCC8G">Centuries-old Islamic medical texts like Avicenna’s Canon of Medicine and the Prophetic Tibb-e-Nabawi, encode a wealth of preventive care, nutrition, and holistic therapies, yet remain inaccessible to many and underutilized in modern AI systems. Existing language-model benchmarks focus narrowly on factual recall or user preference, leaving a gap in validating culturally grounded medical guidance at scale. We propose a unified evaluation pipeline, Tibbe-AG, that aligns 30 carefully curated Prophetic-medicine questions with human-verified remedies and compares three LLMs (LLaMA-3, Mistral-7B, Qwen2-7B) under three configurations: direct generation, retrieval-augmented generation, and a \textit{scientific} self-critique filter. Each answer is then assessed by a secondary LLM serving as an agentic judge, yielding a single 3C3H quality score. Retrieval improves factual accuracy by 13\%, while the agentic prompt adds another 10\% improvement through deeper mechanistic insight and safety considerations. Our results demonstrate that blending classical Islamic texts with retrieval and self-evaluation enables reliable, culturally sensitive medical question-answering.</div>
+</div>
+
+
+
+<div class="paper-section">
+    <div class="paper-title">Does Compression Exacerbate Large Language Models&#x27; Social Bias?</div>
+    <div class="authors">Muhammad Athar Ganaie, Mohammed Adnan, Arfa Raja, Shaina Raza, Yani Ioannou</div>
+    <div><a href="https://openreview.net/pdf?id=iFFfAbFp8a" target="_blank">Read Paper</a></div>
+    <div class="expand-btn" onclick="toggleAbstract('iFFfAbFp8a')">Show Abstract</div>
+    <div class="abstract" id="abstract-iFFfAbFp8a">Ensuring fairness in large language models (LLMs) is critical, yet the effects of popular compression techniques on social biases remain underexplored. In this work, we systematically investigate how pruning, quantization, and knowledge distillation influence demographic bias in multiple open-weight LLMs. Using the \hbdata dataset, which contains roughly 600 identity descriptors across 13 demographic axes, we employ a likelihood bias metric based on differential perplexity between paired prompts that differ only in demographic terms. Our study covers three representative models: Llama, DeepSeek, and Mistral. The results reveal striking model-dependent behaviors, in some cases suggesting that naive compression can exacerbate stereotypes towards subpopulation groups, and others showing little effect. The findings underscore the necessity of bias-aware compression techniques and rigorous post-compression bias evaluation to ensure the development of fair and responsible AI systems.</div>
+</div>
+
+
+
+<div class="paper-section">
+    <div class="paper-title">Interpretable Human Action Recognition: A CNN-GRU Approach with Gradient-weighted Class Activation Mapping Insights</div>
+    <div class="authors">Md. Sabir Hossain, Mufti Mahmud, Md Mahfuzur Rahman</div>
+    <div><a href="https://openreview.net/pdf?id=enkxcR8wLD" target="_blank">Read Paper</a></div>
+    <div class="expand-btn" onclick="toggleAbstract('enkxcR8wLD')">Show Abstract</div>
+    <div class="abstract" id="abstract-enkxcR8wLD">Human Action Recognition (HAR) is essential in applications like healthcare, surveillance, and smart environments, where reliable and interpretable decision-making is critical. While Convolutional Neural Networks (CNNs) and Gated Recurrent Units (GRUs) effectively model spatial and temporal patterns, their black-box nature limits transparency in safety-sensitive domains. This study introduces an interpretable HAR framework combining a CNN-GRU architecture with Gradient-weighted Class Activation Mapping (Grad-CAM). The CNN captures frame-wise spatial features, GRUs model temporal dynamics, and a 3D convolution bridges spatial-temporal abstraction. Grad-CAM provides frame-level heatmaps to visualize model rationale. Evaluated on 10 diverse classes from the UCF101 dataset, our model achieved 96.50\% accuracy and outperformed several standard deep models across precision, recall, and F1 metrics. Visual analysis of correct and incorrect cases confirms both model reliability and interpretability. The framework offers a robust and transparent solution for real-time HAR in critical domains.</div>
+</div>
+
+
+
+<div class="paper-section">
+    <div class="paper-title">STARS: Segment-level Token Alignment via Rejection Sampling in Large Language Models</div>
+    <div class="authors">Mohammad Atif Quamar, Mohammad Areeb</div>
+    <div><a href="https://openreview.net/pdf?id=clQfQBi3gp" target="_blank">Read Paper</a></div>
+    <div class="expand-btn" onclick="toggleAbstract('clQfQBi3gp')">Show Abstract</div>
+    <div class="abstract" id="abstract-clQfQBi3gp">Aligning large language models (LLMs) to match human preferences at the inference stage (when they generate responses) can avoid expensive retraining processes. However, current methods that align models by searching for better responses often waste resources, either generating redundant text or repeatedly checking how good each response is. To solve this, we propose a new method called STARS (Segment-level Token Alignment via Rejection Sampling). Instead of checking responses token-by-token or repeating full responses, STARS generates text in fixed-length segments. It samples these segments and only accepts them if their quality (or &quot;reward&quot;) is above a certain adaptive threshold. This method is much more efficient—it has complexity proportional to the best reward times the text length ($\mathcal{O}(r^{\star}T)$), unlike the Best-of-N method, which scales linearly with the number of attempts ($\mathcal{O}(NT)$). We tested STARS using five publicly available 7–13 billion-parameter models on a task designed to improve the harmlessness of responses (the HH-RLHF dataset). Evaluations showed that STARS improved performance significantly, increasing win rates evaluated by GPT-4.1 by 20–25 percentage points compared to standard decoding methods. It also stayed competitive with the Best-of-N approach, falling within just 4 percentage points, while requiring at least 15% fewer calls to the language model, saving computational resources. Remarkably, STARS allowed smaller (7–8 billion-parameter) aligned models to outperform larger (13 billion-parameter) unaligned models in 5 out of 6 comparisons. These results demonstrate that carefully designed, segment-based sampling during inference can achieve high-quality alignment with human preferences, making inference-time alignment a practical, efficient, and scalable alternative to retraining entire models.</div>
+</div>
+
+
+
+<div class="paper-section">
+    <div class="paper-title">DIVA: Diversity Assessment in Text-to-Image Generation via Hybrid Metrics</div>
+    <div class="authors">Md Younus Ahamed, Md Asif Bin Syed</div>
+    <div><a href="https://openreview.net/pdf?id=cYc6i03pL8" target="_blank">Read Paper</a></div>
+    <div class="expand-btn" onclick="toggleAbstract('cYc6i03pL8')">Show Abstract</div>
+    <div class="abstract" id="abstract-cYc6i03pL8">Generative models like Stable Diffusion, DALL·E, and Imagen have shown impressive capabilities in creating visually compelling images from textual prompts. However, not all models produce a wide variety of outputs from the same prompt. In some applications—such as creative advertising or artistic design—diverse outputs are highly valued for exploring different visual interpretations. In contrast, tasks like forensic analysis or technical illustration require high consistency to ensure reproducibility. Current diversity quantification methods, such as Bayesian frameworks and pixel-based metrics (e.g., FID, SSIM), either ignore prompt-specific variability or fail to disentangle aleatoric and epistemic factors. In this work, We present DIVA, a framework quantifying diversity through hybrid diversity metrics: mean pairwise CLIP embedding distance, feature distribution variance, and information entropy. DIVA integrates these metrics into a unified diversity score, capturing both aleatoric and epistemic uncertainty. It adapts to both diversity-expected prompts and diversity-constrained prompts.  Human validation shows strong correlation between our diversity score and human judgments. This work provides a scalable solution for applications requiring reliability and transparency, from creative design to medical imaging.</div>
+</div>
+
+
+
+<div class="paper-section">
+    <div class="paper-title">AI Agents for Document Automation and  Negotiation Between Buyers and Sellers</div>
+    <div class="authors">Muhammad Abdurrahman Ismath</div>
+    <div><a href="https://openreview.net/pdf?id=cUrpXutiLY" target="_blank">Read Paper</a></div>
+    <div class="expand-btn" onclick="toggleAbstract('cUrpXutiLY')">Show Abstract</div>
+    <div class="abstract" id="abstract-cUrpXutiLY">/begin{abstract}
+The oil and gas trading industry faces protracted deal cycles due to labor-intensive document handling and prolonged negotiations. This research proposal introduces an AI agent-based workflow to streamline document automation and broker negotiations between buyers and sellers. The core is an \textit{AI Broker Document Handling Pipeline} that automates the extraction and structuring of trade documents and mediates communication between parties.
+
+By leveraging optical character recognition (OCR) and large language models (LLMs) for intelligent document processing, and an AI broker agent to conduct negotiations with built-in guardrails, the system aims to dramatically compress deal timelines — from months to days — while maintaining trust and compliance. Specifically, the document processing component uses OCR to extract raw text and applies LLM-based parsing to structure key fields such as $quantity$, $price$, $delivery\_terms$, and $product\_grade$.
+
+The AI Broker mediates negotiation using a multi-agent framework, where each party&#x27;s preferences and constraints are modeled and exchanged iteratively under safety protocols. Let $T$ be the average deal completion time in traditional workflows and $T&#x27;$ be the projected time under the AI system. We aim to achieve $$T&#x27; \ll T$$ indicating a substantial efficiency gain.
+
+We outline the problem, objectives, methodological framework, and evaluation plan for this approach. The expected impact is a significant reduction in time-to-deal closure and improved efficiency in oil and gas transactions, while preserving transparency, safety, and privacy.
+\end{abstract}</div>
+</div>
+
+
+
+<div class="paper-section">
+    <div class="paper-title">Large Language Model Value Alignment via Multi-Stage Fine-Tuning and Expert-Annotated Supervision</div>
+    <div class="authors">Yan Sha, Shaokai Yang, Zhao DONG</div>
+    <div><a href="https://openreview.net/pdf?id=WaRdchvqyI" target="_blank">Read Paper</a></div>
+    <div class="expand-btn" onclick="toggleAbstract('WaRdchvqyI')">Show Abstract</div>
+    <div class="abstract" id="abstract-WaRdchvqyI">Ensuring that large language models (LLMs) generate responses aligned with human values is a critical challenge in AI safety and deployment. We present a multi-stage alignment framework that combines expert annotation, structured arbitration, and iterative fine-tuning. In our approach, model responses to diverse user prompts are rated by multiple experts on key dimensions. Cases with conflicting ratings are escalated to senior-expert arbitration, resulting in high-confidence consensus labels. This curated supervision is used in successive rounds of model fine-tuning, with each iteration further refining alignment. To safeguard conversational quality, we employ Sentence-BERT to quantitatively measure dialogue coherence before and after alignment. Our experimental results demonstrate that this process improves alignment outcomes, while maintaining or enhancing coherence and relevance. Our framework provides a systematic, scalable solution for aligning LLMs with human values and intent.</div>
+</div>
+
+
+
+<div class="paper-section">
+    <div class="paper-title">GazaVHR: AI-Driven Legally Grounded Conflict Harm Documentation</div>
+    <div class="authors">Nesibe Şebnem Paluluoğlu, Dilara Zeynep Gürer, Muhammed Furkan Akıncı, Mustafa Taha Kocyigit</div>
+    <div><a href="https://openreview.net/pdf?id=UGeOK3xIfk" target="_blank">Read Paper</a></div>
+    <div class="expand-btn" onclick="toggleAbstract('UGeOK3xIfk')">Show Abstract</div>
+    <div class="abstract" id="abstract-UGeOK3xIfk">We present GazaVHR, a vision-language model (VLM)-annotated dataset for fine-grained analysis of potential human rights violations in Gaza conflict imagery. Sourced from 145,662 conflict-related tweets, our pipeline integrates vision-language models, vision encoders, and semantic clustering to generate structured annotations without manual intervention. Beginning with 176,731 raw images, a multi-stage filtering (content rules, deduplication, semantic clustering) identifies 13,834 visually unique instances that are most likely conflict-relevant. To ensure legal relevance, we align results with the Kanıt (Evidence) dataset: 231 expert-curated images grounded in the Rome Statute of the International Criminal Court (ICC Articles 5–8). This framework refines the dataset to 4,603 high-confidence images likely indicative of conflict-related harm. While our work highlights AI’s potential to systematize human rights documentation at scale, we acknowledge limitations in reduced manual oversight and biases inherent to LLM-based annotation and hashtag-driven social media data.</div>
+</div>
+
+
+
+<div class="paper-section">
+    <div class="paper-title">Making progress in Trustworthy AI using DeepMind’s AI Safety Gridworlds</div>
+    <div class="authors">Ahmed Ghoor, Jonathan P. Shock</div>
+    <div><a href="https://openreview.net/pdf?id=Po0bU15GP1" target="_blank">Read Paper</a></div>
+    <div class="expand-btn" onclick="toggleAbstract('Po0bU15GP1')">Show Abstract</div>
+    <div class="abstract" id="abstract-Po0bU15GP1">DeepMind&#x27;s AI Safety Gridworlds are a suite of environments aimed at facilitating the research and development of safe artificial intelligence by encapsulating simplified, yet meaningful, representations of safety challenges that real-world AI systems might encounter. This paper looks at DeepMind&#x27;s accompanying paper and surveys several solutions that have been proposed for the environments.</div>
+</div>
+
+
+
+<div class="paper-section">
+    <div class="paper-title">Evaluating Cumulative Spectral Gradient as a Complexity Measure</div>
+    <div class="authors">Haji Gul, Abdul Ghani Haji Naim, Ajaz A Bhat</div>
+    <div><a href="https://openreview.net/pdf?id=H0CKbqT937" target="_blank">Read Paper</a></div>
+    <div class="expand-btn" onclick="toggleAbstract('H0CKbqT937')">Show Abstract</div>
+    <div class="abstract" id="abstract-H0CKbqT937">Accurate estimation of dataset complexity is crucial for evaluating and comparing link‐prediction models for knowledge graphs (KGs). The Cumulative Spectral Gradient (CSG) metric \cite{branchaud2019spectral} —derived from probabilistic divergence between classes within a spectral clustering framework— was proposed as a dataset complexity measure that (1) naturally scales with the number of classes and (2) correlates strongly with downstream classification performance. In this work, we rigorously assess CSG’s behavior on standard knowledge‐graph link‐prediction benchmarks—a multi‐class tail‐prediction task— using two key parameters governing its computation: $M$, the number of Monte Carlo–sampled points per class, and $K$, the number of nearest neighbors in the embedding space. Contrary to the original claims, we find that (1) CSG is highly sensitive to the choice of $K$, thereby does not inherently scale with the number of target classes, and (2) CSG values exhibit weak or no correlation with established performance metrics such as mean reciprocal rank (MRR). Through experiments on FB15k‐237, WN18RR, and other standard datasets, we demonstrate that CSG’s purported stability and generalization‐predictive power break down in link‐prediction settings. Our results highlight the need for more robust, classifier-agnostic complexity measures in  KG link-prediction evaluation.</div>
+</div>
+
+
+
+<div class="paper-section">
+    <div class="paper-title">Adaptive Creativity Evaluation through Multi-turn Dialogue Driven by Reinforcement Learning</div>
+    <div class="authors">Yan Sha, Shaokai Yang, Zhao DONG</div>
+    <div><a href="https://openreview.net/pdf?id=GCJRGptLqb" target="_blank">Read Paper</a></div>
+    <div class="expand-btn" onclick="toggleAbstract('GCJRGptLqb')">Show Abstract</div>
+    <div class="abstract" id="abstract-GCJRGptLqb">In recent years, with the rapid development of deep learning in code generation, text writing, and experimental design, accurately capturing and assessing researchers’ creativity has become a key issue in need of breakthrough. Traditional creativity evaluation methods, being static, subjective, and time-consuming, fail to reflect the dynamic iteration and multidimensional characteristics of creative thinking. To address this, we propose a dynamic creativity evaluation framework (DynaCREA) based on reinforcement learning, featuring an adaptive decision-making and feedback mechanism that utilizes real-time evaluation of user interaction and creativity metrics. Through multi-turn interactions between researchers and large language models, the framework integrates multimodal tasks, including textual contexts, verbal expression, and image-inspired tasks, to achieve real-time quantification of key dimensions of creativity (such as originality, fluency, elaboration, and flexibility). The intelligent agent leverages immediate feedback to adaptively adjust the design of subsequent tasks, thereby forming a novel creativity evaluation method that is both theoretically rigorous and practically efficient. Preliminary experimental results show that, after training, the intelligent agent meets a high degree of consistency with human evaluators across all indicators, demonstrating broad prospects for application in complex research environments.</div>
+</div>
+
+
+
+<div class="paper-section">
+    <div class="paper-title">Crowdsourced Information Authentication: A Graph-based Model from the Science of Hadith</div>
+    <div class="authors">Ayoub Ghriss</div>
+    <div><a href="https://openreview.net/pdf?id=F7CgAEPvAv" target="_blank">Read Paper</a></div>
+    <div class="expand-btn" onclick="toggleAbstract('F7CgAEPvAv')">Show Abstract</div>
+    <div class="abstract" id="abstract-F7CgAEPvAv">The authentication of prophetic traditions in Islam (Hadiths) is a cornerstone of Islamic jurisprudence, relying on meticulous examination of the chain of narrators and the transmitted content. This paper proposes a graph-based computational framework for the authentication of transmitted information, inspired by the principles of Hadith sciences. We jointly learn the authenticity score for each transmission and the reliability score for each narrator. The method explicitly accounts for the structure of transmission chains, narrator reliability metrics, content consistency, and the crucial aspect of corroboration (a form of collective verification) through multiple independent transmission paths, including a mechanism to discount overlapping paths. We explore several potential formulations and propose an iterative co-update algorithm with its convergence analysis. This work aims to exploit principles from over a millennium of extensive accumulated knowledge in the science of Hadith to inform the advancement of modern machine learning techniques for information verification.
+	Our formulation offers potential applications in digital information trustworthiness assessment and tools for Hadith scholars to leverage computational methods in analyzing the extensive Hadith corpora and its authentic collections.</div>
+</div>
+
+
+
+<div class="paper-section">
+    <div class="paper-title">Efficient Graph Neural Architecture Search for Medical Imaging in Real-World Clinical Settings</div>
+    <div class="authors">Hadjer Benmeziane, Abderaouf GACEM, Kaoutar El Maghraoui, Sara Benmeziane</div>
+    <div><a href="https://openreview.net/pdf?id=Em7jjcxHAR" target="_blank">Read Paper</a></div>
+    <div class="expand-btn" onclick="toggleAbstract('Em7jjcxHAR')">Show Abstract</div>
+    <div class="abstract" id="abstract-Em7jjcxHAR">Deploying deep learning in clinical settings requires balancing accuracy with limited computational resources. This is especially challenging in multitask medical imaging, where shared encoders reduce redundancy but task-specific heads remain memory-intensive. We propose Efficient Graph Neural Architecture Search (EGNAS), a gradient-based method that explores a graph-structured space to find compact, task-specific predictors. EGNAS jointly optimizes accuracy and model size using a Pareto-efficient strategy. Evaluated on six MedNIST tasks, it reduces head size by 2.1x on average without performance loss. We further validate EGNAS in a real-world deployment on a low-resource clinical laptop in Algeria, demonstrating its practical utility for resource-constrained healthcare.</div>
+</div>
+
+
+
+<div class="paper-section">
+    <div class="paper-title">Stabilizing the Kuramoto–Sivashinsky Equation Using Deep Reinforcement Learning with a DeepONet Prior</div>
+    <div class="authors">Nadim Ahmed, Md. Ashraful Babu, Md Mortuza Ahmmed, M Mostafizur Rahman, Mufti Mahmud</div>
+    <div><a href="https://openreview.net/pdf?id=DQ8bhFJs40" target="_blank">Read Paper</a></div>
+    <div class="expand-btn" onclick="toggleAbstract('DQ8bhFJs40')">Show Abstract</div>
+    <div class="abstract" id="abstract-DQ8bhFJs40">This paper presents a novel reinforcement learning framework that leverages DeepONet priors to stabilize the Kuramoto–Sivashinsky (KS) equation. DeepONet first learns a generalized control operator offline, which is refined online using Deep Deterministic Policy Gradient (DDPG) to adapt to trajectory-specific dynamics. The approach achieves a 55\% energy reduction within 0.2 time units and narrows chaotic fluctuations significantly, outperforming traditional feedback control. DeepONet reduces MSE by 99.3\%, while the RL agent improves mean episode reward by 59.3\%. The method offers a scalable and effective solution for controlling complex, high-dimensional nonlinear systems.</div>
+</div>
+
+
+
+<div class="paper-section">
+    <div class="paper-title">HALT-CoT: Model-Agnostic Early Stopping for Chain-of-Thought Reasoning via Answer Entropy</div>
+    <div class="authors">Yassir Laaouach</div>
+    <div><a href="https://openreview.net/pdf?id=CX5c7C1CZa" target="_blank">Read Paper</a></div>
+    <div class="expand-btn" onclick="toggleAbstract('CX5c7C1CZa')">Show Abstract</div>
+    <div class="abstract" id="abstract-CX5c7C1CZa">We propose HALT-CoT, an inference-time criterion that ends a chain-of-thought (CoT) once the model’s answer distribution is sufficiently sharp. After every reasoning step, we compute the Shannon entropy of the predicted answers; when this entropy drops below a threshold, generation stops and the current answer is returned. HALT-CoT is training-free, model-agnostic, and requires only streamed token probabilities.
+
+On GSM8K, StrategyQA, and CommonsenseQA, five state-of-the-art LLMs maintain accuracy within ±0.4 percentage points of full CoT while emitting 15–30% fewer tokens; for example, GPT-4 keeps 92% accuracy on GSM8K yet saves 25% of decoding. Entropy-over-time traces show that, in the majority of cases, uncertainty falls monotonically, validating entropy as a halting signal.
+
+Unlike prior early-exit techniques that need extra heads, fine-tuning, or static truncation, HALT-CoT plugs directly into existing CoT pipelines and adapts per instance, delivering a simple path to faster and cheaper LLM reasoning without loss of quality.</div>
+</div>
+
+
+
+<div class="paper-section">
+    <div class="paper-title">A Dual Path Hybrid Convolutional Neural Network and Bidirectional Long-Short Term Memory Approach for PPG-Based Stress Monitoring</div>
+    <div class="authors">Md Santo Ali, Mohammod Abdul Motin, Mufti Mahmud</div>
+    <div><a href="https://openreview.net/pdf?id=AeE3I9YPEs" target="_blank">Read Paper</a></div>
+    <div class="expand-btn" onclick="toggleAbstract('AeE3I9YPEs')">Show Abstract</div>
+    <div class="abstract" id="abstract-AeE3I9YPEs">Mental stress adversely impacts both physical and mental health, with chronic stress leading to serious health concerns. Photoplethysmography (PPG) sensors, widely available in wearable devices, offer a convenient, cost-effective, and non-invasive method for stress monitoring. This study proposes a convolutional neural network-bidirectional long short-term memory (CNN-BiLSTM) hybrid architecture for real-time stress detection using just PPG signals. Trained and validated on the publicly available WESAD dataset, the model achieves exceptional performance metrics: 97.90\% accuracy, 98.30\% specificity, 97.20\% sensitivity, 97.06\% F1-score, 99.12\% AUC, and 95.42\% Cohen&#x27;s kappa. The lightweight model exhibits high accuracy in stress detection while maintaining computational efficiency, making it particularly suitable for wearable devices. These results highlight the potential of this approach for practical real-time stress monitoring and management applications.</div>
+</div>
+
+
+
+<div class="paper-section">
+    <div class="paper-title">TacticCraft: Natural Language-Driven Tactical Adaptation for StarCraft II</div>
+    <div class="authors">Weiyu Ma, Jiwen Jiang, Haobo Fu, Haifeng Zhang</div>
+    <div><a href="https://openreview.net/pdf?id=7Ku2ZA3dNN" target="_blank">Read Paper</a></div>
+    <div class="expand-btn" onclick="toggleAbstract('7Ku2ZA3dNN')">Show Abstract</div>
+    <div class="abstract" id="abstract-7Ku2ZA3dNN">We present TacticCraft, a natural language-driven approach for tactical conditioning of StarCraft II AI agents. While current state-of-the-art agents achieve impressive win rates, they lack the ability to adapt their gameplay styles based on human tactical preferences. Our method bridges this gap by freezing a pre-trained policy network (DI-Star) and attaching lightweight adapter modules to each action head, conditioned on a tactical tensor derived from natural language directives. This tensor encodes strategic preferences across multiple dimensions, enabling intuitive control over agent behavior. By training these adapters with KL divergence constraints, we ensure the policy maintains its original competitive strength while exhibiting diverse tactical styles. Empirical evaluations demonstrate that TacticCraft successfully modulates agent behavior across tactical dimensions—including aggression levels, expansion patterns, and technology preferences—while preserving up to 95\% of the base model&#x27;s win rate against strong opponents. Most importantly, our approach enables non-technical users to customize agent behavior through simple language commands like &quot;play aggressively&quot; or &quot;focus on economic growth,&quot; offering practical strategy customization with minimal computational overhead (less than 3\% parameter increase). TacticCraft represents a significant advancement toward AI agents that can be strategically directed through natural language while maintaining high-performance gameplay in complex real-time strategy environments.</div>
+</div>
+
+
+
+<div class="paper-section">
+    <div class="paper-title">Leveraging LLM-based sentiment analysis for portfolio optimization with proximal policy optimization</div>
+    <div class="authors">Kemal Kirtac</div>
+    <div><a href="https://openreview.net/pdf?id=6DeqCxngGp" target="_blank">Read Paper</a></div>
+    <div class="expand-btn" onclick="toggleAbstract('6DeqCxngGp')">Show Abstract</div>
+    <div class="abstract" id="abstract-6DeqCxngGp">Reinforcement learning (RL) offers adaptive solutions to portfolio optimization, yet standard methods such as proximal policy optimization (PPO) rely exclusively on historical price data and overlook the impact of investor sentiment. We introduce sentiment-augmented PPO (SAPPO), a reinforcement learning framework that incorporates real-time sentiment signals extracted from Refinitiv financial news. Daily sentiment scores are generated using LLaMA 3.3. SAPPO integrates these signals into the PPO advantage function via a sentiment-weighted term, enabling allocation strategies that respond to both price movements and market sentiment. Experiments on a three-asset portfolio demonstrate that SAPPO increases the Sharpe ratio from 1.55 to 1.90 and reduces drawdowns relative to PPO. The optimal configuration uses a sentiment influence parameter $\lambda = 0.1$, as validated through ablation studies and statistically significant $t$-tests ($p &lt; 0.001$). These findings show that sentiment-aware reinforcement learning improves trading performance and offers a robust alternative to purely price-based strategies.</div>
+</div>
+
+
+
+
+<script>
+    function toggleAbstract(paper_id) {
+        var abstractDiv = document.getElementById('abstract-' + paper_id);
+        if (abstractDiv.style.display === 'none') {
+            abstractDiv.style.display = 'block';
+        } else {
+            abstractDiv.style.display = 'none';
+        }
+    }
+</script>
+
+
+
+
+<p></br></br></br></br></br></br></p>
+<p style="font-size: small;">Website theme adapted from <a href="https://ciol-researchlab.github.io/">CIOL Website</a> (<a href="https://github.com/ciol-researchlab/ciol-researchlab.github.io">GitHub</a>)</p>
+    </main>
+  
+  </body>
+</html>

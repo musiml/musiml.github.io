@@ -9,53 +9,74 @@
     <meta name="author" content="Muslims in ML Workshop | ICML'25">
     <meta property="og:image" content="../../assets/images/COVER.jpg">
     <link rel="shortcut icon" href="../../assets/images/logo.png" type="image/png">
-    <title>Muslims in ML Workshop | ICML'25 </title>
+    <title>Muslims in ML Social | ICML'25 </title>
     <meta name="theme-color" content="#157878" />
     <meta
       name="apple-mobile-web-app-status-bar-style"
       content="black-translucent"
     />
     <link rel="stylesheet" href="../../assets/css/style.css?v=" />
+    <!-- START: Added Gallery Styles -->
+    <style>
+      .gallery-container {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 15px; /* Spacing between images */
+        justify-content: center; /* Center images horizontally */
+        padding: 20px 0;
+      }
+
+      .gallery-container img {
+        max-width: 30%; /* Adjust thumbnail size as needed */
+        height: auto;
+        object-fit: cover;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        cursor: pointer;
+        transition: transform 0.5s ease, box-shadow 0.5s ease, z-index 0s 0.5s; /* Smooth transition for zoom and shadow */
+        z-index: 1; /* Default stacking order */
+        background-color: #eee; /* Placeholder background */
+      }
+
+      .gallery-container img:hover {
+        transform: scale(2); /* Zoom factor - adjust as needed. This scales relative to thumbnail size. */
+        /* For a large zoom effect approximating '80% of page', this scale factor needs to be large. */
+        /* A true '80% of page' might require JS for a lightbox. */
+        box-shadow: 0 8px 16px rgba(0,0,0,0.3);
+        z-index: 10; /* Bring hovered image to the front */
+      }
+    </style>
+    <!-- END: Added Gallery Styles -->
   </head>
   <body>
 
-    
 
-    
+
+
     <header class="page-header" role="banner">
-     
+
 
       <img src="../../assets/images/logo.png" style="border-radius: 10%;" alt="MuslinsInML logo" width="100" height="100"> &nbsp;
-      <img src="../../assets/images/icml_logo.jpg" style="border-radius: 10%;" alt="ICML logo" width="100" height="100">
-      
+      <img src="../../assets/images/iclr.jpeg" style="border-radius: 10%;" alt="ICML logo" width="100" height="100">
 
 
-      
-      <h1 class="project-name" style="margin-bottom: 0;">Muslims in ML Workshop</h1>
-      <h2  style="margin-top: 0;">Co-located with <a href="https://icml.cc/" target="_blank" style="color: white">ICML'25</a></h2>
+
+
+      <h1 class="project-name" style="margin-bottom: 0;">Muslims in ML Social</h1>
+      <h2  style="margin-top: 0;">Co-located with <a href="https://iclr.cc/" target="_blank" style="color: white">ICML'25</a></h2>
       <p></p>
 
       <a href="../../index.html" class="btn bf">Community Home</a>
-      <a href="./index.html" class="btn bf bactive">Home</a>
-      <a href="./cfp.html" class="btn bf">Call for Papers</a>
-      <a href="./program.html" class="btn bf">Program</a>
-      <a href="./accepted_papers.html" class="btn bf">Accepted Papers</a>
-      <a href="./organizers.html" class="btn bf">Organizers</a>
-      <a href="./social.html" class="btn bf">ICML'25 Social</a>
-      <a href="../index.html" class="btn bf">Past Editions</a>
+      <a href="../../events/index.html" class="btn bf">All Events</a>
+      <a href="../../events/2025-ICML/index.html" class="btn bf">ICML'25 Workshop</a>
 
-        <div class="dropdown"> 
+        <div class="dropdown">
           <button class="btn" onclick="toggleDropdown()">Menu &#9662;</button>
           <div id="dropdownContent"  style="width: 92%; align-self: center;  display: none; position: absolute; background-color: rgb(231, 225, 188);  z-index: 1;">
             <a href="../../index.html" class="short-btn">Community Home</a>
-            <a href="./index.html" class="short-btn">Home</a>
-            <a href="./cfp.html" class="short-btn">Call for Papers</a>
-            <a href="./program.html" class="short-btn">Program</a>
-            <a href="./accepted_papers.html" class="short-btn">Accepted Papers</a>
-            <a href="./organizers.html" class="short-btn">Organizers</a>
-            <a href="./social.html" class="short-btn">ICML'25 Social</a>
-            <a href="../index.html" class="short-btn">Past Editions</a>
-            
+            <a href="../../events/index.html" class="short-btn">All Events</a>
+            <a href="../../events/2025-ICML/index.html" class="short-btn">ICML'25 Workshop</a>
+
           </div>
         </div>
         <script>
@@ -68,33 +89,60 @@
 
 
     </header>
-  
+
 
     <main id="content" class="main-content" role="main">
-      <h2 id="overview">The 4th Muslims in ML Workshop at ICML'25</h2>
+      <a target="_blank" href="https://iclr.cc/virtual/2025/social/37587"><h2 id="overview">Muslims in ML Social at ICML'25</h2></a>
       <hr style="height:6px;border-width:0;color:gray;background-color:gray">
+
+
+
+
+      <section>
+        <h2>About the Event</h2>
+        <hr style="height:4px;border-width:0;color:gray;background-color:gray">
+        <p>The Muslims in ML Social is a community gathering aimed at fostering connections among Muslim researchers, engineers, and professionals in machine learning and artificial intelligence. This informal event offers a welcoming space to meet peers, share experiences, and build lasting professional relationships. Attendees will have the opportunity to network, engage in conversations about career paths and research, and connect across regions and backgrounds. While centered on the Muslim community, the event is open to all ICLR participants who are interested in inclusive dialogue and community-building in ML.</p>
+      </section>
+
+
+
+<section>
+  <h2>Gallery</h2>
+  <hr style="height:4px;border-width:0;color:gray;background-color:gray">
+  <div class="gallery-container">
+      <!--
+          Instructions:
+          1. Create a folder named 'photos' inside the '2025-ICLR' directory
+             (i.e., d:\CODES\Research\musiml.github.io\events\2025-ICLR\photos\).
+          2. Place your image files (e.g., photo1.jpg, event_pic.png) inside this 'photos' folder.
+          3. Replace the placeholder 'src' and 'alt' attributes below with your actual image filenames and descriptions.
+          4. Add or remove <img> tags as needed for all your photos.
+      -->
+      <img src="photos/1.jpg" alt="ICLR 2025 Social Event">
+      <img src="photos/2.jpg" alt="ICLR 2025 Social Event: Attendees">
+      <img src="photos/3.jpg" alt="ICLR 2025 Social Event: Presentation">
+      <!-- Add more images like this -->
+      <!-- <img src="photos/another_photo.jpg" alt="Another descriptive caption"> -->
+
+  </div>
+</section>
+
+
+<p></br></p>
+  <section>
+    <h2>About Muslims in ML</h2>
+    <hr style="height:4px;border-width:0;color:gray;background-color:gray">
 
       <p style="text-align: justify;">
         Muslims In ML (MusIML) is an affinity workshop dedicated to amplifying the voices of Muslim researchers in the fields of machine learning and artificial intelligence and addressing challenges and research topics that are particularly relevant to Muslims.
       </br>
       We focus on both the potential for advancement and harm to Muslims and those in Muslim-majority countries who religiously identify, culturally associate, or are classified by proximity, as “Muslim”.
-    </br>
-Our next workshop will be held in Vancouver, Canada at ICML 2025. 
-While the majority of the workshop will happen in-person, we will also offer virtual attendance options for those unable to attend.</br>
-Submission Link: <a href="https://openreview.net/group?id=ICML.cc/2025/Workshop/MusIML" target="_blank">https://openreview.net/group?id=ICML.cc/2025/Workshop/MusIML</a>
 </p>
 
 
- <hr>
-View <a href="./cfp.html" >Call for Papers</a>!</br>
-View <a href="./program.html" >Program</a> details and registration!</br>
-View <a href="./organizers.html" >Organizers</a> list!</br>
-
- <hr>
 
 
-
-<h2>Our Goals</h2>
+<h3>Our Goals</h3>
 <hr>
 <p>The Muslims in ML Workshop aims to:</p>
 
@@ -132,10 +180,14 @@ View <a href="./organizers.html" >Organizers</a> list!</br>
    <li><a href="https://x.com/MuslimsinML" target="_blank">X (formerly, Twitter)</a></li>
    <li><a href="https://www.youtube.com/@MuslimsInML" target="_blank">YouTube</a></li>
   </ul>
+</section>
+
+
+
 
 <p></br></br></br></br></br></br></p>
 <p style="font-size: small;">Website theme adapted from <a href="https://ciol-researchlab.github.io/">CIOL Website</a> (<a href="https://github.com/ciol-researchlab/ciol-researchlab.github.io">GitHub</a>)</p>
     </main>
-  
+
   </body>
 </html>
