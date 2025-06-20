@@ -170,17 +170,6 @@
 </div>
 
 
-
-<div class="paper-section">
-    <div class="paper-title">STARS: Segment-level Token Alignment via Rejection Sampling in Large Language Models</div>
-    <div class="authors">Mohammad Atif Quamar, Mohammad Areeb</div>
-    <div><a href="https://openreview.net/pdf?id=clQfQBi3gp" target="_blank">Read Paper</a></div>
-    <div class="expand-btn" onclick="toggleAbstract('clQfQBi3gp')">Show Abstract</div>
-    <div class="abstract" id="abstract-clQfQBi3gp">Aligning large language models (LLMs) to match human preferences at the inference stage (when they generate responses) can avoid expensive retraining processes. However, current methods that align models by searching for better responses often waste resources, either generating redundant text or repeatedly checking how good each response is. To solve this, we propose a new method called STARS (Segment-level Token Alignment via Rejection Sampling). Instead of checking responses token-by-token or repeating full responses, STARS generates text in fixed-length segments. It samples these segments and only accepts them if their quality (or &quot;reward&quot;) is above a certain adaptive threshold. This method is much more efficient—it has complexity proportional to the best reward times the text length ($\mathcal{O}(r^{\star}T)$), unlike the Best-of-N method, which scales linearly with the number of attempts ($\mathcal{O}(NT)$). We tested STARS using five publicly available 7–13 billion-parameter models on a task designed to improve the harmlessness of responses (the HH-RLHF dataset). Evaluations showed that STARS improved performance significantly, increasing win rates evaluated by GPT-4.1 by 20–25 percentage points compared to standard decoding methods. It also stayed competitive with the Best-of-N approach, falling within just 4 percentage points, while requiring at least 15% fewer calls to the language model, saving computational resources. Remarkably, STARS allowed smaller (7–8 billion-parameter) aligned models to outperform larger (13 billion-parameter) unaligned models in 5 out of 6 comparisons. These results demonstrate that carefully designed, segment-based sampling during inference can achieve high-quality alignment with human preferences, making inference-time alignment a practical, efficient, and scalable alternative to retraining entire models.</div>
-</div>
-
-
-
 <div class="paper-section">
     <div class="paper-title">DIVA: Diversity Assessment in Text-to-Image Generation via Hybrid Metrics</div>
     <div class="authors">Md Younus Ahamed, Md Asif Bin Syed</div>
