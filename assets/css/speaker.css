@@ -35,7 +35,11 @@
 
 
 .details-info{
-    font-size: 0.95rem;
+    font-size: 0.8rem;
+    line-height: 1.25 !important;   /* Forces tighter line spacing */
+    display: block;                /* Ensures it behaves like a paragraph block */
+    margin: 0.5 !important;          /* Removes default spacing */
+    padding: 0.5 !important;
 }
 
 @media (max-width: 768px) {
