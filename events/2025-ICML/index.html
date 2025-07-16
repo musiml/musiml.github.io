@@ -66,7 +66,35 @@
         </script>
 
 
+    <style>
+      .gallery-container {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 15px; /* Spacing between images */
+        justify-content: center; /* Center images horizontally */
+        padding: 20px 0;
+      }
 
+      .gallery-container img {
+        max-width: 30%; /* Adjust thumbnail size as needed */
+        height: auto;
+        object-fit: cover;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        cursor: pointer;
+        transition: transform 0.5s ease, box-shadow 0.5s ease, z-index 0s 0.5s; /* Smooth transition for zoom and shadow */
+        z-index: 1; /* Default stacking order */
+        background-color: #eee; /* Placeholder background */
+      }
+
+      .gallery-container img:hover {
+        transform: scale(2); /* Zoom factor - adjust as needed. This scales relative to thumbnail size. */
+        /* For a large zoom effect approximating '80% of page', this scale factor needs to be large. */
+        /* A true '80% of page' might require JS for a lightbox. */
+        box-shadow: 0 8px 16px rgba(0,0,0,0.3);
+        z-index: 10; /* Bring hovered image to the front */
+      }
+    </style>
     </header>
   
 
@@ -122,6 +150,43 @@ View <a href="./organizers.html" >Organizers</a> list!</br>
   <p>
       Through ongoing discussions, research, and collaborations, we aspire to create positive change by addressing systemic challenges in technology, enhancing inclusion, and advocating for fair representation of Muslims in the ML field.
   </p>
+
+  <hr>
+<section>
+  <h2>Gallery</h2>
+  <hr style="height:4px;border-width:0;color:gray;background-color:gray">
+  <div class="gallery-container">
+      <!--
+          Instructions:
+          1. Create a folder named 'photos' inside the '2025-ICLR' directory
+             (i.e., d:\CODES\Research\musiml.github.io\events\2025-ICLR\photos\).
+          2. Place your image files (e.g., photo1.jpg, event_pic.png) inside this 'photos' folder.
+          3. Replace the placeholder 'src' and 'alt' attributes below with your actual image filenames and descriptions.
+          4. Add or remove <img> tags as needed for all your photos.
+      -->
+      <img src="./photos/workshop/1.jpeg" alt="ICML 2025 Social Event">
+      <img src="./photos/workshop/2.jpeg" alt="ICML 2025 Social Event">
+      <!-- Add more images like this -->
+      <!-- <img src="photos/another_photo.jpg" alt="Another descriptive caption"> -->
+
+  </div>
+    <div class="gallery-container">
+      <!--
+          Instructions:
+          1. Create a folder named 'photos' inside the '2025-ICLR' directory
+             (i.e., d:\CODES\Research\musiml.github.io\events\2025-ICLR\photos\).
+          2. Place your image files (e.g., photo1.jpg, event_pic.png) inside this 'photos' folder.
+          3. Replace the placeholder 'src' and 'alt' attributes below with your actual image filenames and descriptions.
+          4. Add or remove <img> tags as needed for all your photos.
+      -->
+      <img src="./photos/workshop/3.jpeg" alt="ICML 2025 Social Event">
+      <img src="./photos/workshop/4.jpeg" alt="ICML 2025 Social Event">
+      <!-- Add more images like this -->
+      <!-- <img src="photos/another_photo.jpg" alt="Another descriptive caption"> -->
+
+  </div>
+</section>
+
 
   <hr>
 
