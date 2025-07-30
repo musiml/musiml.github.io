@@ -16,6 +16,7 @@
       content="black-translucent"
     />
     <link rel="stylesheet" href="../../assets/css/style.css?v=" />
+    <link rel="stylesheet" href="../../assets/css/speaker.css?v=" />
   </head>
   <body>
 
@@ -54,7 +55,31 @@
             dropdownContent.style.display = (dropdownContent.style.display === "none" || dropdownContent.style.display === "") ? "block" : "none";
           }
         </script>
-
+<style>
+         .container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+        }
+        .person {
+            margin-bottom: 10px;
+        }
+        .person b {
+            display: block;
+            font-weight: bold;
+            color: black;
+        }
+        @media only screen and (max-width: 1200px) {
+            .container {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+        @media only screen and (max-width: 768px) {
+            .container {
+                grid-template-columns: 1fr;
+            }
+        }
+</style>
 
 
     </header>
@@ -67,11 +92,95 @@
       
 
       
-  <section>
     <h2>About the Event</h2>
     <hr style="height:4px;border-width:0;color:gray;background-color:gray">
     <p>The Muslims in ML Social is a community gathering aimed at fostering connections among Muslim researchers, engineers, and professionals in machine learning and artificial intelligence. This informal event offers a welcoming space to meet peers, share experiences, and build lasting professional relationships. Attendees will have the opportunity to network, engage in conversations about career paths and research, and connect across regions and backgrounds. While centered on the Muslim community, the event is open to all ACL participants who are interested in inclusive dialogue and community-building in ML.</p>
-  </section>
+
+
+<h2>Program Schedule</h2>
+<hr style="height:4px;border-width:0;color:gray;background-color:gray">
+<ul>
+  <li>
+    <strong>12:45–13:00</strong><br>
+    Welcoming Message and Introduction to Muslims in ML<br>
+    <em>Ehsaneddin Asgari, Scientist at QCRI</em>
+  </li>
+  <li>
+    <strong>13:00–13:15</strong><br>
+    Introduction to SIGARAB and Arabic NLP<br>
+    <em>Nizar Habash, Professor at NYU Abu Dhabi, President of SIGARAB</em>
+  </li>
+  <li>
+    <strong>13:15–13:30</strong><br>
+    Research on the Palestinian Narrative; NLP Shared Tasks and Resources<br>
+    <em>Mustafa Jarrar, Professor at HBKU/Berzeit University</em>
+  </li>
+  <li>
+    <strong>13:30–13:45</strong><br>
+    Investigating Facebook Censorship to Pro-Palestine Posts (CHI Paper 2025)<br>
+    <em>Walid Magdy, Professor at University of Edinburgh</em>
+  </li>
+  <li>
+    <strong>13:45–14:15</strong><br>
+    Prayers and Networking
+  </li>
+</ul>
+
+
+
+<h2>Speakers</h2>
+<hr style="height:4px;border-width:0;color:gray;background-color:gray">
+<!-- <h2>Core Organizers</h2>
+<hr> -->
+<p></br></p>
+
+    <div class="profile-container">
+      <div class="profile-section">
+          <div class="image-container">
+                <img  class="profile-image" src="assets/Nizar Habash.jpeg">
+          </div>
+          <div class="content-container">
+              <p>
+              <b>Nizar Habash</b></br>
+              <span class="details-info">Nizar Habash is a Professor of Computer Science at New York University Abu Dhabi (NYUAD). He is also the director of the Computational Approaches to Modeling Language (CAMeL) Lab.  Professor Habash specializes in natural language processing and computational linguistics. Before joining NYUAD in 2014, he was a research scientist at Columbia University's Center for Computational Learning Systems. He received his PhD in Computer Science from the University of Maryland College Park in 2003.  He has two bachelors degrees, one in Computer Engineering and one in Linguistics and Languages. His research includes extensive work on machine translation, morphological analysis, and computational modeling of Arabic and its dialects. Professor Habash has been a principal investigator or co-investigator on over 25 research grants. And he has over 250 publications including a book entitled "Introduction to Arabic Natural Language Processing".  Professor Habash is one of the recipients of the King Salman Academy for Arabic Language Award (2022); and he is the recipient of the Antonio Zampolli Prize (2024).
+
+              </span>
+            </p>
+            </div>
+      </div>
+      <p></p>
+      <div class="profile-section">
+          <div class="image-container">
+                <img  class="profile-image" src="assets/mj.jpg">
+          </div>
+          <div class="content-container">
+              <p>
+              <b>Mustafa Jarrar</b></br>
+              <span class="details-info">Full professor of Computer Science and the director of SinaLab for Computational Linguistics and Artificial Intelligence at both, Hamad Bin Khalifa University and Birzeit University. He is the founder and fomer director the PhD Program in Computer Science. He was a Fulbright visiting professor at the University at Buffalo in the USA (2016-2017), a Marie Curie fellow at the University of Cyprus (2007-2009), and a senior research scientist at Vrije Universiteit Brussel (1999-2007), where he completed his Masters (2000) and PhD (early 2005). Jarrar has won several prestigious awards including, the Shoman Arab Researchers Award in Technology, Mohammed Bin Rashid Award for the Arabic Language, and Google Faculty Research Award. He has published 90+ articles in the areas of Natural Language Processing, Ontology Engineering, Semantic Web, and Graph Databases. Jarrar has also chaired 30 international conferences, a PC member of 150+ journals and conferences, a coordinator/manager of 25 large EU projects, a full member of the IFIP2.6 on Database Semantics, the IFIP2.12 on Web Semantics, and the UN ESCWA Technology Centre Board of Governors, among others. Prof. Jarrar is also the founder of both Sina Institute for Knowledge Engineering and Language Technologies, and the Palestinian e-Government Academy, and advisor of ministry of Telecom & IT, where he also developed and chaired the Palestinian e-Government Interoperability Framework (called Zinnar).
+              </span>
+            </p>
+            </div>
+      </div>
+      <p></p>
+        </div>
+      <p></p>
+      <div class="profile-section">
+          <div class="image-container">
+                <img  class="profile-image" src="assets/Walid Magdy.jpeg">
+          </div>
+          <div class="content-container">
+              <p>
+              <b>Walid Magdy </b></br>
+              <span class="details-info">Walid Magdy is a professor at the school of Informatics, the University of Edinburgh (UoE).  His main research interests include natural language processing (NLP) and computational social science (CSS). Large part of his NLP work focuses on underserved languages, such as Arabic and Persian, and most of his CSS studies focused on the Muslim world, including studies on Atheism discussion in the Muslim world, Spread of fake Hadith online, political polarisation after the Arab spring, extremism, Quran and Hadith sharing on social media, and censorship of Palestinian content online.</span>
+            </p>
+            </div>
+      </div>
+      <p></p>
+        </div>
+
+      </div>
+
+
 
   <section>
     <h2>About Muslims in ML</h2>
@@ -82,10 +191,6 @@
       </br>
       We focus on both the potential for advancement and harm to Muslims and those in Muslim-majority countries who religiously identify, culturally associate, or are classified by proximity, as “Muslim”.
 </p>
-
-
-
-
 <h3>Our Goals</h3>
 <hr>
 <p>The Muslims in ML Workshop aims to:</p>
