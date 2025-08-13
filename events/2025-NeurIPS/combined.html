@@ -1,0 +1,640 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Muslims in ML Workshop | NeurIPS'25 ">
+    <meta name="author" content="Muslims in ML Workshop | NeurIPS'25">
+    <meta property="og:image" content="../../assets/images/COVER.jpg">
+    <link rel="shortcut icon" href="../../assets/images/logo.png" type="image/png">
+    <title>Muslims in ML Workshop | NeurIPS'25 </title>
+    <meta name="theme-color" content="#157878" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <link rel="stylesheet" href="../../assets/css/style.css?v=" />
+    
+    <style>
+      /* Navigation Menu Styles */
+      .nav-container {
+        background: rgba(105, 6, 3, 0.95);
+        backdrop-filter: blur(10px);
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        padding: 1rem 0;
+        box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+      }
+      
+      .nav-menu {
+        max-width: 1200px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0 2rem;
+      }
+      
+      .nav-links {
+        display: flex;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        gap: 2rem;
+      }
+      
+      .nav-links a {
+        color: white;
+        text-decoration: none;
+        padding: 0.5rem 1rem;
+        border-radius: 5px;
+        transition: all 0.3s ease;
+        font-weight: 500;
+      }
+      
+      .nav-links a:hover,
+      .nav-links a.active {
+        background: rgba(255, 255, 255, 0.2);
+        transform: translateY(-2px);
+      }
+      
+      /* Mobile Menu */
+      .mobile-menu-btn {
+        display: none;
+        background: none;
+        border: none;
+        color: white;
+        font-size: 1.5rem;
+        cursor: pointer;
+        padding: 0.5rem;
+      }
+      
+      .external-links {
+        display: flex;
+        gap: 1rem;
+        margin-left: auto;
+      }
+      
+      .external-links a {
+        color: white;
+        text-decoration: none;
+        padding: 0.5rem 1rem;
+        border: 1px solid rgba(255, 255, 255, 0.3);
+        border-radius: 5px;
+        transition: all 0.3s ease;
+        font-size: 0.9rem;
+      }
+      
+      .external-links a:hover {
+        background: rgba(255, 255, 255, 0.1);
+        border-color: rgba(255, 255, 255, 0.5);
+      }
+      
+      /* Section Styling */
+      .content-section {
+        padding: 3rem 0;
+        min-height: 50vh;
+      }
+      
+      .content-section:nth-child(even) {
+        background: rgba(0, 0, 0, 0.02);
+      }
+      
+      /* Smooth Scrolling */
+      html {
+        scroll-behavior: smooth;
+      }
+      
+      /* Organizers Grid */
+      .organizers-container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+        margin: 2rem 0;
+      }
+      
+      .person {
+        margin-bottom: 10px;
+      }
+      
+      .person b {
+        display: block;
+        font-weight: bold;
+        color: black;
+      }
+      
+      /* Profile Styles for Program Section */
+      .profile-container {
+        margin: 2rem 0;
+      }
+      
+      .profile-section {
+        display: flex;
+        gap: 1rem;
+        margin: 1.5rem 0;
+        align-items: flex-start;
+      }
+      
+      .image-container {
+        flex-shrink: 0;
+      }
+      
+      .profile-image {
+        width: 120px;
+        height: 120px;
+        border-radius: 10px;
+        object-fit: cover;
+      }
+      
+      .content-container {
+        flex: 1;
+      }
+      
+      .details-info {
+        font-size: 0.9rem;
+        line-height: 1.4;
+        margin-top: 0.5rem;
+      }
+      
+      /* Table Styles */
+      table {
+        width: 100%;
+        border-collapse: none;
+        margin: 2rem 0;
+      }
+      
+      th, td {
+        border: 2px solid grey;
+        padding: 8px;
+        text-align: left;
+      }
+      
+      th {
+        background-color: #f2f2f2;
+      }
+      
+      /* Responsive Design */
+      @media only screen and (max-width: 1200px) {
+        .organizers-container {
+          grid-template-columns: repeat(2, 1fr);
+        }
+        
+        .external-links {
+          display: none;
+        }
+      }
+      
+      @media only screen and (max-width: 768px) {
+        .nav-links {
+          display: none;
+          position: absolute;
+          top: 100%;
+          left: 0;
+          right: 0;
+          background: rgba(21, 120, 120, 0.98);
+          flex-direction: column;
+          padding: 1rem;
+          gap: 0;
+          box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+        }
+        
+        .nav-links.active {
+          display: flex;
+        }
+        
+        .nav-links a {
+          padding: 1rem;
+          border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+        }
+        
+        .mobile-menu-btn {
+          display: block;
+        }
+        
+        .nav-menu {
+          position: relative;
+        }
+        
+        .organizers-container {
+          grid-template-columns: 1fr;
+        }
+        
+        .profile-section {
+          flex-direction: column;
+          text-align: center;
+        }
+        
+        .content-section {
+          padding: 2rem 0;
+        }
+      }
+      
+      /* Hide original dropdown menu */
+      .dropdown {
+        display: none;
+      }
+    </style>
+  </head>
+  <body>
+    <header class="page-header" role="banner">
+     
+
+      <img src="../../assets/images/logo.png" style="border-radius: 10%;" alt="MuslinsInML logo" width="100" height="100"> &nbsp;
+      <img src="../../assets/images/NeurIPS_logo.png" style="border-radius: 10%;" alt="NeurIPS logo" width="100" height="100">
+      
+
+
+      
+      <h1 class="project-name" style="margin-bottom: 0;">Muslims in ML Workshop</h1>
+      <h2  style="margin-top: 0;">Co-located with <a href="https://neurips.cc/" target="_blank" style="color: white">NeurIPS'25</a></h2>
+      <p></p>
+
+      <a href="../../index.html" class="btn bf">Community Home</a>
+      <a href="./index.html" class="btn bf bactive">NeurIPS 2025</a>
+      <a href="../index.html" class="btn bf">Past Editions</a>
+
+        <div class="dropdown"> 
+          <button class="btn" onclick="toggleDropdown()">Menu &#9662;</button>
+          <div id="dropdownContent"  style="width: 92%; align-self: center;  display: none; position: absolute; background-color: rgb(231, 225, 188);  z-index: 1;">
+            <a href="../../index.html" class="short-btn">Community Home</a>
+            <a href="./index.html" class="short-btn">NeurIPS 2025</a>
+            <a href="../index.html" class="short-btn">Past Editions</a>
+            
+          </div>
+        </div>
+        <script>
+          function toggleDropdown() {
+            var dropdownContent = document.getElementById("dropdownContent");
+            dropdownContent.style.display = (dropdownContent.style.display === "none" || dropdownContent.style.display === "") ? "block" : "none";
+          }
+        </script>
+
+
+
+    </header>
+
+    <!-- Navigation Menu -->
+    <nav class="nav-container">
+      <div class="nav-menu">
+        <ul class="nav-links" id="navLinks">
+          <li><a href="#home" class="nav-link">Home</a></li>
+          <li><a href="#call-for-papers" class="nav-link">Call for Papers</a></li>
+          <li><a href="#program" class="nav-link">Program</a></li>
+          <li><a href="#organizers" class="nav-link">Organizers</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <main id="content" class="main-content" role="main">
+      
+      <!-- HOME SECTION -->
+      <section id="home" class="content-section">
+        <h2 id="overview">The 5th Muslims in ML Workshop at NeurIPS'25</h2>
+        <hr style="height:6px;border-width:0;color:gray;background-color:gray">
+
+        <p style="text-align: justify;">
+          Muslims In ML (MusIML) is an affinity workshop dedicated to amplifying the voices of Muslim researchers in the fields of machine learning and artificial intelligence and addressing challenges and research topics that are particularly relevant to Muslims.
+        </br>
+        We focus on both the potential for advancement and harm to Muslims and those in Muslim-majority countries who religiously identify, culturally associate, or are classified by proximity, as "Muslim".
+      </br>
+      Our next workshop will be held at NeurIPS 2025. 
+      </p>
+
+      <h2>Our Goals</h2>
+      <hr>
+      <p>The Muslims in ML Workshop aims to:</p>
+
+      <ul>
+          <li>Build a global network of Muslim researchers and professionals in ML.</li>
+          <li>Promote research that addresses biases and challenges faced by Muslim communities.</li>
+          <li>Provide mentorship and networking opportunities for researchers, particularly from Muslim-majority countries.</li>
+          <li>Create space for discussions on ethical AI, inclusivity, and decolonizing AI research.</li>
+      </ul>
+
+        <h3>Our Mission</h3>
+        <hr>
+        <p>
+            The MusIML workshop seeks to provide a platform for the machine learning community to engage in thoughtful discussions about the impact of artificial intelligence (AI) and machine learning (ML) technologies on Muslim individuals and communities. Our goal is to highlight both the opportunities for advancement and the risks of harm to those who identify with, are culturally connected to, or are categorized as Muslim.
+        </p>
+        <p>
+            We aim to foster an inclusive environment where issues related to bias, ethical concerns, and representation in AI and ML can be addressed through research, collaboration, and advocacy. By bringing together academics, professionals, and practitioners, we strive to ensure that the benefits of ML extend equitably to Muslim communities while minimizing potential harms.
+        </p>
+
+        <h3>Our Vision</h3>
+        <hr>
+        <p>
+            Our vision is to create a more equitable and just future where AI and ML technologies work to uplift Muslim communities, reduce societal biases, and foster innovation that respects and values cultural, religious, and ethical differences. We envision a world where Muslims and those in Muslim-majority regions are empowered to contribute to and benefit from advancements in machine learning.
+        </p>
+        <p>
+            Through ongoing discussions, research, and collaborations, we aspire to create positive change by addressing systemic challenges in technology, enhancing inclusion, and advocating for fair representation of Muslims in the ML field.
+        </p>
+      </section>
+
+      <!-- CALL FOR PAPERS SECTION -->
+      <section id="call-for-papers" class="content-section">
+        <h1 id="call-for-abstracts"><b>Call for Papers</b>: MusiML@NeurIPS2025</h1>
+        <hr style="height:6px;border-width:0;color:gray;background-color:gray">
+
+        <p>We are pleased to announce the <strong>5th Muslims in Machine Learning (MusIML) Workshop</strong>, which will take place at <strong>NeurIPS 2025</strong> in San Diego Convention Center, San Diego, USA. This workshop aims to amplify the development and use of machine learning (ML) in Muslim communities including Muslim-majority countries and strategies for global societal impact through AI and ML.</p>
+        <p>The MusIML workshop serves as a platform for researchers and practitioners to explore the intersection of machine learning, AI, and Muslim communities. Our mission is to promote high-quality research that not only fosters growth within Muslim communities but also advances strategies to improve fairness, inclusion, and ethical AI. We encourage contributions that address these challenges and highlight how ML can be a tool for positive change, especially for Muslims in both Muslim-majority countries and global communities.</p>
+
+        <h2>Workshop Tracks</h2><hr>
+
+        <h3>Track 1: ML research addressing challenges faced by Muslim communities and research related to Islamic contexts</h3>
+        <p>This track is open to all researchers, regardless of religious or ethnic background, and encourages submissions that promote the use of ML to support and empower Muslim communities globally, including in Muslim-majority countries. Published and/or In-progress work is welcome. Areas of interest include but are not limited to:</p>
+        <ul>
+          <li><strong>Growth of Muslims in ML:</strong> Initiatives that expand educational and professional opportunities for Muslims in ML, promote access, and encourage representation in the field.</li>
+          <li><strong>ML for Social Good:</strong> Using ML/AI to engage Muslim youth, promote community outreach, enhance societal well-being, and improve governance, healthcare, or education in Muslim communities.</li>
+          <li><strong>Language and Speech Technologies:</strong> Advancements in tools for languages spoken in Muslim communities, such as Arabic, Urdu, and Persian.</li>
+          <li><strong>Computational Analysis of Islamic Scriptures:</strong> Digital humanities research, including computational studies of Hadith or Quranic texts.</li>
+          <li><strong>Data Collection and Representation:</strong> Rich datasets from diverse Muslim communities.</li>
+          <li><strong>Mitigating Algorithmic Bias and Discrimination:</strong> Research exploring strategies that mitigate algorithmic bias and related topics that impact Muslim individuals and communities.</li>
+        </ul>
+
+        <h3>Track 2: Machine learning research by Muslim authors</h3>
+        <p>This track invites submissions from researchers who self-identify as Muslim. Published and/or In-progress work is welcome. We encourage work that explores the frontiers of machine learning and AI, including but not limited to:</p>
+        <ul>
+          <li><strong>LLMs, MLLMs, Generative AI:</strong> Research focused on large language models, generative AI systems, cutting-edge vision models, self-supervised learning, and advancements in multilingual capabilities, especially for languages spoken by Muslim communities.</li>
+          <li><strong>Applications of ML:</strong> In vision, language, speech, and audio.</li>
+          <li><strong>Machine Learning for Society:</strong> For example, in education, health, climate, and social sciences.</li>
+          <li><strong>Probabilistic Methods:</strong> Deep learning, reinforcement learning, and optimization.</li>
+          <li><strong>Social and Economic Aspects of ML:</strong> Fairness, interpretability, human-AI interaction, privacy, safety, and strategic behavior.</li>
+          <li><strong>Federated Learning and AI-driven Innovations:</strong> For healthcare and smart cities and public services such as governance, energy, and traffic management.</li>
+          <li><strong>Evaluation Methodologies and Scalable Infrastructures</strong></li>
+          <li><strong>Robotics and NeuroAI:</strong> Including research at the intersection of neuroscience, AI, and cognitive science.</li>
+          <li><strong>AI Ethics and Safety:</strong> Data privacy, interpretable AI, green AI, red teaming in AI, etc.</li>
+        </ul>
+
+        <h3>Track 3: Machine learning competition proposals for social impact in Muslim communities</h3>
+        <p>This track invites proposals for machine learning competitions that address challenges relevant to Muslim communities worldwide. Submissions should outline a competition concept that promotes fairness, inclusivity, and responsible AI, and may focus on areas such as equitable healthcare access, culturally aware NLP tasks, or AI for social good in Muslim-majority regions. Submit your proposals via: <b>neurips@mail.musiml.org</b></p>
+
+        <h2>Submission Guidelines</h2><hr>
+        <h3>Tracks 1 and 2</h3>
+          <p>We invite submissions of short papers (up to four pages) including all figures and tables but excluding references in PDF format. 
+          An optional appendix can be included. The appendix will not be considered in the review process.</br>
+          Papers may have been previously published or be under review elsewhere. 
+          To prepare your submission for Track 1 and 2, please use the LaTeX style files for NeurIPS 2025: <a href="https://media.neurips.cc/Conferences/NeurIPS2025/Styles.zip" target="_blank" previewlistener="true">NeurIPS 2025 LaTeX style file</a>.
+          All submissions must follow <a target="_blank" href="https://neurips.cc/Conferences/2015/PaperInformation/AuthorSubmissionInstructions">NeurIPS Author Guidelines</a>. 
+          Submissions must be anonymized, please refrain from including personally identifiable information. Submissions will be reviewed in a double-blind setting.
+          All Track 1 and 2 submissions will be peer-reviewed through <a target="_blank" href="https://openreview.net/group?id=NeurIPS.cc/2025/Workshop/MusIML">OpenReview</a>.</p>
+        <p>Accepted papers will be showcased in a <strong>poster session</strong>, and selected authors will present <strong>lightning talks</strong>. Participants will also have the chance to contribute in a <strong>joint poster session</strong> with other NeurIPS affinity groups. Best Paper Awards will be given to the paper that shows societal impact.</p>
+
+        <h3>Track 3</h3>
+        <p>Competition proposals must describe the problem statement, dataset considerations (including ethical sourcing), evaluation criteria, and potential positive impact. Selected competitions may be featured as part of the workshop program or developed in collaboration with MusIML partners following NeurIPS.
+          Here are some guidelines for the competition proposal: <a href="https://www.overleaf.com/read/prhyyfkdmshj#be9e74" target="_blank">MusiML-SharedTask Template</a>. Please make a copy and work on that.</p>
+        </p>
+
+        <h2>Important Dates</h2><hr>
+        <ul>
+          <li>Initiate call for papers: July 20, 2025</li>
+          <li>Visa-friendly submission deadline: August 22, 2025 (abstract, August 15, 2025)</li>
+          <li>Visa-friendly notification of decision: August 31, 2025</li>
+          <li>Regular submission deadline: September 15, 2025</li>
+          <li>Regular notification of decision: September 30, 2025</li>
+          <li>Camera Ready submission: October 14, 2025</li>
+          <li>Workshop: December 2, 2025</li>
+        </ul>
+
+        <h2>Submission Platform</h2><hr>
+        <p>All submissions will be managed through <strong><a href="https://openreview.net/group?id=NeurIPS.cc/2025/Workshop/MusIML#tab-your-consoles" target="_blank">OpenReview</a></strong>.</p>
+
+        <h2>Workshop Goals</h2><hr>
+        <ul>
+          <li>Build a global network of Muslim researchers and professionals in ML.</li>
+          <li>Promote research that addresses biases and challenges faced by Muslim communities.</li>
+          <li>Provide mentorship and networking opportunities for researchers, particularly from Muslim-majority countries.</li>
+          <li>Create space for discussions on ethical AI, inclusivity, and decolonizing AI research.</li>
+        </ul>
+
+        <h2>Join Us</h2><hr>
+          
+          <p>We welcome all researchers— irrespective of their religious/ethnic background —to submit their work and contribute to the development and application of ML in Muslims Countries and Muslim Communities globally. 
+            For more information, please visit our </a><a href="https://www.musiml.org/" class="a" target="_blank">community page</a>.
+          </br>For any questions, email the organizers at: <b>neurips@mail.musiml.org</b>.
+          </br>Also, sign up to <a href="https://forms.gle/hKzmEv9Qfv1ouxZ17" target="_blank">news@mail.musiml.org</a> mailing list by 
+          <a href="https://forms.gle/hKzmEv9Qfv1ouxZ17" class="a" target="_blank">filling out the form</a> 
+          to follow updates about our workshop.
+      </br> Also, join <a target="_blank" href="https://join.slack.com/t/musimlworkshop/shared_invite/zt-2r1eyl4wl-ZWQ~LSSmWlYjbZ2puyCAeA">Muslims in ML Slack</a> group.</p>
+      </section>
+
+      <!-- PROGRAM SECTION -->
+      <section id="program" class="content-section">
+        <h2 id="registration">Program </h2>
+        <hr style="height:6px;border-width:0;color:gray;background-color:gray">
+        <h3 id="registration">Registration </h3>
+        <hr>
+        <p style="text-align: justify;">
+          The NeurIPS workshop registration, as listed on <a target="_blank" href="https://neurips.cc/">neurips.cc</a>, would be needed. Coverage of the registration fee for the NeurIPS workshops or conference may be offered for one author of an accepted paper based on availability.
+        </p>
+
+        <h2 id="schedule">Schedule</h2>
+        <hr>
+        <p style="text-align: justify;">
+          Our workshop will host a mix of invited talks, contributed posters, and discussion sessions (tentative schedule below). 
+        </p>
+        <u>(to be updated!)</u>
+
+        <h2 id="keynote-speakers">Keynote Speakers </h2>
+        <hr>
+        <u>(to be updated!)</u>
+<!-- 
+          <p>Our 2025 workshop will include keynote addresses from engaging speakers:</p>
+          <div class="profile-container">
+            <div class="profile-section">
+                <div class="image-container">
+                      <img  class="profile-image" src="assets/persons/drahmed_photo.png">
+                </div>
+                <div class="content-container">
+                    <p>
+                    <b>Ahmed Elmagarmid</b></br>
+                    <i>Founder, Qatar Computing Research Institute</i></br>
+                    <span class="details-info">
+                      Ahmed K. Elmagarmid is the Executive Director of Qatar Computing Research Institute Hamad Bin Khalifa University, and Acting Vice President for Research at Hamad Bin Khalifa University, and an Emeritus Professor of Computer Science at Purdue University (US), and a former chief scientist at Hewlett-Packard HQ in Palo Alto, CA.
+          Dr. Elmagarmid received the ACM SIGMOD Contributions Award. In 2020, he was chosen to serve on the Washington Institute's Council of Advisors and selected to be distinguished fellow. He is an IEEE Life Fellow, an ACM Fellow, and an AAAS Fellow. He received the Presidential Young Investigator Award from President Reagan in 1988. He is the co-chair of the AI National Committee. </span>
+                  </p>
+                  </div>
+            </div>
+            <p></p>
+
+            <div class="profile-container">
+              <div class="profile-section">
+                  <div class="image-container">
+                        <img  class="profile-image" src="assets/persons/lama-ahmad.jpeg">
+                  </div>
+                  <div class="content-container">
+                      <p>
+                      <b>Lama Ahmad</b></br>
+                      <i>Technical Program Manager, Trustworthy AI at OpenAI</i></br>
+                      <span class="details-info">
+                        Lama Ahmad is a Technical Program Manager in Trustworthy AI at OpenAI, specializing in the safe development and deployment of AI models. She leads the Researcher Access Program, fostering responsible AI deployment and risk mitigation. With a background in technology research, product management, and policy, Lama has experience in roles such as Program Manager at Facebook's Open Research and Transparency Team and Fellow at Pulse Lab Jakarta. A graduate of NYU Abu Dhabi with a BA in Social Research and Public Policy, she is passionate about integrating ethics, inclusivity, and safety into AI and data-driven solutions.</span>
+                    </p>
+                    </div>
+              </div>
+              <p></p>
+          <div class="profile-container">
+            <div class="profile-section">
+                <div class="image-container">
+                      <img  class="profile-image" src="assets/persons/abu-bakar-abid.png">
+                </div>
+                <div class="content-container">
+                    <p>
+                    <b>Abubakar Abid</b></br>
+                    <i>Founder Gradio, acq'd by HuggingFace; PhD in ML from Stanford University</i></br>
+                    <span class="details-info">
+                      Abubakar Abid is a senior machine learning engineer and team lead at Hugging Face. He founded Gradio, a platform for building machine learning applications now used by over 500,000 monthly users and acquired by Hugging Face. He is a Paul & Daisy Soros Fellow recognized for his innovative research in AI applications in healthcare and education and serves as a mentor in the Fatima Fellowship. Abubakar holds a Ph.D. from Stanford University.
+                    </span>
+                  </p>
+                  </div>
+            </div>
+            <p></p>
+            <div class="profile-container">
+              <div class="profile-section">
+                  <div class="image-container">
+                        <img  class="profile-image" src="assets\persons\Motahhare-Eslami.jpg">
+                  </div>
+                  <div class="content-container">
+                      <p>
+                      <b>Motahhare Eslami</b></br>
+                      <i>Assistant Professor at Carnegie Mellon University School of Computer Science</i></br>
+                      <span class="details-info">
+                      Motahhare Eslami is an assistant professor at Carnegie Mellon University's School of Computer Science. She earned her Ph.D. at the UIUC and has received multiple awards, including a Google Ph.D. Fellowship and recognition as one of the 100 Brilliant Women in AI Ethics. 
+                      Her research is supported by NSF, CMU, Amazon, Google, Meta, and Cisco, and has been featured in major media outlets, including Time and The Washington Post.
+                    </span>
+                  </p>
+                    </div>
+              </div> 
+
+        </div>-->
+      </section>
+
+      <!-- ORGANIZERS SECTION -->
+      <section id="organizers" class="content-section">
+        <h1>Organizing Team</h1>
+        <hr style="height:6px;border-width:0;color:gray;background-color:gray">
+
+        <!-- <h2>Organizers</h2>
+        <hr>
+        <p></br></p> -->
+
+        <div class="organizers-container">
+          <div class="person">
+              <b>Suleiman Ali Khan</b>
+              Amazon
+          </div>
+          <div class="person">
+              <b>Ahmed Youssef</b>
+             GenAI Center of Excellence, Synopsys
+          </div>
+          <div class="person">
+              <b>Gasser Elbanna</b>
+              Harvard University
+          </div>
+          <div class="person">
+              <b>Ehsaneddin Asgari</b>
+              Qatar Computing Research Institute
+          </div>
+          <div class="person">
+              <a target="_blank" style="color:black" href="https://azminewasi.github.io/"><b>Azmine Toushik Wasi</b></a>
+              Shahjalal University of Science and Technology
+          </div>
+          <div class="person">
+              <b>Rian Adam Rajagede</b>
+              University of Central Florida
+          </div>
+          <div class="person">
+              <b>Yousra Farhani</b>
+              Quantum ML Researcher
+          </div>
+          <div class="person">
+              <b>Mariam Anwar</b>
+              NED University of Engineering and Technology
+          </div>
+          <div class="person">
+              <b>Nasik Muhammad Nafi</b>
+              Oak Ridge National Lab
+          </div>
+          <div class="person">
+              <b>Muhammad Irfan Khan</b>
+              Turku University of Applied Sciences
+          </div>
+          <div class="person">
+              <b>Kamran Soomro</b>
+              UWE Bristol
+          </div>
+        </div>
+      </section>
+
+      <p></br></br></br></br></p>
+      <p style="font-size: small;">Website theme adapted from <a href="https://ciol-researchlab.github.io/">CIOL Website</a> (<a href="https://github.com/ciol-researchlab/ciol-researchlab.github.io">GitHub</a>)</p>
+    </main>
+
+    <script>
+      // Mobile menu toggle
+      const mobileMenuBtn = document.getElementById('mobileMenuBtn');
+      const navLinks = document.getElementById('navLinks');
+      
+      mobileMenuBtn.addEventListener('click', () => {
+        navLinks.classList.toggle('active');
+      });
+
+      // Smooth scrolling and active link highlighting
+      const navLinksElements = document.querySelectorAll('.nav-link');
+      const sections = document.querySelectorAll('.content-section');
+
+      // Add click event listeners for smooth scrolling
+      navLinksElements.forEach(link => {
+        link.addEventListener('click', (e) => {
+          e.preventDefault();
+          const targetId = link.getAttribute('href').substring(1);
+          const targetSection = document.getElementById(targetId);
+          
+          if (targetSection) {
+            const offsetTop = targetSection.offsetTop - 100; // Account for fixed nav
+            window.scrollTo({
+              top: offsetTop,
+              behavior: 'smooth'
+            });
+          }
+          
+          // Close mobile menu if open
+          navLinks.classList.remove('active');
+        });
+      });
+
+      // Highlight active section on scroll
+      function highlightActiveSection() {
+        let current = '';
+        const scrollPosition = window.scrollY + 150; // Offset for fixed nav
+
+        sections.forEach(section => {
+          const sectionTop = section.offsetTop;
+          const sectionHeight = section.clientHeight;
+          
+          if (scrollPosition >= sectionTop && scrollPosition < sectionTop + sectionHeight) {
+            current = section.getAttribute('id');
+          }
+        });
+
+        navLinksElements.forEach(link => {
+          link.classList.remove('active');
+          if (link.getAttribute('href') === `#${current}`) {
+            link.classList.add('active');
+          }
+        });
+      }
+
+      // Listen for scroll events
+      window.addEventListener('scroll', highlightActiveSection);
+      
+      // Initial call to highlight the correct section
+      highlightActiveSection();
+
+      // Close mobile menu when clicking outside
+      document.addEventListener('click', (e) => {
+        if (!e.target.closest('.nav-menu')) {
+          navLinks.classList.remove('active');
+        }
+      });
+    </script>
+  </body>
+</html>
+
