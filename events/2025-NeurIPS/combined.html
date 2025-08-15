@@ -72,6 +72,7 @@
       .content-section {
         padding: 3rem 0;
         min-height: 50vh;
+        text-align: justify;
       }
       
       .content-section:nth-child(even) {
@@ -197,9 +198,15 @@
           flex-direction: column;
           text-align: center;
         }
-        
+        p {
+          text-align: justify;
+        }
         .content-section {
           padding: 2rem 0;
+          text-align: left;
+        }
+        .dropdown{
+          z-index: 9999;
         }
       }
     </style>
@@ -219,11 +226,10 @@
       <a href="../index.html" class="btn bf">Past Editions</a>
 
       <!-- Original Dropdown Menu -->
-      <div class="dropdown"> 
+      <div class="dropdown" style="z-index: 9999;"> 
         <button class="btn" onclick="toggleDropdown()">Menu &#9662;</button>
-        <div id="dropdownContent" style="width: 92%; align-self: center; display: none; position: absolute; background-color: rgb(231, 225, 188); z-index: 1;">
+        <div id="dropdownContent" style="width: 92%; align-self: center; display: none; position: fixed; background-color: rgb(231, 225, 188); z-index: 990;">
           <a href="../../index.html" class="short-btn">Community Home</a>
-          <a href="#home" class="short-btn">NeurIPS 2025</a>
           <a href="../index.html" class="short-btn">Past Editions</a>
         </div>
       </div>
@@ -583,6 +589,7 @@
           const dropdownContent = document.getElementById("dropdownContent");
           if (dropdownContent) {
             dropdownContent.style.display = "none";
+            dropdownContent.zIndex = 9999; // Reset z-index to avoid overlap
           }
         });
       });
