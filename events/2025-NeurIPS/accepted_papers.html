@@ -1,0 +1,661 @@
+<!--Todo: -->
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Muslims in ML Workshop | NeurIPS'25 ">
+    <meta name="author" content="Muslims in ML Workshop | NeurIPS'25">
+    <meta property="og:image" content="../../assets/images/COVER.jpg">
+    <link rel="shortcut icon" href="../../assets/images/logo.png" type="image/png">
+    <title>Muslims in ML Workshop | NeurIPS'25 </title>
+    <meta name="theme-color" content="#157878" />
+    <meta
+      name="apple-mobile-web-app-status-bar-style"
+      content="black-translucent"
+    />
+    <link rel="stylesheet" href="../../assets/css/style.css?v=" />
+    <link rel="stylesheet" href="../../assets/css/speaker.css?v=" />
+  </head>
+  <body>
+
+    
+
+    
+    <header class="page-header" role="banner">
+     
+
+      <img src="../../assets/images/logo.png" style="border-radius: 10%;" alt="MuslinsInML logo" width="100" height="100"> &nbsp;
+      <img src="../../assets/images/NeurIPS_logo.png" style="border-radius: 10%;" alt="NeurIPS logo" width="100" height="100">
+      
+
+
+      
+      <h1 class="project-name" style="margin-bottom: 0;">Muslims in ML Workshop</h1>
+      <h2  style="margin-top: 0;">Co-located with <a href="https://neurips.cc/" target="_blank" style="color: white">NeurIPS</a></h2>
+      <p></p>
+
+      <a href="../../index.html" class="btn bf">Community Home</a>
+      <a href="./index.html" class="btn bf">Home</a>
+      <a href="./accepted_papers.html" class="btn bf bactive">Accepted Papers</a>
+
+        <div class="dropdown"> 
+          <button class="btn" onclick="toggleDropdown()">Menu &#9662;</button>
+          <div id="dropdownContent"  style="width: 92%; align-self: center;  display: none; position: absolute; background-color: rgb(231, 225, 188);  z-index: 1;">
+            <a href="../../index.html" class="short-btn">Community Home</a>
+            <a href="./index.html" class="short-btn">Home</a>
+            <a href="./accepted_papers.html" class="short-btn">Accepted Papers</a>
+            
+          </div>
+        </div>
+        <script>
+          function toggleDropdown() {
+            var dropdownContent = document.getElementById("dropdownContent");
+            dropdownContent.style.display = (dropdownContent.style.display === "none" || dropdownContent.style.display === "") ? "block" : "none";
+          }
+        </script>
+
+
+
+    </header>
+  
+
+<main id="content" class="main-content" role="main">
+
+<h2 id="overview">Accepted Papers</h2>
+  <hr style="height:6px;border-width:0;color:gray;background-color:gray">
+
+
+  
+  <style>
+    .paper-section {
+        margin-bottom: 20px;
+        padding: 10px;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+    }
+    .paper-title {
+        font-weight: bold;
+    }
+    .authors {
+        font-style: italic;
+    }
+    .abstract {
+        display: none;
+        margin-top: 10px;
+        font-size: 14px;
+        color: #555;
+    }
+    .expand-btn {
+        color: #007bff;
+        cursor: pointer;
+    }
+</style>
+
+
+    <div class="paper-section">
+        <div class="paper-title">LLM Agent-Based Modeling for Zakat Policy Simulation in Islamic Finance</div>
+        <div class="authors">Zaur Omarov, Roman Sultimov, Aleksandr Volkov, Yury Maximov</div>
+        <div><a href="https://openreview.net/pdf?id=QlkoIXLxsK" target="_blank">Read Paper</a></div>
+        <div class="expand-btn" onclick="toggleAbstract('QlkoIXLxsK')">Show Abstract</div>
+        <div class="abstract" id="abstract-QlkoIXLxsK">Zakat, a fundamental pillar of Islam, mandates an annual charitable contribution of 2.5% of a Muslim's wealth. While its potential for socioeconomic development is immense, traditional methods of Zakat collection and distribution often face challenges in efficiency, transparency, and impact assessment. This paper introduces a novel approach to simulating Zakat policy by leveraging Large Language Model (LLM) based Agent-Based Modeling (ABM). We propose a multi-agent system where LLM-powered agents represent diverse economic actors within an Islamic finance ecosystem, including Zakat payers, beneficiaries, and regulatory bodies. These agents, endowed with nuanced profiles and decision-making capabilities, interact within a simulated environment governed by Sharia principles. Our methodology allows for the dynamic modeling of Zakat collection, distribution, and its subsequent effects on wealth distribution and poverty alleviation. Preliminary results suggest that our LLM-ABM framework can provide more granular and realistic simulation of Zakat dynamics compared to traditional econometric models. This research represents a pioneering step toward integrating advanced AI techniques into Islamic finance, offering a powerful tool for policymakers to design, test, and optimize Zakat policies for greater social impact.</div>
+    </div>
+    
+    <div class="paper-section">
+        <div class="paper-title">Sparse-Checklist Prompting for Arabic Grammar Tutoring: Fast, Token-Efficient Feedback</div>
+        <div class="authors">Zayan Hasan</div>
+        <div><a href="https://openreview.net/pdf?id=LQhx6menfG" target="_blank">Read Paper</a></div>
+        <div class="expand-btn" onclick="toggleAbstract('LQhx6menfG')">Show Abstract</div>
+        <div class="abstract" id="abstract-LQhx6menfG">We explore token-efficient prompting for Arabic grammar tutoring, where time and cost-efficient approaches to feedback are important for Muslim community classes. Rather than producing free-form explanations, we restrict the model to providing a single pedagogical hint tag from a set of 5 possible tags, (Sparse-Checklist), and implement a simple router that sends clearly correct outputs down a short path. On 180 items with skill-labeled responses in the categories of agreement, pronoun clitics, prepositions and definiteness, Sparse-Checklist enhanced correctness over a Direct feedback baseline (81.1\% versus 76.1\%), reduced median latency (0.530s versus 0.807s) and half the completion tokens, which we consider a realization of reasoning cost (11.9 versus 22.7). A combined Router variant achieves 79.4\% accuracy, while achieving 18.2 completion tokens and 0.639s median latency. On incorrect responses, Sparse-Checklist and Router both select the appropriate skill tag 100\% of the time.</div>
+    </div>
+    
+    <div class="paper-section">
+        <div class="paper-title">The MENAValues Shared Task on Cultural and Multilingual Alignment</div>
+        <div class="authors">Pardis Sadat Zahraei, Ehsaneddin Asgari</div>
+        <div><a href="https://openreview.net/pdf?id=NAO7xGXmv8" target="_blank">Read Paper</a></div>
+        <div class="expand-btn" onclick="toggleAbstract('NAO7xGXmv8')">Show Abstract</div>
+        <div class="abstract" id="abstract-NAO7xGXmv8">This proposal outlines a shared task on evaluating and improving the cultural alignment of Large Language Models (LLMs) with the values of the Middle East and North Africa (MENA) region. The competition is based on the MENAValues Benchmark, a novel dataset derived from large-scale, authoritative human surveys. Participants will be challenged to develop models that not only accurately reflect the documented values of MENA populations but also maintain consistency across different languages and contextual framings. The task aims to foster innovation in creating more culturally aware and globally aligned AI systems, addressing a critical gap in current evaluation efforts. This proposal details the problem statement, the ethically sourced dataset, robust evaluation criteria, a strong baseline model, and a comprehensive plan for execution and publication.</div>
+    </div>
+    
+    <div class="paper-section">
+        <div class="paper-title">Context-Aware Extraction of Quranic References: A Hybrid Language Model- and Rule-Based Approach</div>
+        <div class="authors">Alireza Sahebi, Mohammadmahdi Hemmatyar, Ehsaneddin Asgari</div>
+        <div><a href="https://openreview.net/pdf?id=8tOHYJ8Jfx" target="_blank">Read Paper</a></div>
+        <div class="expand-btn" onclick="toggleAbstract('8tOHYJ8Jfx')">Show Abstract</div>
+        <div class="abstract" id="abstract-8tOHYJ8Jfx">With the increasing use of Quranic expressions in online discourse, religious content, and modern Arabic writing, there is a growing need for tools that can automatically and accurately detect references to the Holy Quran. Furthermore, large language models (LLMs) often generate hallucinated or inaccurate Quranic content, highlighting the importance of tools capable of verifying and correcting such outputs. To address these challenges, this paper presents a multi-layered tool for extracting Quranic expressions from arbitrary input text. A central challenge in this task lies in distinguishing between intentional references and incidental lexical overlap with Quranic text. The proposed tool combines an Arabic language model with rule-based techniques to achieve high precision and contextual understanding. The language model identifies expressions likely intended as Quranic references, effectively filtering out irrelevant matches. These candidate expressions are then verified using regular expression patterns to ensure textual accuracy, returning their span in the input text along with the corresponding Surah and verse number. This hybrid framework enables context-sensitive and semantically accurate extraction of Quranic references, supporting applications in digital humanities, Islamic scholarship, and the enhancement of Quranic content presentation in AI-generated text. The tool will be made publicly available.</div>
+    </div>
+    
+    <div class="paper-section">
+        <div class="paper-title">Palestine-RAG: Retrieval-Augmented Generation for Historically and Factually Grounded QA on the Palestine Conflict</div>
+        <div class="authors">Anas Madkoor, Hamza Aljaji, Talha shahid, Fagr Tahir, Noreldin Morssy, Mohamed Elansari, Mustafa Jarrar, Ehsaneddin Asgari</div>
+        <div><a href="https://openreview.net/pdf?id=hjwKn9Dbi3" target="_blank">Read Paper</a></div>
+        <div class="expand-btn" onclick="toggleAbstract('hjwKn9Dbi3')">Show Abstract</div>
+        <div class="abstract" id="abstract-hjwKn9Dbi3">This paper presents Palestine-RAG, a domain-specific Retrieval-Augmented Generation (RAG) framework developed to counter the underrepresentation and mischaracterization of Palestinian history, legal discourse, and current events in mainstream language models capable of bilingual response generation in both Arabic and English. We construct a high-quality, culturally informed dataset by aggregating content from authoritative sources including Palquest.org, United Nations resolutions, International Court of Justice (ICJ) rulings, historical archives, and reputable news outlets. To evaluate model performance, we introduce the first multiple-choice question (MCQ) benchmarking dataset for this domain, comprising 222 manually crafted questions systematically categorized according to Bloom’s Taxonomy to capture varying levels of cognitive complexity. We benchmark 26 language models and demonstrate that retrieval-augmented approaches consistently outperform non-retrieval large language models in both factual accuracy and depth of reasoning, particularly within politically nuanced and historically complex contexts.</div>
+    </div>
+    
+    <div class="paper-section">
+        <div class="paper-title">Benchmarking Generative AI on Quranic Knowledge</div>
+        <div class="authors">Hamza Aljaji, Rawan Mohamed, Roaa Ibrahim, Abdallah Alkanani, Arwa Abdulhakim Elaradi, Ehsaneddin Asgari</div>
+        <div><a href="https://openreview.net/pdf?id=ke1efeAdYz" target="_blank">Read Paper</a></div>
+        <div class="expand-btn" onclick="toggleAbstract('ke1efeAdYz')">Show Abstract</div>
+        <div class="abstract" id="abstract-ke1efeAdYz">This paper evaluates the performance of large language models (LLMs) and embedding-based retrieval systems in answering Quranic questions, a task demanding both semantic understanding and theological grounding. The Quran's complex rhetorical structure, contextual depth, and inter-verse coherence pose challenges for general-purpose models. To address this, we introduce a human-reviewed benchmark of 881 multiple-choice questions derived from 200 Quranic verses, stratified by five cognitive reasoning levels (using Bloom's Taxonomy) and four familiarity tiers based on verse perplexity. We assess model performance on two tasks: (1) multiple-choice QA (semantic comprehension), and (2) verse identification (reference grounding). Results show that instruction-tuned LLMs such as Fanar-1-9B achieve 41\% accuracy on MCQs and 15.6\% top-1 verse identification accuracy, with a marked decline from low-complexity (``Remember'') to high-complexity (``Evaluate'') questions. Conversely, a dense retriever achieves 45.1\% top-5 accuracy and an MRR of 0.341, with particularly strong performance on familiar and low-level questions (e.g., 73\% on ``Remember'', 57\% on low-perplexity verses).</div>
+    </div>
+    
+    <div class="paper-section">
+        <div class="paper-title">Differentiable Predictive Control for Precise Oxygen Level Maintenance for Critical Patients</div>
+        <div class="authors">Azmine Toushik Wasi, Md Manjurul Ahsan</div>
+        <div><a href="https://openreview.net/pdf?id=WjJOhfWvKA" target="_blank">Read Paper</a></div>
+        <div class="expand-btn" onclick="toggleAbstract('WjJOhfWvKA')">Show Abstract</div>
+        <div class="abstract" id="abstract-WjJOhfWvKA">Precisely managing oxygen levels is crucial for patients with critical illnesses, helping to prevent a wide range of severe conditions and physical harm. Despite its importance, current healthcare systems lack operationally effective and efficient solutions for oxygen level maintenance. To address this gap, we present the first-ever framework for precise oxygen level management using Differentiable Predictive Control (DPC). By employing a sophisticated neural policy and leveraging the differentiable nature of the system model, DPC fine-tunes oxygen delivery based on patient-specific conditions with high accuracy. This end-to-end automated system continuously monitors real-time patient data to optimize oxygen flow, maximizing comfort while minimizing waste. Our approach not only enhances patient care but also improves resource efficiency and reduces costs in critical care settings. Empirical results further demonstrate the robustness and effectiveness of our model.</div>
+    </div>
+    
+    <div class="paper-section">
+        <div class="paper-title">Tabular Deep Learning vs Classical Machine Learning for Urban Land Cover Classification</div>
+        <div class="authors">Muntasir Tabasum, Tanpia Tasnim, Md. Ekramul Islam, Al Zadid Sultan Bin Habib</div>
+        <div><a href="https://openreview.net/pdf?id=QA86YSpV7q" target="_blank">Read Paper</a></div>
+        <div class="expand-btn" onclick="toggleAbstract('QA86YSpV7q')">Show Abstract</div>
+        <div class="abstract" id="abstract-QA86YSpV7q">Urban Land Cover (ULC) classification plays a crucial role in urban planning, environmental monitoring, and sustainable development. We study this task using the ULC dataset from the UCI Machine Learning Repository, which includes tabular features derived from high-resolution aerial imagery across nine classes (e.g., roads, trees, grass, water). The dataset presents typical remote sensing challenges, including high dimensionality, heterogeneous features, and class imbalance. In a unified, reproducible pipeline, we benchmark classical machine learning models (e.g., Logistic Regression, SVM, Random Forest, XGBoost, CatBoost) against Tabular Deep Learning (TDL) models (TabNet, FT-Transformer, TabTransformer, TabSeq, and 1D CNNs). To address class imbalance, we employ weighted cross-entropy loss for TDL models and evaluate performance using accuracy, macro-precision, macro-recall, macro-F1, AUC-ROC, and confusion matrices. Our results show that while tree ensembles remain strong general baselines, TDL models can match or exceed their performance when non-linear interactions are significant and imbalance handling is effective, providing complementary advantages for urban land cover mapping. See code: https://github.com/mtesha/tdl-vs-ml-urbanlandcover</div>
+    </div>
+
+    
+    <div class="paper-section">
+        <div class="paper-title">TajweedAI: A Hybrid ASR-Classifier for Real-Time Qalqalah Detection in Quranic Recitation</div>
+        <div class="authors">Nabhan Mazid, Muaz Ahmad</div>
+        <div><a href="https://openreview.net/pdf?id=AauWmDPOIf" target="_blank">Read Paper</a></div>
+        <div class="expand-btn" onclick="toggleAbstract('AauWmDPOIf')">Show Abstract</div>
+        <div class="abstract" id="abstract-AauWmDPOIf">Proper recitation of the Holy Quran is governed by a complex set of phonetic rules known as Tajweed, where minor pronunciation errors can significantly alter meaning. While modern Artificial Intelligence (AI) tools excel at transcription, they largely lack the capability to provide corrective feedback on pronunciation quality. This paper introduces TajweedAI, a novel system designed to bridge this gap by offering real-time, fine-grained phonetic analysis for Quranic learners. We present a hybrid architecture that combines a state-of-the-art Automatic Speech Recognition (ASR) model for temporal alignment with a dedicated binary classifier for phonetic rule verification. As a case study, we focus on the acoustically complex Tajweed rule of Qalqalah—the characteristic "echoing" of specific plosive consonants. This paper details an iterative experimental methodology, beginning with a baseline model achieving 58.33% accuracy and culminating in a highly specialized classifier trained via hard negative mining. This final model achieved 100% accuracy on its specialized internal validation set for the challenging case of the word al-Falaq. However, a limited external evaluation indicated challenges in generalization, yielding 57.14% accuracy. This work validates a scalable framework for automated Tajweed correction, presenting a significant step for Computer-Assisted Pronunciation Training (CAPT) in Quranic studies.</div>
+    </div>
+    
+    <div class="paper-section">
+        <div class="paper-title">Can You See Me Think? Grounding LLM feedback in keystrokes and revision behaviour</div>
+        <div class="authors">Samra Zafar</div>
+        <div><a href="https://openreview.net/pdf?id=XaPWBm5M2W" target="_blank">Read Paper</a></div>
+        <div class="expand-btn" onclick="toggleAbstract('XaPWBm5M2W')">Show Abstract</div>
+        <div class="abstract" id="abstract-XaPWBm5M2W">As large language models (LLMs) increasingly assist in evaluating student writing, researchers have begun to explore whether these systems can attend not just to final drafts, but to the writing process itself. We examine how LLM feedback can be anchored in student writing processes, using keystroke logs and revision snapshots as cognitive proxies. We compare two conditions: C1 (final essay only) and C2 (final essay + process data), using an ablation study on 52 student essays. While rubric scores changed little, but process-aware feedback (C2) offered more explicit recognition of revisions and organization changes. These findings suggest that cognitively-grounded feedback from LLMs is more pedagogically aligned and reflective of actual student effort.</div>
+    </div>
+    
+    <div class="paper-section">
+        <div class="paper-title">The Singular Anchor: First Token Dominance in Large Language Model Attention Sinks</div>
+        <div class="authors">Khurram Khalil</div>
+        <div><a href="https://openreview.net/pdf?id=AJgzo9JhtM" target="_blank">Read Paper</a></div>
+        <div class="expand-btn" onclick="toggleAbstract('AJgzo9JhtM')">Show Abstract</div>
+        <div class="abstract" id="abstract-AJgzo9JhtM">Large Language Models rely on "attention sinks"—initial sequence tokens that accumulate disproportionate attention—for efficient context management. However, the precise formation and positional dominance of these natural sinks remain under-characterized. We present the first systematic empirical study investigating attention sink patterns across three LLM families (GPT-2, Llama, Mistral) and five text categories. Our analysis reveals that the absolute first token (P1) overwhelmingly serves as the dominant natural attention sink, attracting significantly more attention ($p < 0.001$, Cohen's $d > 6.0$) than subsequent initial tokens across all architectures. While P1 dominance is universal, its strength varies by model family—Mistral exhibits the strongest P1 reliance—and is significantly modulated by input characteristics, with short texts eliciting maximal P1 attention and code texts minimal. These findings challenge assumptions about distributed sink importance and provide foundational insights for designing efficient long-context models.</div>
+    </div>
+    
+    <div class="paper-section">
+        <div class="paper-title">X-TASAR: An Explainable Token-Selection Transformer Approach for Arabic Sign Language Alphabet Recognition</div>
+        <div class="authors">Noushath Shaffi, Vimbi Viswan, Abdelhamid Abdesselam, Mufti Mahmud</div>
+        <div><a href="https://openreview.net/pdf?id=rcBkLFRmgl" target="_blank">Read Paper</a></div>
+        <div class="expand-btn" onclick="toggleAbstract('rcBkLFRmgl')">Show Abstract</div>
+        <div class="abstract" id="abstract-rcBkLFRmgl">We propose a multistage transformer-based architecture for efficient Arabic Sign Language (ArSL) recognition. The proposed approach first extracts a compact ${7 \times 7}$ grid of image features using a tiny Swin transformer. We next determine a class-conditioned score of each grid token with the query [CLS] and pick a diverse Top-K subset through grid non-maximum suppression (NMS) algorithm. Only these K selected tokens together with [CLS] are then subjected to a small transformer-based classifier (ViT Tiny) to obtain the final label. The colored heatmap in the visualizations indicates which sections of the images had the highest scores, and the dots indicate the exact patches the classifier relied on to make its decision. Our model achieves 98.1\% accuracy and 0.979 macro-F1 on the held-out test split on the RGB ArSl alphabet dataset (32 classes, 54049 images of more than xx signers each). It is also computationally lighter than a ViT-Tiny baseline as it reads only K+1 tokens instead of all 196 patches. The proposed approach is backbone-agnostic and can be adapted into other vision transformers with minimal modification, enabling accessible and scalable sign-language recognition tools for Arabic-speaking deaf and hard-of-hearing communities worldwide.</div>
+    </div>
+
+    
+    <div class="paper-section">
+        <div class="paper-title">Improving Arabic-English Translation for Humanitarian Response Efforts via Open LLMs with In-Context Learning</div>
+        <div class="authors">Ying Tang, Ezzeldeen Khalil, Samia Skaik</div>
+        <div><a href="https://openreview.net/pdf?id=JydDtspzXv" target="_blank">Read Paper</a></div>
+        <div class="expand-btn" onclick="toggleAbstract('JydDtspzXv')">Show Abstract</div>
+        <div class="abstract" id="abstract-JydDtspzXv">A key step in humanitarian relief in low-resource settings is making translation tools easily accessible. Once validated, these tools enable improved access to educational materials, healthcare information, and other essential resources. Many existing Arabic-to-English translation services require Internet access or paid subscriptions, while non-proprietary approaches typically require powerful computers, which are often infeasible for communities with limited or unreliable connectivity and electricity. This study advocates a non-proprietary approach based on open-weight large language models and in-context learning, a strategy that enables these models
+to learn from a few examples without expensive retraining of models. We tested various open-weight models, including Meta’s LLaMA3.3, Google’s Gemma2, and Alibaba’s Qwen2.5, to evaluate their Arabic-to-English translation performance. According to various quantitative metrics, our experimental results show that using 3 to 15 examples progressively enhanced translations accuracy, and that using the entire training corpus to fine-tune commonly used models did not yield performance gains. Additional subjective evaluations by native speakers revealed limitations that may be addressed by including examples of idiomatic expressions and other colloquial data. By identifying effective and lightweight translation tools, this work contributes to the development of digital tools that can support long-term recovery and resilience-building efforts in Gaza. To make our experiments accessible to the community, our analysis scripts will be continuously updated and made available at https://anonymous.4open.science/r/openllm4SPEAK.</div>
+    </div>
+    
+    <div class="paper-section">
+        <div class="paper-title">A Dual-Branch Convolutional Neural Network with Gated Recurrent Units Network for Enhanced Multimodal Stress Monitoring from Wearable Physiological Signals</div>
+        <div class="authors">Md Rokonuzzaman Mim, Md Santo Ali, Mohammod Abdul Motin, Mufti Mahmud</div>
+        <div><a href="https://openreview.net/pdf?id=rpFqLrnJww" target="_blank">Read Paper</a></div>
+        <div class="expand-btn" onclick="toggleAbstract('rpFqLrnJww')">Show Abstract</div>
+        <div class="abstract" id="abstract-rpFqLrnJww">Chronic mental stress poses severe threats to both physical and psychological well being, highlighting the importance of continuous monitoring through wearable technologies. Blood Volume Pulse (BVP) and Electrodermal Activity (EDA) signals provide reliable, noninvasive, and cost-effective means for stress assessment. In this work, we present a lightweight deep learning framework that integrates dual-branch convolutional neural networks (CNN) with gated recurrent units (GRU) for real-time stress detection from multimodal BVP and EDA signals. The model is evaluated on the publicly available WESAD dataset using subject-independent leave-one-subject-out validation and achieves state of the art performance: 99.27\% accuracy, 99.97\% F1-score, 99.68\% AUC, and 98.40\% Cohen’s $\kappa$. To address class imbalance, a sliding window augmentation strategy is employed, significantly boosting the minority class performance. With only 0.43M parameters and minimal computational cost, the proposed architecture is optimized for deployment on resource-constrained wearable devices, offering a robust solution for real-world stress monitoring.</div>
+    </div>
+    
+    <div class="paper-section">
+        <div class="paper-title">DLAGF: Motion-Queried Cross-Attention Transformer Framework for Multimodal Cardiomyocyte Ageing Detection and Early Heart Failure Risk</div>
+        <div class="authors">Md abu sufian</div>
+        <div><a href="https://openreview.net/pdf?id=bAuXorWmsg" target="_blank">Read Paper</a></div>
+        <div class="expand-btn" onclick="toggleAbstract('bAuXorWmsg')">Show Abstract</div>
+        <div class="abstract" id="abstract-bAuXorWmsg">Cardiomyocyte ageing leads to heart failure, yet early detection is difficult with imaging alone. The research introduces a simple and non-invasive multimodal model that combines visual and gene expression data to detect signs of ageing in heart cells. The model uses a compact cross-attention Transformer with a Dual-Level Attention-Gated Fusion (DLAGF) module to integrate four types of data: motion from brightfield videos, single images (morphology), contraction values (CSV), and reduced RNA-seq gene features. The model was trained and tested on 672 clips from 28 wells in 3 plates, using grouped-by-well splits to avoid data leakage (train/val/test = 70/15/15; test set = 101 clips). Our model achieves a macro F1 score of $0.861 \pm 0.011$, outperforming the use of motion only ($0.79 \pm 0.02$) by +7.4 \% accuracy and +0.07 macro F1 points. It also outperforms strong multimodal baselines, such as Perceiver IO (0.84 macro F1) and a symmetric multimodal Transformer (0.85 macro F1). These gains are statistically reliable and come with very little additional computation (only +0.15M parameters and +5\% latency). Ablation studies show that removing gene data drops performance to 0.82 macro F1. It achieves per-class AUCs above $0.92$, and the performance gains are statistically significant: paired bootstrap $\Delta\mathrm{F1} = 0.011$, $p = 0.004$; McNemar’s test $\chi^2 = 6.1$, $p = 0.013$. Visualisation of attention weights also shows a clear link between motion changes and key gene features. This framework provides an efficient method for detecting cell ageing early and is beneficial in drug testing or regenerative heart research. Given that ageing phenotypes precede overt cardiac dysfunction, this multimodal readout supports early heart failure risk stratification in vitro.</div>
+    </div>
+    
+    <div class="paper-section">
+        <div class="paper-title">Bridging the Gap Between AI Quantization and Edge Deployment: INT4 and INT8 on the Edge</div>
+        <div class="authors">Mohammad Ibrahim Köse, Qazi Arbab Ahmed, Thorsten Jungeblut</div>
+        <div><a href="https://openreview.net/pdf?id=legjTSXjbD" target="_blank">Read Paper</a></div>
+        <div class="expand-btn" onclick="toggleAbstract('legjTSXjbD')">Show Abstract</div>
+        <div class="abstract" id="abstract-legjTSXjbD">Quantization is the key to deploying neural networks on microcontroller-class edge devices. While INT4 and mixed-precision schemes promise strong compression–accuracy trade-offs in simulation, current toolchains only support INT8 in practice. We benchmark FP32, INT8, INT4, and mixed-precision on Tiny YOLOv2 and deploy INT8 models on STM32N6, exposing this research–deployment gap.
+To address it, we propose a heterogeneous sub-INT8 strategy that combines INT8 acceleration with selective INT4 fallback execution, enabling practical hybrid deployment on today’s edge hardware</div>
+    </div>
+    
+    <div class="paper-section">
+        <div class="paper-title">Federated Learning with Homomorphic Encryption: Enhancing Privacy in Smart Home and MNIST datasets</div>
+        <div class="authors">Hasina Attaullah, Muhammad Saqib, Sanaullah Sanaullah, Qazi Arbab Ahmed, Thorsten Jungeblut</div>
+        <div><a href="https://openreview.net/pdf?id=pgNPxI78bb" target="_blank">Read Paper</a></div>
+        <div class="expand-btn" onclick="toggleAbstract('pgNPxI78bb')">Show Abstract</div>
+        <div class="abstract" id="abstract-pgNPxI78bb">Federated Learning (FL) has transformed decentralized machine learning by enabling collaborative model training without sharing raw data. However, conventional FL methods are vulnerable to privacy attacks during model aggregation and transmission. This paper introduces a secure framework that combines Fully Homomorphic Encryption (FHE) with Secret Key Sharing to address these challenges. By employing Shamir’s Secret Sharing, the decryption key is securely split and distributed among multiple clients, ensuring that no single entity can decrypt sensitive data independently. This threshold-based approach allows collaborative decryption, preserving privacy and enabling efficient aggregation of encrypted updates. Experimental evaluations on heterogeneous datasets, including smart home activity recognition and MNIST, demonstrate the efficacy of this framework. The results highlight competitive model accuracy with minimal computational overhead, showcasing the practicality of integrating FHE and Secret Key Sharing for secure and scalable FL deployments.</div>
+    </div>
+    
+    <div class="paper-section">
+        <div class="paper-title">Network Inversion for Uncertainty-Aware Out-of-Distribution Detection</div>
+        <div class="authors">Pirzada Suhail, Rehna Afroz Shaik, Gouranga Bala, Amit Sethi</div>
+        <div><a href="https://openreview.net/pdf?id=ypDRZpP7N7" target="_blank">Read Paper</a></div>
+        <div class="expand-btn" onclick="toggleAbstract('ypDRZpP7N7')">Show Abstract</div>
+        <div class="abstract" id="abstract-ypDRZpP7N7">Out-of-distribution (OOD) detection and uncertainty estimation (UE) are critical components for building safe machine learning systems, especially in real-world scenarios where unexpected inputs are inevitable. However the two problems have, until recently, separately been addressed. In this work, we propose a novel framework that combines network inversion with classifier training to simultaneously address both OOD detection and uncertainty estimation. For a standard n-class classification task, we extend the classifier to an (n+1)-class model by introducing a "garbage" class, initially populated with random gaussian noise to represent outlier inputs. After each training epoch, we use network inversion to reconstruct input images corresponding to all output classes that initially appear as noisy and incoherent and are therefore excluded to the garbage class for retraining the classifier. This cycle of training, inversion, and exclusion continues iteratively till the inverted samples begin to resemble the in-distribution data more closely, with a significant drop in the uncertainty, suggesting that the classifier has learned to carve out meaningful decision boundaries while sanitising the class manifolds by pushing OOD content into the garbage class. During inference, this training scheme enables the model to effectively detect and reject OOD samples by classifying them into the garbage class. Furthermore, the confidence scores associated with each prediction can be used to estimate uncertainty for both in-distribution and OOD inputs. Our approach is scalable, interpretable, and does not require access to external OOD datasets or post-hoc calibration techniques while providing a unified solution to the dual challenges of OOD detection and uncertainty estimation.</div>
+    </div>
+    
+    <div class="paper-section">
+        <div class="paper-title">Activation Matching for Explanation Generation and Circuit Discovery</div>
+        <div class="authors">Pirzada Suhail, Aditya Anand, Amit Sethi</div>
+        <div><a href="https://openreview.net/pdf?id=62rzjaIjHS" target="_blank">Read Paper</a></div>
+        <div class="expand-btn" onclick="toggleAbstract('62rzjaIjHS')">Show Abstract</div>
+        <div class="abstract" id="abstract-62rzjaIjHS">In this paper we introduce an activation-matching--based approach to generate minimal, faithful explanations for the decision-making of a pretrained classifier on any given image and reveal the underlying compact internal circuits that suffice for its decisions. Given an input image \(x\) and a frozen model \(f\), we train a lightweight Autoencoder to output a binary mask \(m\) such that the explanation \(e = m \odot x\) preserves both the model's prediction and the intermediate activations of \(x\). Our objective combines: (i) multi-layer activation matching with KL Divergence to align distributions and cross-entropy to retain the top-1 label for both the iamge and the explanation; (ii) mask priors---L1 area for minimality, a binarization penalty for crisp 0/1 masks, and total variation for compactness; and (iii) abductive constraints for faithfulness and necessity. Beyond producing per-image explanations, we also introduce a circuit readout procedure wherein using the explanation's forward pass, we identify active channels and construct a channel-level graph, scoring inter-layer edges by ingress weight magnitude times source activation and feature-to-class links by classifier weight magnitude times feature activation. This reveals sparse data-dependent sub-circuits and or internal pathways providing a practical bridge between explainability in the input space and mechanistic circuit analysis.</div>
+    </div>
+    
+    <div class="paper-section">
+        <div class="paper-title">AlzFed-XAI: High-Fidelity Interpretable Alzheimer's Diagnosis with Privacy-Preserving Federated Learning</div>
+        <div class="authors">Md. Abdur Rahman, Md. Tofael Ahmed Bhuiyan, Abdul Kadar Muhammad Masum</div>
+        <div><a href="https://openreview.net/pdf?id=crT7FsR3E6" target="_blank">Read Paper</a></div>
+        <div class="expand-btn" onclick="toggleAbstract('crT7FsR3E6')">Show Abstract</div>
+        <div class="abstract" id="abstract-crT7FsR3E6">Data privacy constraints hinder deep learning in medical imaging by preventing data centralization. We introduce AlzFed-XAI, a federated learning framework for Alzheimer's diagnosis from decentralized MRIs. AlzFed-XAI trains a lightweight CNN (FedNet, 378K parameters) across data silos without exposing raw patient information. On the imbalanced OASIS-1 dataset, our framework achieves 99.73\% accuracy and a 0.9970 macro F1-score, demonstrating a negligible performance drop compared to a centralized baseline. To foster clinical trust, Grad-CAM visualizations confirm the model learns neuroanatomically relevant features. Our work presents a robust, privacy-by-design solution, demonstrating a viable pathway for building high-performance, interpretable AI for critical healthcare diagnostics.</div>
+    </div>
+
+    <div class="paper-section">
+        <div class="paper-title">Technical vs Cultural: Evaluating LLMs in Arabic</div>
+        <div class="authors">Ahmad A Rushdi</div>
+        <div><a href="https://openreview.net/pdf?id=gXcWXhfu9i" target="_blank">Read Paper</a></div>
+        <div class="expand-btn" onclick="toggleAbstract('gXcWXhfu9i')">Show Abstract</div>
+        <div class="abstract" id="abstract-gXcWXhfu9i">We present a pilot evaluation framework for language models in Arabic, revealing nuanced performance patterns across technical and cultural dimensions. We evaluate five prominent models—Arabic-specialized systems (Fanar, Falcon 3) and frontier models (Claude Opus, GPT-5, Llama)—across a small set of 45 prompts spanning general knowledge, trust and safety, and mathematical reasoning. Using four-dimensional scoring, we find varied performance patterns. While Claude (and frontier models in general) excel in technical accuracy, Arabic-specialized models demonstrate competitive cultural context and language quality, with Fanar showing strong linguistic competency. Mathematical reasoning emerges as the primary technical differentiator, while cultural competency shows less variation between specialized and frontier models than initially hypothesized. These findings highlight the need for new assessment approaches as new models emerge and the importance of balancing technical accuracy with cultural and linguistic fluency, suggesting domain-specific optimization may be more effective than broad specialization.</div>
+    </div>
+    
+    <div class="paper-section">
+        <div class="paper-title">From Rules to Pixels: A Decoupled Framework for Segmenting Human-Centric Rule Violations</div>
+        <div class="authors">Mohd Hozaifa Khan, Harsh Awasthi, Pragati Jain, Mohammad Ammar</div>
+        <div><a href="https://openreview.net/pdf?id=fSND55MrbT" target="_blank">Read Paper</a></div>
+        <div class="expand-btn" onclick="toggleAbstract('fSND55MrbT')">Show Abstract</div>
+        <div class="abstract" id="abstract-fSND55MrbT">We introduce LaGPS, a neuro-symbolic framework that grounds long-form textual rules, such as cultural dress codes, by translating them into deterministic programs for segmentation of rule violations\footnote{Here, "violation" is used in a strictly technical sense to denote pixels where a *user-specified* visual condition is not met; it carries no moral, cultural, or legal implication.}. Existing vision-language models struggle with this task because they cannot parse the compositional logic inherent in human rules. LaGPS overcomes this limitation with a two-stage architecture: a *Semantic Interpreter* that uses a large language model to compile free-form text into a structured program, and a *Symbolic Executor* that runs this program over a set of visual primitives (e.g., per-person body parts, skin masks, etc)  to produce precise segmentation masks. To evaluate this setting, we introduce the *Human-Centric Rule-violation Segmentation (HRS)* benchmark for this task, a new $1,100$ image dataset spanning diverse cultural contexts. LaGPS significantly outperforms baselines like CLIPSeg, achieving a $+19.4\%$ absolute mIoU improvement. Our work demonstrates that this decoupled approach creates more transparent, accurate, and auditable systems for language-guided visual reasoning.</div>
+    </div>
+    
+    <div class="paper-section">
+        <div class="paper-title">Towards Inclusive NLP: Evaluating LLMs on Low-Resource Indo-Iranian Languages</div>
+        <div class="authors">Arta Modarres Kamaly</div>
+        <div><a href="https://openreview.net/pdf?id=WeHfpYOJMi" target="_blank">Read Paper</a></div>
+        <div class="expand-btn" onclick="toggleAbstract('WeHfpYOJMi')">Show Abstract</div>
+        <div class="abstract" id="abstract-WeHfpYOJMi">Multilingual large language models (LLMs) have achieved strong performance in high-resource languages, yet their capabilities in low-resource settings remain underexplored.  This gap is particularly severe for several Indo-Iranian languages spoken across Muslim communities, such as Farsi/Dari, Pashto, Kurdish, Balochi, Mazandarani, Gilaki, Luri, and Ossetian. These languages represent tens of millions of speakers but receive limited attention in NLP research. In this paper we present a pilot, systematic evaluation of modern multilingual LLMs across six Indo-Iranian languages spanning high-, medium-, and low-resource levels. We assemble small evaluation sets from publicly available resources (Quran translations, Wikipedia, and parallel corpora), define three evaluation tasks (translation, factual question answering, sentiment classification), and run a reproducible, open experimental protocol comparing open-source models (mBERT, mT5-small, BLOOM-560M) and closed-source APIs (GPT-4, Google Translate). Our analysis highlights a large performance gap between Farsi and more regional/minority languages (Mazandarani, Gilaki, Ossetian), documents common failure modes (cultural mistranslation, hallucinations, dialect confusions), and proposes practical steps toward closing the gap including community-led data collection and lightweight adaptation techniques.</div>
+    </div>
+    
+    <div class="paper-section">
+        <div class="paper-title">Speech-Derived Cognitive Screening: Leveraging Qwen2-Audio Encoder for Dementia Detection</div>
+        <div class="authors">Nida Saddaf Khan, Michael Ige, Xiaoqian Jiang</div>
+        <div><a href="https://openreview.net/pdf?id=NUQgkz15KT" target="_blank">Read Paper</a></div>
+        <div class="expand-btn" onclick="toggleAbstract('NUQgkz15KT')">Show Abstract</div>
+        <div class="abstract" id="abstract-NUQgkz15KT">Early detection of dementia is critical for timely intervention and care planning, particularly in resource-constrained settings. In this study, we propose a lightweight and efficient approach to classify dementia presence using naturalistic interview audio data from the Pitt corpus of the DementiaTalkBank dataset. Each participant underwent structured interactions such as the Cookie Theft picture description task, providing rich verbal and acoustic cues for cognitive analysis. Corresponding Clinical Dementia Rating (CDR) scores were used to derive binary labels for dementia classification.
+To prepare the audio for modeling, we implemented speaker diarization to isolate participant speech, followed by quality enhancement through chunking (≤30s with overlaps), noise reduction, and normalization. We fine-tuned the encoder of the Qwen2-Audio-7B-Instruct model (8.4B total parameters; 0.643B encoder-only) using a lightweight LoRA (Low-Rank Adaptation) strategy targeting all linear layers (Rank=8, Alpha=16), introducing only ~0.92% trainable parameters. A custom classification head was attached to the frozen decoder.
+This fine-tuning framework leverages the powerful audio understanding capabilities of Qwen2-Audio while remaining computationally feasible for low-resource environments. Preliminary results demonstrate promising accuracy in classifying early-stage dementia, highlighting the potential of foundation audio models in non-invasive, speech-based cognitive screening.</div>
+    </div>
+    
+    <div class="paper-section">
+        <div class="paper-title">Faithful Summarization of Consumer Health Queries: A Cross-Lingual Framework with LLMs</div>
+        <div class="authors">Ajwad Abrar, Nafisa Tabassum Oeshy, Prianka Maheru, Farzana Tabassum, Tareque Mohmud Chowdhury</div>
+        <div><a href="https://openreview.net/pdf?id=JqL8apXuEb" target="_blank">Read Paper</a></div>
+        <div class="expand-btn" onclick="toggleAbstract('JqL8apXuEb')">Show Abstract</div>
+        <div class="abstract" id="abstract-JqL8apXuEb">Summarizing consumer health questions (CHQs) can ease communication in healthcare, but unfaithful summaries that misrepresent medical details pose serious risks. We propose a framework that combines TextRank-based sentence extraction and medical named entity recognition with large language models (LLMs) to enhance faithfulness in medical text summarization. In our experiments, we fine-tuned the LLaMA-2-7B model on the MeQSum (English) and BanglaCHQ-Summ (Bangla) datasets, achieving consistent improvements across quality (ROUGE, BERTScore, readability) and faithfulness (SummaC, AlignScore) metrics, and outperforming zero-shot baselines and prior systems. Human evaluation further shows that over 80\% of generated summaries preserve critical medical information. These results highlight faithfulness as an essential dimension for reliable medical summarization and demonstrate the potential of our approach for safer deployment of LLMs in healthcare contexts.</div>
+    </div>
+    
+    <div class="paper-section">
+        <div class="paper-title">Advancing News Headline Generation through Hybrid Decoding Methods</div>
+        <div class="authors">Md. Alam Miah, Kawsar Ahmed, Shayla Sharmin, Mohammed Moshiul Hoque</div>
+        <div><a href="https://openreview.net/pdf?id=vQUIUbglwd" target="_blank">Read Paper</a></div>
+        <div class="expand-btn" onclick="toggleAbstract('vQUIUbglwd')">Show Abstract</div>
+        <div class="abstract" id="abstract-vQUIUbglwd">Effective headline generation is crucial for reader engagement and the rapid dissemination of information. This study presents a transformer-based approach for automatically generating Bengali news headlines. The proposed model incorporates article text, category, and image data to improve content comprehension. A hybrid decoding framework is developed, integrating beam search with top-k and top-p sampling, and applying a repetition penalty to enhance headline fluency and diversity. Additionally, a new multimodal dataset containing 10,000 Bengali news articles has been constructed for model training and evaluation. Experimental results demonstrate that the approach, based on the Bangla T5 model, outperforms existing methods, achieving a ROUGE-L score of 0.4470 and a BERTScore of 0.8228. These findings indicate that the proposed method produces accurate and contextually relevant Bengali news headlines.</div>
+    </div>
+    
+    <div class="paper-section">
+        <div class="paper-title">Leveraging Multi-Task Learning for Detecting Aggression, Emotion, Violence, and Sentiment in Bengali Texts</div>
+        <div class="authors">Shamima Afroz, Kawsar Ahmed, Mohammed Moshiul Hoque</div>
+        <div><a href="https://openreview.net/pdf?id=NrfhlRhCNa" target="_blank">Read Paper</a></div>
+        <div class="expand-btn" onclick="toggleAbstract('NrfhlRhCNa')">Show Abstract</div>
+        <div class="abstract" id="abstract-NrfhlRhCNa">Despite remarkable advances in text classification (TC) for high-resource languages, progress in resource-constrained languages such as Bengali remains limited by the scarcity of standardized corpora, domain adaptation protocols, and robust pre-trained models. We introduce $\textbf{MTL-MuRIL}$, a transformer-based Multi-Task Learning (MTL) framework that jointly learns four interrelated classification tasks—aggression detection, emotion classification, violence detection, and sentiment analysis—within Bengali texts. Our approach leverages shared linguistic representations across tasks to improve generalization and mitigate overfitting in low-resource settings. Comprehensive experiments show that MTL-MuRIL consistently outperforms single-task baselines, achieving F1-scores of 0.893 (±0.005) for aggression detection, 0.743 (±0.030) for sentiment analysis, 0.717 (±0.015) for violence detection, and 0.570 (±0.020) for emotion classification. These results underscore the effectiveness of multi-task learning for enhancing Bengali text understanding and point toward a scalable paradigm for multilingual low-resource NLP.</div>
+    </div>
+    
+    <div class="paper-section">
+        <div class="paper-title">DeepLLR-CUSUM: Sequential Change Detection with Learned Log-Likelihood Ratios for Site Reliability Engineering</div>
+        <div class="authors">Nadim Ahmed, Md. Mahmudul Hasan, Md. Ashraful Babu, Md Mortuza Ahmmed, M. Mostafizur Rahman, Mufti Mahmud</div>
+        <div><a href="https://openreview.net/pdf?id=XXpt1NHd4B" target="_blank">Read Paper</a></div>
+        <div class="expand-btn" onclick="toggleAbstract('XXpt1NHd4B')">Show Abstract</div>
+        <div class="abstract" id="abstract-XXpt1NHd4B">Sequential change detection in streaming telemetry requires swift alerts while adhering to strict false-alarm limits, as delays or omissions undermine reliability and security, and frequent false positives overburden operators. The primary challenge is achieving near-instant detection at specified average run lengths (ARL). Traditional Gaussian CUSUM performs optimally only under accurate assumptions but struggles with non-Gaussian, dependence-driven shifts preserving lower moments, while LSTM-based predictive methods, based on forecast errors, exhibit substantial delays under tight controls. We propose DeepLLR-CUSUM, combining a discriminatively trained multilayer perceptron (MLP) to estimate log-likelihood ratio increments with CUSUM, calibrated via block-bootstrap to meet ARL targets. Tested on CESNET hourly data and synthetic shape/dependence shifts, DeepLLR-CUSUM delivers expected detection delay (EDD) and restricted mean survival time (RMST) of 1.2–1.3 samples, surpassing Gaussian CUSUM (1.3–1.5) and LSTM CUSUM (28–55), while ensuring conservative ARL and full coverage. Outperforming LSTM consistently and often exceeding Gaussian CUSUM in non-Gaussian contexts, DeepLLR-CUSUM enhances detection efficiency and robustness under rigorous false-alarm constraints.</div>
+    </div>
+    
+    <div class="paper-section">
+        <div class="paper-title">An Explainable Hybrid Multimodal Model for Alzheimer's Disease Detection</div>
+        <div class="authors">Md Siyamul Islam, Noushath Shaffi, Md Mahfuzur Rahman, Mufti Mahmud</div>
+        <div><a href="https://openreview.net/pdf?id=JUh4j7Kn6v" target="_blank">Read Paper</a></div>
+        <div class="expand-btn" onclick="toggleAbstract('JUh4j7Kn6v')">Show Abstract</div>
+        <div class="abstract" id="abstract-JUh4j7Kn6v">Alzheimer’s disease (AD) is a progressive neurodegenerative disorder and a major global health concern. Early and accurate prediction of AD stages, particularly during the Early and Late Mild Cognitive Impairment (EMCI, LMCI), is crucial for timely intervention. While deep learning (DL) models have shown promise, most prior work relies on single-data modality, leading to limited diagnostic accuracy. This work presents a novel multimodal DL model that integrates neuroimage and tabular clinical data to improve AD detection. Trained and tested on the OASIS dataset, the proposed model combines the extracted embeddings from the image data through a dense network with selected clinical features, identified via SHAP-based feature attribution and cumulative contribution thresholding. This integration enables a four-way classification across Normal Cognition (NC), EMCI, LMCI, and AD that surpasses the state-of-the-art performance with a precision of 96.02%, a recall of 95.84%, and an F1 score of 95.92%, alongside an overall accuracy of 95.84%.</div>
+    </div>
+    
+    <div class="paper-section">
+        <div class="paper-title">Towards Explainable Segmentation of Complex Boundaries in Lung Nodule Detection</div>
+        <div class="authors">MOHAMMAD ASIFUR RAHIM, Mufti Mahmud</div>
+        <div><a href="https://openreview.net/pdf?id=lOKyFN5wWm" target="_blank">Read Paper</a></div>
+        <div class="expand-btn" onclick="toggleAbstract('lOKyFN5wWm')">Show Abstract</div>
+        <div class="abstract" id="abstract-lOKyFN5wWm">Many deep learning models are computationally expensive while capturing complex edges in tasks such as lung nodule segmentation from 2D CT scans. Also, the lack of explainability hinders their adoption for clinical use.
+To address these challenges, this work proposes a Sobel-enhanced edge-aware powered U-Net architecture capable of emphasising the edges of nodules in lung computed tomography images. The model is trained and evaluated on the benchmark LIDC-IDRI dataset. To provide interpretability, four post hoc explainers were employed: Grad-CAM, Score-CAM, Layer-CAM, and Counterfactual explainability. 
+The proposed model achieved competitive performance across several metrics, including accuracy, dice score, intersection over Union, sensitivity, and specificity, when compared with three baseline models-- U-Net, ResUnet++, and U-Net++. Although it has slightly more parameters (3.4 million) than the U-Net (3.3 million), its ability to identify complex edges of lung nodules makes it stand out. Moreover, the four explainers effectively generated heatmaps that highlight the detected edges.
+The proposed model delivers competitive segmentation performance with improved edge detection and explainability, highlighting its potential for clinical deployment.</div>
+    </div>
+    
+    <div class="paper-section">
+        <div class="paper-title">ADAB: A Culturally-Aligned Automated Response Generation Framework for Islamic App Reviews by Integrating ABSA and Hybrid RAG</div>
+        <div class="authors">K.M.Tahlil Mahfuz Faruk, Mushfiqur Rahman Talha, H. M. Kawsar Ahamad, Mohammad Galib Shams, Nabil Mosharraf Hossain, Syed Rifat Raiyan, Md Kamrul Hasan, Hasan Mahmud, Riasat Islam</div>
+        <div><a href="https://openreview.net/pdf?id=PnWmDdwTXE" target="_blank">Read Paper</a></div>
+        <div class="expand-btn" onclick="toggleAbstract('PnWmDdwTXE')">Show Abstract</div>
+        <div class="abstract" id="abstract-PnWmDdwTXE">Automated review response systems have advanced considerably, yet most fail to incorporate Islamic etiquette, values, and cultural norms, which are essential for meaningful engagement with users who are adherents of the Islamic faith. Prior research has shown that timely and thoughtful engagement with user reviews can improve user perception. However, managing responses at scale remains a significant challenge for developers, particularly when cultural and religious considerations must be upheld. This research proposes ADAB, a framework for generating review responses that are culturally congruent with Islamic application contexts. The approach integrates a hybrid Retrieval-Augmented Generation (RAG) pipeline that employs agentic chunking and FAISS HNSW indexing to preserve context, combined with aspect-based sentiment analysis (ABSA) for fine-grained understanding of user feedback, and etiquette-aware prompt engineering to ensure responses follow appropriate Islamic decorum. We also introduce a new open-source dataset of Islamic app reviews that supports the system's development and evaluation. Direct pairwise comparisons showed that ADAB’s responses were preferred in 40% of cases, compared to 15.3% for the baseline, with 44.7% ties. On average, our approach achieves an overall improvement of 9.9%, with the largest gain in application specificity (+30.39%). Wilcoxon signed-rank test confirms significant improvements in accuracy (p = 0.0004), relevancy (p = 0.0417), and specificity (p = 8 × 10⁻⁹), while grammatical correctness shows negligible change (p = 0.453). These results demonstrate that embedding cultural alignment in AI systems can foster trust and empathy, charting a path toward more respectful and human-centered response generation.</div>
+    </div>
+    
+    <div class="paper-section">
+        <div class="paper-title">FirstAidQA: A Synthetic Dataset for First Aid and Emergency Response in Low-Connectivity Settings</div>
+        <div class="authors">Rezwan Islam Salvi, Saiyma Sittul Muna, Md. Mushfiqur Rahman Mushfique, Ajwad Abrar</div>
+        <div><a href="https://openreview.net/pdf?id=YRE333q5iu" target="_blank">Read Paper</a></div>
+        <div class="expand-btn" onclick="toggleAbstract('YRE333q5iu')">Show Abstract</div>
+        <div class="abstract" id="abstract-YRE333q5iu">In emergency situations, every second counts. The deployment of Large Language Models (LLMs) in time-sensitive, low or zero-connectivity environments remains limited. Current models are computationally intensive and unsuitable for low-tier devices often used by first responders or civilians. A major barrier to developing lightweight, domain-specific solutions is the lack of high-quality datasets tailored to first aid and emergency response. To address this gap, we introduce \textbf{FirstAidQA}, a synthetic dataset containing 5,500 high-quality question–answer pairs that encompass a wide range of first aid and emergency response scenarios. The dataset was generated using a Large Language Model, ChatGPT-4o-mini, with prompt-based in-context learning, using texts from the Vital First Aid Book (2019). We applied preprocessing steps such as text cleaning, contextual chunking, and filtering, followed by human validation to ensure accuracy, safety, and practical relevance of the QA pairs. FirstAidQA is designed to support instruction-tuning and fine-tuning of LLMs and Small Language Models (SLMs), enabling faster, more reliable, and offline-capable systems for emergency settings. We publicly release the dataset to advance research on safety-critical and resource-constrained AI applications in first aid and emergency response. The dataset is available on Hugging Face at \url{https://huggingface.co/datasets/i-am-mushfiq/FirstAidQA}.</div>
+    </div>
+    
+    <div class="paper-section">
+        <div class="paper-title">Can LLMs Write Faithfully? An Agent-Based Evaluation of LLM-generated Islamic Content</div>
+        <div class="authors">Abdullah Mushtaq, Rafay Naeem, Ezieddin Elmahjub, Ibrahim Ghaznavi, Shawqi Mohammed Al-Maliki, Mohamed Abdallah, Ala Al-Fuqaha, Junaid Qadir</div>
+        <div><a href="https://openreview.net/pdf?id=9FelOSlLhN" target="_blank">Read Paper</a></div>
+        <div class="expand-btn" onclick="toggleAbstract('9FelOSlLhN')">Show Abstract</div>
+        <div class="abstract" id="abstract-9FelOSlLhN">Large language models are increasingly used for Islamic guidance, but risk misquoting texts, misapplying jurisprudence, or producing culturally inconsistent responses. We pilot an evaluation of GPT-4o, Ansari AI, and Fanar on prompts from authentic Islamic blogs. Our dual-agent framework uses a quantitative agent for citation verification and six-dimensional scoring (e.g., Structure, Islamic Consistency, Citations) and a qualitative agent for five-dimensional side-by-side comparison (e.g., Tone, Depth, Originality). GPT-4o scored highest in Islamic Accuracy (3.93) and Citation (3.38), Ansari AI followed (3.68, 3.32), and Fanar lagged (2.76, 1.82). Despite relatively strong performance, models still fall short in reliably producing accurate Islamic content and citations---a paramount requirement in faith-sensitive writing. GPT-4o had the highest mean quantitative score (3.90/5), while Ansari AI led qualitative pairwise wins (116/200). Fanar, though trailing, introduces innovations for Islamic and Arabic contexts. This study underscores the need for community-driven benchmarks centering Muslim perspectives, offering an early step toward more reliable AI in Islamic knowledge and other high-stakes domains such as medicine, law, and journalism.</div>
+    </div>
+
+    
+    <div class="paper-section">
+        <div class="paper-title">Bridging Geomechanics and Machine Learning with Physics-Informed Neural Surrogates for Triaxial Soil Testing</div>
+        <div class="authors">Minhaz Chowdhury, Azmine Toushik Wasi, Md Manjurul Ahsan</div>
+        <div><a href="https://openreview.net/pdf?id=CHoF0fm0BD" target="_blank">Read Paper</a></div>
+        <div class="expand-btn" onclick="toggleAbstract('CHoF0fm0BD')">Show Abstract</div>
+        <div class="abstract" id="abstract-CHoF0fm0BD">Modeling the time-dependent responses of geotechnical materials under triaxial loading poses a dual challenge: capturing strongly nonlinear constitutive behavior while mitigating the influence of experimental noise. We present a two-model learning benchmark that jointly predicts \emph{Displacement}, \emph{Load}, and \emph{Deviator Strain} from elapsed time, compare a transparent LinearRegressor baseline with a \emph{Physics-Informed Neural Network} (PINN). The PINN encodes two physically grounded priors, (i) monotonic displacement progression and (ii) non-negative incremental work as differentiable penalty terms embedded directly in the training objective. This design ensures physically admissible trajectories without constraining the network's capacity to model nonlinear temporal patterns. The pipeline incorporates precise preprocessing time normalization, feature alignment, z-score standardization and a fixed train–test split for reproducible benchmarking. Across all target channels, the PINN achieves substantial gains in mean absolute error and $R^2$, with \emph{Deviator Strain} showing the largest improvement due to its inherently nonlinear dynamics. All evaluations are reported in denormalized physical units to preserve engineering interpretability. Results confirm that integrating minimal, interpretable physics priors into neural predictors significantly improves fidelity in time-series modeling of laboratory geomechanics, offering a scalable, domain-adaptable framework for triaxial testing and related applications.</div>
+    </div>
+    
+    <div class="paper-section">
+        <div class="paper-title">AH-Translit:  A Multi-Domain Dataset and Benchmark for Arabic-to-Hindi Transliteration</div>
+        <div class="authors">Vilal Ali, Mohd Hozaifa Khan, Bassam Adnan</div>
+        <div><a href="https://openreview.net/pdf?id=wQGsom2T6P" target="_blank">Read Paper</a></div>
+        <div class="expand-btn" onclick="toggleAbstract('wQGsom2T6P')">Show Abstract</div>
+        <div class="abstract" id="abstract-wQGsom2T6P">The lack of public data for Arabic-to-Hindi transliteration has hindered the development of systems that can handle the languages' diverse linguistic styles. To address this, we introduce \ahtranslit{}, a multi-domain dataset of $100\mathrm{K}$ parallel pairs with over $1.2\mathrm{M}$ Arabic and $1.5\mathrm{M}$ Hindi words. We also present \bm{$\mathcal{AH}$}\textbf{-\textit{Translit}-Bench}\footnote{The benchmark data is available at: \href{https://india-data.org/dataset-details/759e2466-b6d4-460a-a1fe-61207e885b1f}{AH\_TB Data}}, a balanced, human-verified benchmark for fair evaluations across diverse linguistic domains. Our analysis reveals that domain-specific models, while strong in-domain, generalize poorly. We show that a single model, trained on a balanced mixture, achieves higher performance consistency across all domains. This approach establishes a strong baseline with a Macro-averaged Character Error Rate (MaCER) of \emph{15.7\%}. We release the benchmark and an \href{https://pypi.org/project/AH-Translit-Bench/}{evaluation package} for reproducible, cross-domain assessment.</div>
+    </div>
+    
+    <div class="paper-section">
+        <div class="paper-title">Crafting Culturally Aligned Narratives: Large Language Models for Arabic Children's Story Generation</div>
+        <div class="authors">Houssam Eddine Boukhalfa, Selma Mani, Larbi Said Chikh, HADJ AMEUR Mohamed Seghir, Ahmed Guessoum</div>
+        <div><a href="https://openreview.net/pdf?id=C3Rdf47byE" target="_blank">Read Paper</a></div>
+        <div class="expand-btn" onclick="toggleAbstract('C3Rdf47byE')">Show Abstract</div>
+        <div class="abstract" id="abstract-C3Rdf47byE">Traditional storytelling plays a crucial role in child development and cultural transmission, fostering imagination, empathy, and moral understanding of moral values. This is particularly true in the Arab culture, where oral and written narratives have long served as tools for transmitting cultural heritage and ethical frameworks. Despite its importance, the computational generation of culturally and morally aligned Arabic children's stories remains an underexplored area. To address this gap, we present a novel system for Arabic story generation that leverages Large Language Models (LLMs) with an integrated cultural alignment mechanism. Our primary goal is to produce engaging narratives that are not only linguistically coherent but also deeply rooted in Arab cultural and moral frameworks. For development and training, we introduce a custom dataset of 714 Arabic children's stories, meticulously annotated for age ranges, moral lessons, and thematic topics. We fine-tuned several LLMs, including Noon, Jais, SILMA, and Gemini 2.0, to assess their capabilities. The effectiveness of our approach was rigorously evaluated through both automated metrics and expert human assessments, with a focus on cultural and moral alignment as core design goals. Our results demonstrate the strong potential of our system in generating linguistically coherent, age-appropriate, and culturally relevant stories. This work not only contributes a novel resource and benchmark for Arabic Natural Language Processing but also highlights the significant role of LLMs in creating impactful Arabic educational content.</div>
+    </div>
+    
+    <div class="paper-section">
+        <div class="paper-title">QAS: A Composite Query-Attributed Score for Evaluating Retrieval-Augmented Generation Systems</div>
+        <div class="authors">Maira Ata, Sumaira Saeed, Nida Saddaf Khan</div>
+        <div><a href="https://openreview.net/pdf?id=m1MQndRhBZ" target="_blank">Read Paper</a></div>
+        <div class="expand-btn" onclick="toggleAbstract('m1MQndRhBZ')">Show Abstract</div>
+        <div class="abstract" id="abstract-m1MQndRhBZ">Retrieval Augmented Generation (RAG) systems have advanced knowledge-grounded QA, but evaluation remains challenging due to competing demands of faithfulness to evidence, coverage of query-relevant information, and computational efficiency. We introduce QAS, a composite Query-Attributed Score for fine-grained, interpretable evaluation of RAG. QAS decomposes quality into five dimensions—grounding, retrieval coverage, answer faithfulness, context efficiency, and relevance—each computed with lightweight, task-agnostic metrics (token/entity attribution, n-gram overlap, factual consistency, redundancy penalties, and embedding similarity). A linear combination with tunable weights yields a unified score plus per-dimension diagnostics. Across five QA benchmarks (open-domain, biomedical, legal/regulatory, customer-support, and news), QAS aligns closely with human judgments at moderate cost. Ablations confirm each dimension’s necessity, establishing QAS as a transparent, practical framework for reliable RAG evaluation.</div>
+    </div>
+    
+    <div class="paper-section">
+        <div class="paper-title">Uncertainty-Diversity Ranking Coreset Selection for Efficient Spam Detection</div>
+        <div class="authors">Aisha Hamad Hassan, Tushar Shinde</div>
+        <div><a href="https://openreview.net/pdf?id=Fs7PE93gf7" target="_blank">Read Paper</a></div>
+        <div class="expand-btn" onclick="toggleAbstract('Fs7PE93gf7')">Show Abstract</div>
+        <div class="abstract" id="abstract-Fs7PE93gf7">Efficient spam detection in resource-constrained environments remains challenging due to class imbalance, noisy text, and the computational demands of large Transformer models. We introduce a novel coreset selection framework based on a unified Uncertainty-Diversity Ranking (UDR), which explicitly combines predictive uncertainty with representativeness to prioritize highly informative samples while ensuring diversity and class balance. Our method supports multiple coreset strategies, including Top-K, Bottom-K, and adaptive class-wise selection, enabling robust performance even with a fraction of the training data. Extensive experiments on benchmark datasets, including UCI SMS, UTKML Twitter, and Ling-Spam, show that UDR maintains or improves accuracy, precision, and recall while reducing training data by up to 95\%, significantly lowering computational cost. These results demonstrate the potential of UDR in resource-limited settings.</div>
+    </div>
+    
+    <div class="paper-section">
+        <div class="paper-title">Streaming k-Medoids for Fair and Scalable Patient Phenotyping under Memory Constraints</div>
+        <div class="authors">Syed Ahmar Shah, Fatima Almaghrabi, Aziz Sheikh</div>
+        <div><a href="https://openreview.net/pdf?id=hIQP2NAlLB" target="_blank">Read Paper</a></div>
+        <div class="expand-btn" onclick="toggleAbstract('hIQP2NAlLB')">Show Abstract</div>
+        <div class="abstract" id="abstract-hIQP2NAlLB">Clustering offers a powerful route to identify disease phenotypes, but applying distance-based methods at population scale remains challenging. Standard k-medoids with Gower distance, a natural choice for mixed-type clinical data, has quadratic time and memory complexity that renders it infeasible for modern electronic health record (EHR) datasets with hundreds of thousands of patients. We address this barrier with a streaming+coreset k-medoids framework that scales linearly in runtime and uses bounded memory, enabling clustering under modest hardware limits. Our approach combines chunk-wise distance computation, Hungarian alignment of medoids across chunks, and a coreset-based refinement, with optional feature weighting to incorporate domain knowledge. Experiments on a synthetic 200,000-patient asthma dataset informed by literature show that the method (i) matches the accuracy of full-distance clustering, (ii) scales to population-level datasets under 10 GB RAM, and (iii) recovers minority-dominated phenotypes when ethnicity is appropriately weighted. This work demonstrates a practical and broadly applicable framework for large-scale, mixed-type healthcare clustering, motivated by the needs of precision medicine.</div>
+    </div>
+    
+    <div class="paper-section">
+        <div class="paper-title">Riwaya-ID: Towards ML-powered Identification of Qur’anic Recitation Style from Audio</div>
+        <div class="authors">A. Anas Chentouf</div>
+        <div><a href="https://openreview.net/pdf?id=EkkiGLptOD" target="_blank">Read Paper</a></div>
+        <div class="expand-btn" onclick="toggleAbstract('EkkiGLptOD')">Show Abstract</div>
+        <div class="abstract" id="abstract-EkkiGLptOD">The Holy Qur’an, the scripture of Muslims, is a recited text whose transmission traditions (riwayat) encode different recitation rules. We study riwaya identification: determining the Qur’anic transmission style of a recitation directly from audio. In order to do so, we curate over 700 hours of recitations and segment recordings into $12$ s windows to build a dataset. Building on pretrained speech encoders (e.g., wav2vec2.0, Whisper), we extract frame-level embeddings and train a lightweight classifier to predict the riwaya. Our embedding-based models achieve an $82\%$ prediction accuracy in distinguishing Warsh from Hafs, outperforming text-only baselines. We hope that this work provides a first step toward scalable, audio-native tools for enriching Qur’anic digital libraries and supporting different recitation styles.</div>
+    </div>
+    
+    <div class="paper-section">
+        <div class="paper-title">Qur’anic Phonemizer: Bringing Tajweed-Aware Phonemes to Qur’anic Machine Learning</div>
+        <div class="authors">Ahmed Ibrahim</div>
+        <div><a href="https://openreview.net/pdf?id=hZt0JK28iV" target="_blank">Read Paper</a></div>
+        <div class="expand-btn" onclick="toggleAbstract('hZt0JK28iV')">Show Abstract</div>
+        <div class="abstract" id="abstract-hZt0JK28iV">Qur'anic recitation follows explicit Tajweed rules that standard Arabic grapheme-to-phoneme tools do not capture, limiting phoneme-level research for the Qur'an. We introduce a modular, computationally efficient Python API for the Hafs ’an Asim recitation style that converts Qur’anic text into a configurable 71-symbol phoneme inventory, comprehensively encoding Tajweed rules such as Idgham, Iqlab, Ikhfaa, Qalqala, Tafkheem, Waqf, etc. We anticipate that this tool will have various use cases in speech recognition, mispronunciation detection, text-to-speech, linguistic analysis and pedagogical applications to name a few. Current limitations include support for Hafs only—extensions to other recitation styles are discussed. The code (https://github.com/Hetchy/Quranic-Phonemizer) and user interface (https://quranicphonemizer.com) are released as open source.</div>
+    </div>
+    
+    <div class="paper-section">
+        <div class="paper-title">IslamTrust: A Benchmark for LLMs Alignment with Islamic Values</div>
+        <div class="authors">Abderraouf Lahmar, Md Easin Arafat, Zakarya Farou, Mufti Mahmud</div>
+        <div><a href="https://openreview.net/pdf?id=PBcv90iKFB" target="_blank">Read Paper</a></div>
+        <div class="expand-btn" onclick="toggleAbstract('PBcv90iKFB')">Show Abstract</div>
+        <div class="abstract" id="abstract-PBcv90iKFB">The alignment of most Large Language Models (LLMs) to broad, often non-Islamic ethical principles creates a significant gap for users from specific cultural and religious backgrounds. LLMs used within Muslim communities for Islamic Q\&A should be based on Islamic ethics, derived from scholarly consensus.
+A standardized benchmark that can evaluate this is currently absent; hence, this work introduces IslamTrust, a novel, multilingual benchmark that 
+is designed to evaluate the alignment of LLMs with consensus-based Islamic ethical principles across Sunni schools of thought. The dataset used in IslamTrust is built upon guidelines that ensure objectivity. To demonstrate its usability, a comparative analysis of leading Arabic-focused LLMs in both Arabic and English was conducted. Results indicate that LLMs struggle significantly with Islamic values, exhibiting biases and misconceptions. 
+The best-performing model achieved an overall alignment of only 66.5\%, with a better score in Arabic (71.43\%) than in English (61.58\%). Interestingly, when models were evaluated for their logical consistency regarding miraculous events and questions involving interfaith knowledge, they performed noticeably better in Arabic than in English. The analyses suggest that shortcomings stem from the limited representation of Islamic ethical discourse in training data, inadequate handling of culturally specific contexts, and a tendency for models to default to generalized or non-Islamic knowledge when faced with ambiguous prompts. The source code and dataset for the IslamTrust implementation can be found at \url{https://github.com/aii-lab-dot-org/IslamTrust} and \url{https://huggingface.co/datasets/Abderraouf000/IslamTrust-benchmark}, respectively.</div>
+    </div>
+    
+    <div class="paper-section">
+        <div class="paper-title">Hypergraph Modeling of Isnad–Matn Networks in Hadith Transmission</div>
+        <div class="authors">Muhammad Aurangzeb Ahmad</div>
+        <div><a href="https://openreview.net/pdf?id=VTFQeoPvUN" target="_blank">Read Paper</a></div>
+        <div class="expand-btn" onclick="toggleAbstract('VTFQeoPvUN')">Show Abstract</div>
+        <div class="abstract" id="abstract-VTFQeoPvUN">This paper describes a computational framework for analyzing hadith transmission in the Islamic tradition, modeling isnād (chains of narration) and matn (text) as a multiplex network. This approach integrates isnād graphs, hypergraph projections, and a matn similarity layer derived from semantic embeddings to capture both the social dimension of narrator networks and the semantic dimension of transmitted texts. We compute graph-theoretic metrics (centrality, k-core, betweenness), perform community detection across layers, and explore transmission dynamics. To bridge textual and network features, we explore a text–network fusion method that jointly clusters narrators, revealing points of alignment and divergence between chain-based and content-based communities. Finally, we train machine learning models to predict whether two hadiths are narrationally connected based on matn similarity, demonstrating the feasibility of predictive modeling in classical Islamic knowledge transmission systems. This work illustrates how multiplex graph analysis and machine learning can enrich the computational study of religious texts and provide new perspectives on redundancy, divergence, and bridging roles in the historiography of hadith.</div>
+    </div>
+    
+    <div class="paper-section">
+        <div class="paper-title">Sentiment-augmented reinforcement learning for portfolio optimization with large language models</div>
+        <div class="authors">Kemal Kirtac</div>
+        <div><a href="https://openreview.net/pdf?id=TmEMshyG1Y" target="_blank">Read Paper</a></div>
+        <div class="expand-btn" onclick="toggleAbstract('TmEMshyG1Y')">Show Abstract</div>
+        <div class="abstract" id="abstract-TmEMshyG1Y">Conventional reinforcement learning (RL) methods for portfolio optimization, such as proximal policy optimization (PPO), rely solely on historical price data and overlook unstructured market signals like investor sentiment. This paper introduces sentiment-augmented PPO (SAPPO), a novel RL framework that incorporates daily asset-level sentiment—extracted from Refinitiv financial news using large transformer-based language models—into both the state representation and the policy gradient. Specifically, SAPPO modifies the advantage function with a sentiment-weighted term, enabling context-aware policy updates aligned with dynamic investor beliefs. This design improves adaptability under market nonstationarity and serves as a behaviorally informed extension of PPO. Empirical evaluation shows that SAPPO significantly outperforms vanilla PPO, with Sharpe ratio rising from 1.67 to 2.07 and annualized returns increasing from 57% to 83%, with only modest drawdown increase. Extensive ablation studies confirm that the performance gains arise from sentiment-guided updates. The results demonstrate the effectiveness of multimodal RL strategies that integrate financial text signals to enhance decision-making under uncertainty.</div>
+    </div>
+    
+    <div class="paper-section">
+        <div class="paper-title">Responsible Generative AI: A Review of Technical and Regulatory Frontiers</div>
+        <div class="authors">Safiullah Kamawal, Shaina Raza, Rizwan Qureshi</div>
+        <div><a href="https://openreview.net/pdf?id=UMpkDjAIhA" target="_blank">Read Paper</a></div>
+        <div class="expand-btn" onclick="toggleAbstract('UMpkDjAIhA')">Show Abstract</div>
+        <div class="abstract" id="abstract-UMpkDjAIhA">Generative AI (GenAI) has rapidly expanded into domains such as healthcare, finance, education, and media, raising acute concerns around fairness, transparency, accountability, and governance. While prior Responsible AI (RAI) surveys have addressed bias mitigation, privacy, and ethical design, they largely focus on traditional AI and overlook the distinctive risks of GenAI, including hallucinations, stochastic outputs, intellectual property disputes, and large-scale synthetic content generation. This survey addresses that gap by systematically reviewing more than 80 studies published between 2022 and 2024 to examine Responsible Generative AI through both technical and regulatory perspectives. We identify five core problem areas: data-related risks, model-related risks, challenges with regulation, the limited scope of existing benchmarks, and poor explainability. In response, we highlight emerging solutions across five domains: establishing clear principles, adopting governance frameworks, defining measurable metrics, validating through AI-ready testbeds, and enabling adaptive oversight via regulatory sandboxes. By mapping these problem and solution spaces, this study contributes an integrated framework for Responsible Generative AI, providing actionable insights for researchers, practitioners, and policymakers seeking to align innovation with ethical, societal, and legal expectations.</div>
+    </div>
+    
+    <div class="paper-section">
+        <div class="paper-title">A Quantum Machine Learning Algorithm for Solving Binary Constraint Problems</div>
+        <div class="authors">Sarah Chehade, Elaine Wong, Andrea Delgado</div>
+        <div><a href="https://openreview.net/pdf?id=rI5yWuvZH6" target="_blank">Read Paper</a></div>
+        <div class="expand-btn" onclick="toggleAbstract('rI5yWuvZH6')">Show Abstract</div>
+        <div class="abstract" id="abstract-rI5yWuvZH6">Variational quantum algorithms (VQAs) are a leading approach in quantum machine learning (QML) for training parameterized models on structured tasks. We introduce a variational framework for learning measurement strategies in the Magic Square Game (MSG), encoding its winning condition into a value Hamiltonian and training circuits to minimize the cost, akin to supervised learning on a structured dataset. We validate the method in noiseless simulations and discuss its broader applicability to QML-based strategy discovery.</div>
+    </div>
+    
+    <div class="paper-section">
+        <div class="paper-title">SphereEdit: Angular Directions for Disentangled, Training-Free Diffusion Editing</div>
+        <div class="authors">Salamata Konate, Hassan Hamidi, Elham Dolatabadi, Frank Rudzicz, Laleh Seyyed-Kalantari</div>
+        <div><a href="https://openreview.net/pdf?id=PBB2vkjwJm" target="_blank">Read Paper</a></div>
+        <div class="expand-btn" onclick="toggleAbstract('PBB2vkjwJm')">Show Abstract</div>
+        <div class="abstract" id="abstract-PBB2vkjwJm">Despite significant advances in diffusion models, achieving precise, composable image editing without task-specific training remains a challenge. Existing approaches often rely on iterative optimization or linear latent operations, which are slow, brittle, and prone to entangling attributes (e.g., lipstick altering skin tone). We introduce SphereEdit, a training-free framework that leverages the hyperspherical geometry of CLIP embeddings to enable interpretable, fine-grained control. We model semantic attributes as unit-norm directions on the sphere and show that it supports clean composition via angular controls. At inference, SphereEdit uses spherical directions to modulate cross-attention producing spatially localized edits across diverse domains without optimization or fine-tuning. Experiments demonstrate sharper, more disentangled adjustments. SphereEdit provides a geometrically grounded, plug-and-play framework for controllable and composable diffusion editing.</div>
+    </div>
+    
+    <div class="paper-section">
+        <div class="paper-title">Islamic Chatbots in the Age of Large Language Models</div>
+        <div class="authors">Muhammad Aurangzeb Ahmad</div>
+        <div><a href="https://openreview.net/pdf?id=EbGr5iIcMi" target="_blank">Read Paper</a></div>
+        <div class="expand-btn" onclick="toggleAbstract('EbGr5iIcMi')">Show Abstract</div>
+        <div class="abstract" id="abstract-EbGr5iIcMi">Large Language Models (LLMs) are rapidly transforming how communities access, interpret, and circulate knowledge, and religious communities are no exception. Chatbots powered by LLMs are beginning to reshape authority, pedagogy, and everyday religious practice in Muslim communities. We analyze the landscape of LLM powered Islamic chatbots and how they are transforming Islamic religious practices e.g., democratizing access to religious knowledge but also running the risk of erosion of authority. We discuss what kind of challenges do these systems raise for Muslim communities and explore recommendations for the responsible design of these systems.</div>
+    </div>
+    
+    <div class="paper-section">
+        <div class="paper-title">From Proposals to Enactment: The Procedural Bottleneck in AI Safety Regulation</div>
+        <div class="authors">Mansur Ali Khan, Ahmad A Rushdi, Mehmet Efe Akengin</div>
+        <div><a href="https://openreview.net/pdf?id=0SNrEtXlQT" target="_blank">Read Paper</a></div>
+        <div class="expand-btn" onclick="toggleAbstract('0SNrEtXlQT')">Show Abstract</div>
+        <div class="abstract" id="abstract-0SNrEtXlQT">While AI models advance at unprecedented rates, AI safety legislation remains largely symbolic, stalled, or unrealized. Through a year-by-year analysis of AI breakthroughs, U.S. congressional policy proposals, and international legislative enactments, this study identifies a structural gap: the United States is not deficient in AI safety bill proposals but in legislative action, with only 4.23\% of U.S. AI bills reaching any terminal outcome. We quantify enactment rates, map U.S. Congressional AI bills across thematic domains, identify procedural bottlenecks, and develop a logistic regression model to test which factors predict legislative stalling. This study contributes five key advances: (1) a quantitative comparison of AI legislation versus LLM breakthroughs, (2) a comprehensive taxonomy of proposed and enacted policy subfields, (3) a dataset elucidating the structural causes of AI legislation failure, (4) statistically significant evidence that number of sponsors negatively affect bills' progress, and (5) policy recommendations grounded in planned adaptation, preemptive enactment, and independent AI oversight. We demonstrate that without enactment, AI safety regulation remains inert, highlighting the urgent need for actionable, coalition-backed AI safety policies in the United States.</div>
+    </div>
+    
+    <div class="paper-section">
+        <div class="paper-title">BIICK-Bench: A Bengali Benchmark for Introductory Islamic Creed Knowledge in Large Language Models</div>
+        <div class="authors">Umar Hasan</div>
+        <div><a href="https://openreview.net/pdf?id=HSkp30vSrm" target="_blank">Read Paper</a></div>
+        <div class="expand-btn" onclick="toggleAbstract('HSkp30vSrm')">Show Abstract</div>
+        <div class="abstract" id="abstract-HSkp30vSrm">Large Language Models (LLMs) are increasingly used as information sources globally, yet their proficiency in specialized domains for non-English speakers remains critically under-evaluated. This paper introduces the Bengali Introductory Islamic Creed Knowledge Benchmark (BIICK-Bench), a novel, 50-question multiple-choice benchmark in the Bengali language, designed to assess the foundational Islamic knowledge of LLMs. Crucially, this work is an evaluation of knowledge retrieval and does not endorse seeking religious verdicts (fatwas) from LLMs, a role that must remain with qualified human scholars. Addressing the digital language divide, BIICK-Bench provides a vital tool for the world's second-largest Muslim linguistic community. Fourteen prominent open-source LLMs were evaluated, ranging from 2.5B to 8B parameters. The fully automated evaluation reveals a stark performance disparity, with accuracy scores ranging from 0\% to a high of 64\%. The results underscore that even state-of-the-art models struggle with Bengali Islamic knowledge, highlighting the urgent need for culturally and linguistically specific benchmarks to ensure the safe and reliable use of AI in diverse communities.</div>
+    </div>
+    
+    <div class="paper-section">
+        <div class="paper-title">Carbon Literacy for Generative AI: Visualizing Training Emissions Through Human-Scale Equivalents</div>
+        <div class="authors">Mahveen Raza, Maximus Powers, shaina raza</div>
+        <div><a href="https://openreview.net/pdf?id=ZhosUbcpuJ" target="_blank">Read Paper</a></div>
+        <div class="expand-btn" onclick="toggleAbstract('ZhosUbcpuJ')">Show Abstract</div>
+        <div class="abstract" id="abstract-ZhosUbcpuJ">Training large language models (LLMs) requires substantial energy and produces significant carbon emissions that are rarely visible to creators and users, due to a lack of transparent data available. We compile reported and estimated carbon emissions (kg CO2) for 13 state-of-the-art models (2018–2024) during their training to reflect the environmental severity of these emissions. These carbon emissions values are translated to human-friendly equivalences, trees required for absorption and average per-capita footprints, as well as scaled comparisons across household, commercial, and industrial contexts through our interactive demo. Our key takeaways note a lack of transparency surrounding reported emissions during model training. Furthermore, the amount of emissions in only training data is alarming, causing harm that cannot be mitigated quickly enough by the environment. We position this work as a socio-technical contribution that bridges quantitative emissions analysis with human-centred interpretation to advance sustainable and transparent AI practice. By offering an accessible lens on sustainability, it promotes more responsible engagement with generative AI in creative communities. Our interactive demo is available at: https://neurips-c02-viz.vercel.app/.</div>
+    </div>
+    
+    <div class="paper-section">
+        <div class="paper-title">Bridging Governance and Technology: Data, Models, and Responsibility in Regulation</div>
+        <div class="authors">Shaina Raza, Mahveen Raza</div>
+        <div><a href="https://openreview.net/pdf?id=bYLEpvvAPR" target="_blank">Read Paper</a></div>
+        <div class="expand-btn" onclick="toggleAbstract('bYLEpvvAPR')">Show Abstract</div>
+        <div class="abstract" id="abstract-bYLEpvvAPR">Generative AI systems have seen unprecedented adoption, raising urgent questions about their safety and accountability. This paper emphasizes that Responsible Generative AI cannot be achieved through isolated fixes, but requires a multi-layer synthesis of technical, regulatory, and design approaches. We survey four pillars of this roadmap: (1) workflow-level defenses, such as sandboxing and provenance tracking, that confine models within safe operational boundaries; (2) evaluation protocols and compliance criteria inspired by emerging regulations, including risk assessments, logging, and third-party audits; (3) liability frameworks and international coordination mechanisms that clarify responsibility when AI systems cause harm; and (4) the ``AI Scientist" paradigm, which reimagines AI as non-agentic and uncertainty-aware, enforcing safe operating envelopes through design patterns like planner–executor separation and human-in-the-loop oversight. Taken together, these perspectives highlight how technical safeguards, governance evidence, and safe-by-design paradigms can converge into a coherent strategy for the sustainable and trustworthy deployment of generative AI. Through this review article, we synthesize multidisciplinary insights to guide the development of safer GenAI systems.</div>
+    </div>
+    
+    <div class="paper-section">
+        <div class="paper-title">Large Vision Language Models as Algorithmic Reasoners for Multimodal Annotations</div>
+        <div class="authors">Shaina Raza, Mahveen Raza</div>
+        <div><a href="https://openreview.net/pdf?id=q5EOqzlOpn" target="_blank">Read Paper</a></div>
+        <div class="expand-btn" onclick="toggleAbstract('q5EOqzlOpn')">Show Abstract</div>
+        <div class="abstract" id="abstract-q5EOqzlOpn">Large vision–language models (LVLMs) can function as algorithmic annotators by not only assigning labels to multimodal inputs but also generating structured reasoning traces that justify those labels. We introduce \textbf{Reasoning-as-Annotation (RaA)}, a paradigm in which an LVLM outputs a human-interpretable rationale, calibrated confidence, and evidence pointers alongside each label, effectively acting as both classifier and explainer. We evaluate RaA on bias detection in images using a curated dataset of \~2,000 examples with human gold labels. Across closed- and open-source LVLMs, RaA preserves accuracy relative to black-box labeling while adding transparency: rationales were coherent and grounded in 75–90\% of cases, evidence pointers auditable in 70–85\%, and confidence scores correlated with correctness (\$r=0.60\$–\$0.76\$). These results show RaA is model-agnostic and maintains predictive quality while producing interpretable, auditable annotations. We position that RaA offers a scalable way to transform opaque labels into reusable reasoning traces for supervision and evaluation.</div>
+    </div>
+    
+    <div class="paper-section">
+        <div class="paper-title">BLISS: Bandit Layer Importance Sampling Strategy for Efficient Training of Graph Neural Networks</div>
+        <div class="authors">Omar Alsaqa, Linh Thi Hoang, Muhammed Fatih Balin</div>
+        <div><a href="https://openreview.net/pdf?id=VaHubA7Pwv" target="_blank">Read Paper</a></div>
+        <div class="expand-btn" onclick="toggleAbstract('VaHubA7Pwv')">Show Abstract</div>
+        <div class="abstract" id="abstract-VaHubA7Pwv">Graph Neural Networks (GNNs) are powerful tools for learning from graph-structured data, but their application to large graphs is hindered by computational costs. The need to process every neighbor for each node creates memory and computational bottlenecks. To address this, we introduce BLISS, a Bandit Layer Importance Sampling Strategy. It uses multi-armed bandits to dynamically select the most informative nodes at each layer, balancing exploration and exploitation to ensure comprehensive graph coverage. Unlike existing static sampling methods, BLISS adapts to evolving node importance, leading to more informed node selection and improved performance. It demonstrates versatility by integrating with both Graph Convolutional Networks (GCNs) and Graph Attention Networks (GATs), adapting its selection policy to their specific aggregation mechanisms. Experiments show that BLISS maintains or exceeds the accuracy of full-batch training.</div>
+    </div>
+    
+    <div class="paper-section">
+        <div class="paper-title">FASL-Seg: Anatomy and Tool Segmentation of Surgical Scenes</div>
+        <div class="authors">Muraam Abdel-Ghani, Mohamed Ahmed Mohamed Ali, Mahmoud Ahmed Mohamed Ali, Fatimaelzahraa Ali Ahmed, Muhammad Arsalan, Abdulaziz Al-Ali, Shidin Balakrishnan</div>
+        <div><a href="https://openreview.net/pdf?id=KZhtiH9Hr7" target="_blank">Read Paper</a></div>
+        <div class="expand-btn" onclick="toggleAbstract('KZhtiH9Hr7')">Show Abstract</div>
+        <div class="abstract" id="abstract-KZhtiH9Hr7">As robotic minimally invasive surgeries gain popularity, enhancing surgical training with deep learning solutions has become a focal point for research. A thorough understanding of the surgical scene components is crucial, which semantic segmentation models can help achieve. Most existing work focuses on surgical tools, often overlooking anatomical objects. Additionally, current state-of-the-art (SOTA) models struggle to balance capturing high-level contextual features and low-level edge features. We present a Feature-Adaptive Spatial Localization model (FASL-Seg), designed to capture features at varying levels of detail effectively. FASL-Seg utilizes two distinct processing streams, namely a Low-Level Feature Projection (LLFP) and a High-Level Feature Projection (HLFP) stream, for varying feature resolutions - enabling precise segmentation of anatomy and surgical instruments. We evaluated FASL-Seg on surgical segmentation benchmark datasets EndoVis18 and EndoVis17 on three use cases. The FASL-Seg model achieves a mean Intersection over Union (mIoU) of 72.71% on parts and anatomy segmentation in EndoVis18, improving on SOTA by 5%. It further achieves a mIoU of 85.61% and 72.78% in EndoVis18 and EndoVis17 tool type segmentation, respectively, outperforming SOTA overall performance, with comparable per-class SOTA results in both datasets and consistent performance in various classes for anatomy and instruments, demonstrating the effectiveness of distinct processing streams for varying feature resolutions.</div>
+    </div>
+    
+    <div class="paper-section">
+        <div class="paper-title">Surg-SegFormer: A Dual Transformer-Based Model for Holistic Surgical Scene Segmentation</div>
+        <div class="authors">Fatimaelzahraa Ali Ahmed, Muraam Abdel-Ghani, Mahmoud Ahmed Mohamed Ali, Muhammad Arsalan, Abdulaziz Al-Ali, Shidin Balakrishnan</div>
+        <div><a href="https://openreview.net/pdf?id=wgu22y7tmV" target="_blank">Read Paper</a></div>
+        <div class="expand-btn" onclick="toggleAbstract('wgu22y7tmV')">Show Abstract</div>
+        <div class="abstract" id="abstract-wgu22y7tmV">Holistic surgical scene segmentation in robot-assisted surgery (RAS) enables surgical residents to identify various anatomical tissues, articulated tools, and critical structures, such as veins and vessels. Given the firm intraoperative time constraints, it is challenging for surgeons to provide detailed real-time explanations of the operative field for trainees. This challenge is compounded by the scarcity of expert surgeons relative to trainees, making the unambiguous delineation of go- and no-go zones inconvenient. Therefore, high-performance semantic segmentation models offer a solution by providing clear postoperative analyses of surgical procedures. However, recent advanced segmentation models rely on user-generated prompts, rendering them impractical for lengthy surgical videos that commonly exceed an hour. To address this challenge, we introduce Surg-SegFormer, a novel prompt-free model that outperforms current state-of-the-art techniques. Surg-SegFormer attained a mean Intersection over Union (mIoU) of 0.80 on the EndoVis2018 dataset and 0.54 on the EndoVis2017 dataset. By providing robust and automated surgical scene comprehension, this model significantly reduces the tutoring burden on expert surgeons, empowering residents to independently and effectively understand complex surgical environments.</div>
+    </div>
+    
+    <div class="paper-section">
+        <div class="paper-title">CLIP-RL: Surgical Scene Segmentation Using Contrastive Language-Vision Pretraining & Reinforcement Learning</div>
+        <div class="authors">Fatimaelzahraa Ali Ahmed, Muhammad Arsalan, Abdulaziz Al-Ali, Shidin Balakrishnan</div>
+        <div><a href="https://openreview.net/pdf?id=5796AnNHi8" target="_blank">Read Paper</a></div>
+        <div class="expand-btn" onclick="toggleAbstract('5796AnNHi8')">Show Abstract</div>
+        <div class="abstract" id="abstract-5796AnNHi8">Understanding surgical scenes can provide better healthcare quality for patients, especially with the vast amount of video data that is generated during MIS. Processing these videos generates valuable assets for training sophisticated models. In this paper, we introduce CLIP-RL, a novel contrastive language-image pre-training model tailored for semantic segmentation for surgical scenes. CLIP-RL presents a new segmentation approach which involves reinforcement learning and curriculum learning, enabling continuous refinement of the segmentation masks during the full training pipeline. Our model has shown robust performance in different optical settings, such as occlusions, texture variations, and dynamic lighting, presenting significant challenges. CLIP model serves as a powerful feature extractor, capturing rich semantic context that enhances the distinction between instruments and tissues. The RL module plays a pivotal role in dynamically refining predictions through iterative action-space adjustments. We evaluated CLIP-RL on the EndoVis 2018 and EndoVis 2017 datasets. CLIP-RL achieved a mean IoU of 81\%, outperforming state-of-the-art models, and a mean IoU of 74.12\% on EndoVis 2017. This superior performance was achieved due to the combination of contrastive learning with reinforcement learning and curriculum learning.</div>
+    </div>
+
+    <div class="paper-section">
+        <div class="paper-title">LLMs and Islamic Fiqh: A Reliability Study Grounded in Maliki Jurisprudential Principles</div>
+        <div class="authors">Alaa Alharbi, Nada Almarwani, Samah Aloufi</div>
+        <div><a href="https://openreview.net/pdf?id=j3BlJESPoi" target="_blank">Read Paper</a></div>
+        <div class="expand-btn" onclick="toggleAbstract('j3BlJESPoi')">Show Abstract</div>
+        <div class="abstract" id="abstract-j3BlJESPoi">In recent years, large language models have become increasingly prevalent in knowledge-based domains, including religion. However, their reliability in domain-specific religious questions remains underexplored. To address this gap, this study evaluates GPT-4 and ALLaM on Islamic jurisprudence (Fiqh) questions based on the Maliki school. We construct a dataset from Maliki sources and test the models across three domains. Results show that GPT-4 consistently outperformed ALLaM; however, both models exhibited significant limitations that affected their reliability in answering domain-specific questions. The models struggled with nuanced rulings requiring deep contextual understanding and showed sensitivity to prompt phrasing. These findings highlight the challenges of applying general-purpose LLMs in religious domains and underscore the need for domain adaptation or retrieval-based enhancements.</div>
+    </div>
+    
+    <div class="paper-section">
+        <div class="paper-title">Hybrid CNN-Vision Transformer for Rabbit Gastric Dilation: Projection-Dependent Architectural Requirements in Veterinary Radiology</div>
+        <div class="authors">Markus Clauss, Kerstin Müller, Marcus Clauss, Henning Richter</div>
+        <div><a href="https://openreview.net/pdf?id=DihHm01nrn" target="_blank">Read Paper</a></div>
+        <div class="expand-btn" onclick="toggleAbstract('DihHm01nrn')">Show Abstract</div>
+        <div class="abstract" id="abstract-DihHm01nrn">Despite rabbits being the third most popular companion animal, AI for rabbit diagnostics is entirely absent (0/422 veterinary AI publications, 2013-2024). We present the first systematic comparison of hybrid CNN-Vision Transformer architectures for gastric dilation classification on 679 multi-institutional rabbit radiographs (371 laterolateral, 308 ventrodorsal). Rigorous 5-fold cross-validation with external validation (60 images, 11-month separation) reveals projection-dependent architectural requirements: laterolateral projections show architectural equivalence (88.94-89.38% F1, 0.44% range), while ventrodorsal benefit from hybrid fusion (87.03% vs 84.27% pure CNN, +2.76%, Cohen’s d=0.78, exceptional 1.77% generalization gap). Expert validation of 213 misclassifications revealed 42% systematic annotation errors, suggesting true performance 3-5% higher. External validation confirms clinical-grade sensitivity (87-92%), suitable for emergency
+triage.</div>
+    </div>
+    
+    <div class="paper-section">
+        <div class="paper-title">Quran-MD: A Fine-Grained Multimodal Dataset of the Quran</div>
+        <div class="authors">Muhammad Umar Salman, Mohammad Areeb Qazi, Mohammed Talha Alam</div>
+        <div><a href="https://openreview.net/pdf?id=NQ6er5I4PK" target="_blank">Read Paper</a></div>
+        <div class="expand-btn" onclick="toggleAbstract('NQ6er5I4PK')">Show Abstract</div>
+        <div class="abstract" id="abstract-NQ6er5I4PK">We present Quran-MD, a comprehensive multimodal dataset of the Qur’an that integrates textual, linguistic, and audio dimensions at the verse and word levels. For each verse (ayah), the dataset provides its original Arabic text, English translation, and phonetic transliteration. To capture the rich oral tradition of Qur’anic recitation, we include verse-level audio from 32 distinct reciters, reflecting diverse recitation styles and dialectical nuances. At the word level, each token is paired with its corresponding Arabic script, English translation, transliteration, and an aligned audio recording, allowing fine-grained analysis of pronunciation, phonology, and semantic context. This dataset supports various applications, including natural language processing, speech recognition, text-to-speech synthesis, linguistic analysis, and digital Islamic studies. Bridging text and audio modalities across multiple reciters, this dataset provides a unique resource to advance computational approaches to Qur’anic recitation and study. Beyond enabling tasks such as ASR, tajweed detection, and Qur’anic TTS, it lays the foundation for multimodal embeddings, semantic retrieval, style transfer, and personalized tutoring systems that can support both research and community applications. The dataset is available at https://huggingface.co/datasets/Buraaq/quran-audio-text-dataset</div>
+    </div>
+    
+    <div class="paper-section">
+        <div class="paper-title">Training-Time Explainability for Multilingual Hate Speech Detection: Aligning Model Reasoning with Human Rationales</div>
+        <div class="authors">Muhammad Deedahwar Mazhar Qureshi, Sannaan Khan, Muhammad Atif Qureshi, Wael Rashwan</div>
+        <div><a href="https://openreview.net/pdf?id=5Gl1ZtR1nI" target="_blank">Read Paper</a></div>
+        <div class="expand-btn" onclick="toggleAbstract('5Gl1ZtR1nI')">Show Abstract</div>
+        <div class="abstract" id="abstract-5Gl1ZtR1nI">Online hate against Muslim communities often appears in culturally coded, multilingual forms that evade conventional AI moderation. Such systems, though accurate, remain opaque and risk bias, over-censorship, or under-moderation, particularly when detached from sociocultural context. We propose a \emph{training-time} explainability framework that aligns model reasoning with human-annotated rationales, improving both classification performance and interpretability. Our approach is evaluated on HateXplain (English) and BullySent (Hinglish), reflecting the prevalence of anti-Muslim hate across both languages. Using LIME, Integrated Gradients, Grad X Input, and attention, we assess accuracy, explanation quality, and cross-method agreement. Results show that gradient- and attention-based regularization improve F-scores, enhance plausibility and faithfulness, and capture culturally specific cues for detecting implicit anti-Muslim hate, offering a path toward multilingual, culturally aware content moderation.</div>
+    </div>
+    
+    <div class="paper-section">
+        <div class="paper-title">The Unseen Hand: Manipulating Model Fairness and SHAP with Targeted Identity Re-Association Attacks</div>
+        <div class="authors">Sannaan Khan, Muhammad U. S. Khan</div>
+        <div><a href="https://openreview.net/pdf?id=d8UqPbD0UF" target="_blank">Read Paper</a></div>
+        <div class="expand-btn" onclick="toggleAbstract('d8UqPbD0UF')">Show Abstract</div>
+        <div class="abstract" id="abstract-d8UqPbD0UF">As machine learning models grow more influential and opaque, algorithmic fairness and explainability are critical for ensuring accountability. However, we demonstrate that these auditing mechanisms are themselves vulnerable to subtle manipulation, camouflaging the influence of protected features. While prior work on data-agnostic attacks has exposed this vulnerability, they leave behind detectable artifacts that compromise their stealth. We introduce Targeted Identity Re-Association (TIRA) attacks, a novel family of attacks that iteratively and probabilistically manipulate a model’s outputs without requiring access to the model's internals or feature representations. We formalize two algorithms: Probabilistic Micro-Shuffling (PMiS), which applies localized adjacent swaps, and Probabilistic Rank-Shift Micro-Perturbation (PRSMP), which introduces small, randomized rank shifts. We empirically demonstrate that TIRA attacks are highly effective at pushing fairness metrics towards ideal values. Crucially, TIRA attacks successfully confound SHAP-based explanations, leaving effectively zero residual attribution for protected features, a major improvement over prior work.</div>
+    </div>
+
+    <div class="paper-section">
+        <div class="paper-title">MOSAIC: A Dataset for Cultural Dimension Evaluation in Arabic LLMs</div>
+        <div class="authors">Nadhem Benhadjali, Seifeddine Hamdi, Istabrak Abbes, Safa Messaoud, Ines Arous</div>
+        <div><a href="https://openreview.net/pdf?id=3Cs8Yqwj2g" target="_blank">Read Paper</a></div>
+        <div class="expand-btn" onclick="toggleAbstract('3Cs8Yqwj2g')">Show Abstract</div>
+        <div class="abstract" id="abstract-3Cs8Yqwj2g">Significant efforts have been dedicated to the development of multilingual and Arabic large language models (LLMs). Many of these models tend to generate outputs that vary widely across cultural dimensions. For example, some models generate answers that favor individualistic behaviour over collectivism, prioritizing self-interest over group cohesion. In this paper, we introduce MOSAIC, a dataset consisting of 1,483 social dilemmas in Arabic. We design our dataset using Hofstede’s cultural dimensions, a cross-cultural framework that captures cultural values across different dimensions. Each scenario is framed as a question with two possible answers, reflecting the two ends of a cultural dimension. Using MOSAIC, we compare multilingual and Arabic monolingual LLMs in how they respond to social dilemmas. Our results show that most models favour individualist and short-term options. Models that select collectivist answers (e.g., Aya, Llama) also tend to select answers with high uncertainty avoidance. In contrast, models that select answers reflecting individualistic behavior, such as Qwen, tend to choose responses that indicate low uncertainty avoidance.</div>
+    </div>
+    
+    <div class="paper-section">
+        <div class="paper-title">Exploring the Utility of Large Language Models in Improving the Precision of Narrator Name Extraction</div>
+        <div class="authors">Kaymaram, Shawn Nassabi, Ibrahim Akar</div>
+        <div><a href="https://openreview.net/pdf?id=V9MOxMxcLW" target="_blank">Read Paper</a></div>
+        <div class="expand-btn" onclick="toggleAbstract('V9MOxMxcLW')">Show Abstract</div>
+        <div class="abstract" id="abstract-V9MOxMxcLW">The precise extraction of hadith narrator names is a critical task in computational hadith scholarship. This paper explores the utility of Large Language Models (LLMs) in automating and enhancing the process of hadith narrator name extraction. We present an analysis of existing methodologies, highlighting their limitations in handling the complexities of Arabic language nuances and the intricate relationships between narrators. By leveraging the contextual understanding and generative capabilities of LLMs, we propose a novel framework that integrates advanced natural language processing techniques with domain-specific knowledge. Our experiments demonstrate improvements in accuracy and efficiency compared to traditional machine learning methods.</div>
+    </div>
+    
+
+    <div class="paper-section">
+        <div class="paper-title">Complexity-based Analysis for Anomaly Detection in Industrial Control Systems</div>
+        <div class="authors">Saddam Hussain, Ali Tufail, Abdul Ghani Haji Naim</div>
+        <div><a href="https://openreview.net/pdf?id=0e9f7Ql9aR" target="_blank">Read Paper</a></div>
+        <div class="expand-btn" onclick="toggleAbstract('0e9f7Ql9aR')">Show Abstract</div>
+        <div class="abstract" id="abstract-0e9f7Ql9aR">Industrial Control Systems (ICS) are important to critical infrastructure and are increasingly vulnerable to cyber threats due to their growing interconnectivity and complexity. The paper provides a complexity-based framework of feature evaluation in ICS cybersecurity based on the Secure Water Treatment (SWaT) datasets. The integrated framework measures the complexity of datasets by incorporating a number of complexity measures (feature-based, neighborhood-based, linearity-based and topological) into a single aggregative complexity score that depicts the complexity of a dataset. The Normalizing method is then used to remove the scale bias to ensure that the measures can be compared adequately. This principled dimensionality methodology also increases the interpretability of systems.</div>
+    </div>
+    
+    <div class="paper-section">
+        <div class="paper-title">A Multi-Criteria Complexity Evaluation of Cyberattack Detection Datasets in Industrial Control Systems</div>
+        <div class="authors">Saddam Hussain, Ali Tufail, Abdul Ghani Haji Naim</div>
+        <div><a href="https://openreview.net/pdf?id=qHaOKjHOSz" target="_blank">Read Paper</a></div>
+        <div class="expand-btn" onclick="toggleAbstract('qHaOKjHOSz')">Show Abstract</div>
+        <div class="abstract" id="abstract-qHaOKjHOSz">The complexity of Industrial Control Systems (ICS) datasets plays a crucial role in determining effective detection strategies. The paper introduces a multi-dimensional and formal technique of measuring the complexity of a dataset, depending on twelve complexity measures in the dimensions of features-based, neighborhood-based, linearity-based, and topological measures. The measures enable class separability, local ambiguity, and complexity of decision boundaries to be evaluated in a classifier-independent manner, offering valuable insight into the structural and statistical challenges of ICS data. Additionally, we further employ Evaluation based on Distance from the Average Solution (EDAS), a Multi-criteria Decision-Making (MCDM) technique, that allows positive as well as negative deviations in the average performance for the ranking and comparison of datasets in terms of their intrinsic complexity. Findings show a lot of differences in complexity between the datasets benchmark and CISS2019.A1, where the most separable datasets are Dataset 8.3 and Dataset 7.3, and the most difficult ones to classify are Dataset 2.1 and CISS2019.A1(4).</div>
+    </div>
+
+
+
+<script>
+    function toggleAbstract(paper_id) {
+        var abstractDiv = document.getElementById('abstract-' + paper_id);
+        if (abstractDiv.style.display === 'none') {
+            abstractDiv.style.display = 'block';
+        } else {
+            abstractDiv.style.display = 'none';
+        }
+    }
+</script>
+
+
+
+
+<p></br></br></br></br></br></br></p>
+<p style="font-size: small;">Website theme adapted from <a href="https://ciol-researchlab.github.io/">CIOL Website</a> (<a href="https://github.com/ciol-researchlab/ciol-researchlab.github.io">GitHub</a>)</p>
+    </main>
+  
+  </body>
+</html>
