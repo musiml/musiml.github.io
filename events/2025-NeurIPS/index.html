@@ -388,7 +388,8 @@
         <h2 id="registration">Registration </h2>
         <hr>
         <p style="text-align: justify;">
-          The NeurIPS workshop registration, as listed on <a target="_blank" href="https://neurips.cc/">neurips.cc</a>, would be needed. Coverage of the registration fee for the NeurIPS workshops or conference may be offered for one author of an accepted paper based on availability.
+          The NeurIPS workshop registration, as listed on <a target="_blank" href="https://neurips.cc/">neurips.cc</a>, would be needed. 
+          Coverage of the registration fee for the NeurIPS workshops or conference may be offered for one author of an accepted paper based on availability <i><b>(closed now!)</b></i>.
         </p>
 
         <h2 id="schedule">Schedule</h2>
@@ -466,8 +467,8 @@
       </tr>
       <tr>
         <td>2:00 p.m. - 2:30 p.m.</td>
-        <td>Invited Talk 2</td>
-        <td></td>
+        <td>Invited Talk 2: Mohamed Rayan Barhdadi</td>
+        <td class="speaker">Mohamed Rayan Barhdadi (Student and Researcher at Texas A&M University)</td>
         <td class="event-type">Invited talk</td>
       </tr>
       <tr>
@@ -612,22 +613,23 @@
                   </p>
                     </div>
               </div>
-<!-- 
+
             <div class="profile-container">
               <div class="profile-section">
                   <div class="image-container">
-                        <img  class="profile-image" src="../../assets/persons/Syed Ahmar Shah_portrait photo_BNDU website.jpg">
+                        <img  class="profile-image" src="../../assets/persons/Mohamed Rayan Barhdadi.jpeg">
                   </div>
                   <div class="content-container">
                       <p>
-                      <b>Syed Ahmer Shah</b></br>
-                      <i>Senior Research Fellow (Associate Professor), University of Edinburgh and Director of Innovation, Usher Institute</i></br>
+                      <b>Mohamed Rayan Barhdadi</b></br>
+                      <i>Student and Researcher at Texas A&M University</i></br>
                       <span class="details-info">
-                       Syed Ahmer Shah is a Senior Research Fellow (Associate Professor) in a tenured academic post at the University of Edinburgh and serves as the Director of Innovation at the Usher Institute. He has co-authored more than 60 peer-reviewed publications across outlets such as The Lancet, Brain, BMJ Open, Thorax, IEEE Transactions, JMIR, and JACI, and is an inventor on two granted patents. He holds a DPhil and an MSc in Biomedical Engineering from the University of Oxford.
-                       His work spans intelligent algorithm development with a focus on signal processing and machine learning, large-scale analysis of electronic health records for chronic respiratory conditions including COPD and asthma, and digital health system development. He leads the DIME group (Data-driven Innovation in MEdicine) within the Usher Institute at the Edinburgh Medical School. </p>
+                       Mohamed Rayan Barhdadi is a third-year Electrical Engineering student at Texas A&M University with a minor in Mathematics. He conducts research in machine learning and computer vision, with published work at ICML 2025 and NeurIPS 2025. His projects include PhysicsNeRF, a physics-guided neural rendering framework for sparse-view 3D reconstruction, and EMPATHIA, a multi-agent system designed to support ethical and transparent decision processes for refugee integration. He works as a Student Researcher at the Kurban Intelligence Lab and collaborates with faculty on AI for social impact, neural rendering, and clustering methods.
+                      </span>
+                      </p>
                     </div>
               </div>
-              <p></p> -->
+              <p></p>
 
 
 
@@ -794,6 +796,19 @@
       
       // Initial call to highlight the correct section
       highlightActiveSection();
+
+      // Auto-scroll to Program section on initial load if no hash present
+      document.addEventListener('DOMContentLoaded', function() {
+        if (!window.location.hash) {
+          var target = document.getElementById('program');
+          if (target) {
+            var offsetTop = target.offsetTop - 100; // account for fixed nav
+            window.scrollTo({ top: offsetTop, behavior: 'smooth' });
+            // ensure nav highlight is correct after jump
+            highlightActiveSection();
+          }
+        }
+      });
 
       // Close mobile menu when clicking outside
       document.addEventListener('click', (e) => {
