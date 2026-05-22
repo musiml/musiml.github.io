@@ -1,0 +1,619 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Team | Muslims in ML Community">
+    <meta name="author" content="Muslims in ML Community">
+    <meta property="og:image" content="./assets/images/COVER.jpg">
+    <link rel="shortcut icon" href="./assets/images/logo.png" type="image/x-icon">
+    <meta name="theme-color" content="#157878" />
+    <title>Team | Muslims in ML Community</title>
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <link rel="stylesheet" href="./assets/css/style.css?v=" />
+    <link rel="stylesheet" href="./assets/css/speaker.css?v=" />
+
+    <style>
+      /* ── Grid card layout ── */
+      .org-section {
+        margin-bottom: 3rem;
+      }
+      .org-section h1 {
+        margin-bottom: 0.25rem;
+      }
+      .org-section .section-hr {
+        height: 6px;
+        border: none;
+        background-color: gray;
+        margin-bottom: 0.5rem;
+      }
+
+      .card-grid {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 36px 20px;
+        margin-bottom: 1rem;
+        width: 100%;
+        justify-content: center;
+      }
+
+      .person-card {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        flex-basis: calc(33.33% - 14px);
+        min-width: 180px;
+        cursor: pointer;
+        text-align: center;
+        transition: transform 0.18s ease;
+        padding-bottom: 8px;
+      }
+      .person-card:hover {
+        transform: translateY(-4px);
+      }
+      .person-card img {
+        width: 156px;
+        height: 156px;
+        border-radius: 50%;
+        object-fit: cover;
+        border: 3px solid #ccc;
+        margin-bottom: 13px;
+      }
+      .person-card .card-name {
+        font-size: 1.1rem;
+        color: #3b4cc0;
+        line-height: 1.3;
+        text-decoration: none;
+        cursor: pointer;
+      }
+      .person-card .card-name:hover {
+        text-decoration: underline;
+      }
+      .person-card .card-role {
+        font-size: 1.1rem;
+        color: #333;
+        margin-top: 2px;
+        line-height: 1.4;
+      }
+
+      /* Chair sub-role label — bold dark red matching CIOL style */
+      .person-card .card-chair {
+        font-size: 1.1rem;
+        color: rgb(134, 0, 63);
+        font-weight: 700;
+        margin-top: 3px;
+        line-height: 1.3;
+      }
+
+      .org-section h2 {
+        margin-bottom: 0.2rem;
+      }
+      .sub-hr {
+        height: 2px;
+        border: none;
+        background-color: #ccc;
+        margin-bottom: 1.5rem;
+        margin-top: 0;
+      }
+      .section-hr {
+        margin-bottom: 1.5rem;
+      }
+
+      @media only screen and (max-width: 900px) {
+        .person-card {
+          flex-basis: calc(50% - 8px);
+        }
+      }
+      @media only screen and (max-width: 560px) {
+        .person-card {
+          flex-basis: 100%;
+        }
+      }
+
+      /* ── Modal ── */
+      .modal-overlay {
+        display: none;
+        position: fixed;
+        inset: 0;
+        background: rgba(0,0,0,0.45);
+        z-index: 1000;
+        justify-content: center;
+        align-items: center;
+      }
+      .modal-overlay.active {
+        display: flex;
+      }
+      .modal-box {
+        background: #f0f0f0;
+        border-radius: 16px;
+        padding: 40px 44px 36px;
+        max-width: 780px;
+        width: 92%;
+        max-height: 88vh;
+        overflow-y: auto;
+        position: relative;
+        text-align: center;
+        box-shadow: 0 8px 40px rgba(0,0,0,0.22);
+      }
+      .modal-close {
+        position: absolute;
+        top: 18px;
+        right: 22px;
+        font-size: 1.7rem;
+        font-weight: 700;
+        color: #113654;
+        cursor: pointer;
+        line-height: 1;
+        background: none;
+        border: none;
+        padding: 0;
+      }
+      .modal-close:hover { color: #157878; }
+
+      .modal-img-wrap {
+        margin: 0 auto 16px;
+        width: 160px;
+        height: 160px;
+      }
+      .modal-img-wrap img {
+        width: 160px;
+        height: 160px;
+        border-radius: 18px;
+        object-fit: cover;
+        background: #7986cb;
+      }
+      .modal-img-placeholder {
+        width: 160px;
+        height: 160px;
+        border-radius: 18px;
+        background: #7986cb;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        font-size: 1.1rem;
+        font-weight: 600;
+      }
+      .modal-name {
+        font-size: 1.7rem;
+        font-weight: 700;
+        color: #111;
+        margin-bottom: 4px;
+      }
+      .modal-position {
+        font-size: 1rem;
+        color: #333;
+        margin-bottom: 20px;
+      }
+      .modal-bio {
+        font-size: 0.93rem;
+        line-height: 1.7;
+        color: #222;
+        text-align: center;
+      }
+
+      .chair-grid {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 36px 20px;
+        margin-bottom: 1rem;
+        width: 100%;
+        justify-content: center;
+      }
+    </style>
+  </head>
+  <body>
+
+    <header class="page-header" role="banner">
+      <img src="./assets/images/logo.png" style="border-radius: 10%;" alt="MuslimsInML logo" width="100" height="100">
+      <h1 class="project-name" style="margin-bottom: 0;">Muslims in ML Community</h1>
+      <p></p>
+
+      <a href="./index.html" class="btn bf">Home</a>
+      <a href="./updates.html" class="btn bf">Updates</a>
+      <a href="./events/index.html" class="btn bf">Events</a>
+      <a href="./organizers.html" class="btn bf bactive">Organizers</a>
+      <a href="./events/2026-ICML/index.html" class="btn bf">ICML 2026</a>
+
+      <div class="dropdown">
+        <button class="btn" onclick="toggleDropdown()">Menu &#9662;</button>
+        <div id="dropdownContent" style="width:92%;align-self:center;display:none;position:absolute;background-color:rgb(231,225,188);z-index:1;">
+          <a href="./index.html" class="short-btn">Home</a>
+          <a href="./updates.html" class="short-btn">Updates</a>
+          <a href="./events/index.html" class="short-btn">Events</a>
+          <a href="./organizers.html" class="short-btn">Organizers</a>
+          <a href="./events/2026-ICML/index.html" class="short-btn">ICML 2026</a>
+        </div>
+      </div>
+      <script>
+        function toggleDropdown() {
+          var d = document.getElementById("dropdownContent");
+          d.style.display = (d.style.display === "none" || d.style.display === "") ? "block" : "none";
+        }
+      </script>
+    </header>
+
+    <main id="content" class="main-content" role="main">
+
+      <!-- ══════════════════════════════════════════
+           FOUNDERS
+      ══════════════════════════════════════════ -->
+      <div class="org-section">
+        <h1>Founders</h1>
+        <hr class="section-hr">
+        <p></br></p>
+
+        <div class="card-grid">
+          <div class="person-card" onclick="openModal('marzyeh')">
+            <img src="assets/organizers/Marzyeh Ghassemi.jpeg" alt="Marzyeh Ghassemi" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+            <div class="modal-img-placeholder" style="display:none;width:156px;height:156px;border-radius:50%;font-size:0.85rem;">Image</div>
+            <a class="card-name" onclick="event.stopPropagation()">Marzyeh Ghassemi</a>
+            <span class="card-role">Associate Professor, MIT</span>
+          </div>
+          <div class="person-card" onclick="openModal('shakir')">
+            <img src="assets/organizers/shakir-head-2.jpg" alt="Shakir Mohamed" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+            <div class="modal-img-placeholder" style="display:none;width:156px;height:156px;border-radius:50%;font-size:0.85rem;">Image</div>
+            <a class="card-name" onclick="event.stopPropagation()">Shakir Mohamed</a>
+            <span class="card-role">Research Director, Google DeepMind</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- ══════════════════════════════════════════
+           BOARD
+      ══════════════════════════════════════════ -->
+      <div class="org-section">
+        <h1>Board</h1>
+        <hr class="section-hr">
+        <p></br></p>
+
+        <div class="card-grid">
+          <div class="person-card" onclick="openModal('ehsan')">
+            <img src="assets/organizers/Ehsaneddin Asgari.jpeg" alt="Ehsaneddin Asgari" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+            <div class="modal-img-placeholder" style="display:none;width:156px;height:156px;border-radius:50%;font-size:0.85rem;">Image</div>
+            <a class="card-name" onclick="event.stopPropagation()">Ehsaneddin Asgari</a>
+            <span class="card-role">Research Faculty, QCRI</span>
+          </div>
+          <div class="person-card" onclick="openModal('kamran')">
+            <img src="assets/organizers/Kamran Soomro.jpg" alt="Kamran Soomro" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+            <div class="modal-img-placeholder" style="display:none;width:156px;height:156px;border-radius:50%;font-size:0.85rem;">Image</div>
+            <a class="card-name" onclick="event.stopPropagation()">Kamran Soomro</a>
+            <span class="card-role">Faculty, UWE Bristol</span>
+          </div>
+          <div class="person-card" onclick="openModal('shaokai')">
+            <img src="assets/organizers/man.png" alt="Shaokai Yang" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+            <div class="modal-img-placeholder" style="display:none;width:156px;height:156px;border-radius:50%;font-size:0.85rem;">Image</div>
+            <a class="card-name" onclick="event.stopPropagation()">Shaokai Yang</a>
+            <span class="card-role">Postdoctoral Researcher, University of Alberta</span>
+          </div>
+          <div class="person-card" onclick="openModal('ahmed')">
+            <img src="assets/organizers/Ahmed Youssef.jpeg" alt="Ahmed Youssef" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+            <div class="modal-img-placeholder" style="display:none;width:156px;height:156px;border-radius:50%;font-size:0.85rem;">Image</div>
+            <a class="card-name" onclick="event.stopPropagation()">Ahmed Youssef</a>
+            <span class="card-role">AI Staff Engineer, Synopsys</span>
+          </div>
+          <div class="person-card" onclick="openModal('gasser')">
+            <img src="assets/organizers/gasser.ea1dd202ea0309d732b4.jpg" alt="Gasser Elbanna" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+            <div class="modal-img-placeholder" style="display:none;width:156px;height:156px;border-radius:50%;font-size:0.85rem;">Image</div>
+            <a class="card-name" onclick="event.stopPropagation()">Gasser Elbanna</a>
+            <span class="card-role">PhD Candidate, Harvard University</span>
+          </div>
+          <div class="person-card" onclick="openModal('nasik')">
+            <img src="assets/organizers/nasik_muhammad_nafi.jpeg" alt="Nasik Muhammad Nafi" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+            <div class="modal-img-placeholder" style="display:none;width:156px;height:156px;border-radius:50%;font-size:0.85rem;">Image</div>
+            <a class="card-name" onclick="event.stopPropagation()">Nasik Muhammad Nafi</a>
+            <span class="card-role">Postdoctoral Research Associate, ORNL</span>
+          </div>
+          <div class="person-card" onclick="openModal('irfan')">
+            <img src="assets/organizers/Muhammad Irfan Khan.jpeg" alt="Muhammad Irfan Khan" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+            <div class="modal-img-placeholder" style="display:none;width:156px;height:156px;border-radius:50%;font-size:0.85rem;">Image</div>
+            <a class="card-name" onclick="event.stopPropagation()">Muhammad Irfan Khan</a>
+            <span class="card-role">Faculty, Turku University of Applied Sciences</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- ══════════════════════════════════════════
+           OFFICERS
+      ══════════════════════════════════════════ -->
+      <div class="org-section">
+        <h1>Officers</h1>
+        <hr class="section-hr">
+        <p></br></p>
+
+        <div class="card-grid">
+          <div class="person-card" onclick="openModal('ahmed')">
+            <img src="assets/organizers/Ahmed Youssef.jpeg" alt="Ahmed Youssef" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+            <div class="modal-img-placeholder" style="display:none;width:156px;height:156px;border-radius:50%;font-size:0.85rem;">Image</div>
+            <a class="card-name" onclick="event.stopPropagation()">Ahmed Youssef</a>
+            <span class="card-role">AI Staff Engineer, Synopsys</span>
+          </div>
+          <div class="person-card" onclick="openModal('ehsan')">
+            <img src="assets/organizers/Ehsaneddin Asgari.jpeg" alt="Ehsaneddin Asgari" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+            <div class="modal-img-placeholder" style="display:none;width:156px;height:156px;border-radius:50%;font-size:0.85rem;">Image</div>
+            <a class="card-name" onclick="event.stopPropagation()">Ehsaneddin Asgari</a>
+            <span class="card-role">Research Faculty, QCRI</span>
+          </div>
+          <div class="person-card" onclick="openModal('suleiman')">
+            <img src="assets/organizers/Suleiman Ali Khan.jpeg" alt="Suleiman Ali Khan" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+            <div class="modal-img-placeholder" style="display:none;width:156px;height:156px;border-radius:50%;font-size:0.85rem;">Image</div>
+            <a class="card-name" onclick="event.stopPropagation()">Suleiman Ali Khan</a>
+            <span class="card-role">Sr. Applied Scientist, Amazon</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- ══════════════════════════════════════════
+           ADVISORY BOARD
+      ══════════════════════════════════════════ -->
+      <!-- <div class="org-section">
+        <h1>Advisory Board</h1>
+        <hr class="section-hr">
+
+        <div class="card-grid">
+          <div class="person-card" onclick="openModal('marzyeh')">
+            <img src="assets/organizers/Marzyeh Ghassemi.jpeg" alt="Marzyeh Ghassemi" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+            <div class="modal-img-placeholder" style="display:none;width:156px;height:156px;border-radius:50%;font-size:0.85rem;">Image</div>
+            <a class="card-name" onclick="event.stopPropagation()">Marzyeh Ghassemi</a>
+            <span class="card-role">Associate Professor, MIT</span>
+          </div>
+          <div class="person-card" onclick="openModal('shakir')">
+            <img src="assets/organizers/shakir-head-2.jpg" alt="Shakir Mohamed" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+            <div class="modal-img-placeholder" style="display:none;width:156px;height:156px;border-radius:50%;font-size:0.85rem;">Image</div>
+            <a class="card-name" onclick="event.stopPropagation()">Shakir Mohamed</a>
+            <span class="card-role">Research Director, Google DeepMind</span>
+          </div>
+        </div>
+      </div> -->
+
+      <!-- ══════════════════════════════════════════
+           CHAIRS
+      ══════════════════════════════════════════ -->
+      <div class="org-section">
+        <h1>Chairs</h1>
+        <hr class="section-hr">
+ 
+        <!-- Publication Chair -->
+        <h2>Publication Chair</h2>
+        <hr class="sub-hr">
+        <div class="chair-grid">
+          <div class="person-card" onclick="openModal('shaokai')">
+            <img src="assets/organizers/man.png" alt="Shaokai Yang" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+            <div class="modal-img-placeholder" style="display:none;width:156px;height:156px;border-radius:50%;font-size:0.85rem;">Image</div>
+            <a class="card-name" onclick="event.stopPropagation()">Shaokai Yang</a>
+            <span class="card-role">Postdoctoral Researcher, University of Alberta</span>
+          </div>
+          <div class="person-card" onclick="openModal('ehsan')">
+            <img src="assets/organizers/Ehsaneddin Asgari.jpeg" alt="Ehsaneddin Asgari" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+            <div class="modal-img-placeholder" style="display:none;width:156px;height:156px;border-radius:50%;font-size:0.85rem;">Image</div>
+            <a class="card-name" onclick="event.stopPropagation()">Ehsaneddin Asgari</a>
+            <span class="card-role">Research Faculty, QCRI</span>
+          </div>
+        </div>
+ 
+        <!-- Mentorship and Diversity Chair -->
+        <h2 style="margin-top:1.6rem;">Mentorship and Diversity Chair</h2>
+        <hr class="sub-hr">
+        <div class="chair-grid">
+          <div class="person-card" onclick="openModal('gasser')">
+            <img src="assets/organizers/gasser.ea1dd202ea0309d732b4.jpg" alt="Gasser Elbanna" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+            <div class="modal-img-placeholder" style="display:none;width:156px;height:156px;border-radius:50%;font-size:0.85rem;">Image</div>
+            <a class="card-name" onclick="event.stopPropagation()">Gasser Elbanna</a>
+            <span class="card-role">PhD Candidate, Harvard University</span>
+          </div>
+          <div class="person-card" onclick="openModal('ehsan')">
+            <img src="assets/organizers/Ehsaneddin Asgari.jpeg" alt="Ehsaneddin Asgari" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+            <div class="modal-img-placeholder" style="display:none;width:156px;height:156px;border-radius:50%;font-size:0.85rem;">Image</div>
+            <a class="card-name" onclick="event.stopPropagation()">Ehsaneddin Asgari</a>
+            <span class="card-role">Research Faculty, QCRI</span>
+          </div>
+          <div class="person-card" onclick="openModal('ahmed')">
+            <img src="assets/organizers/Ahmed Youssef.jpeg" alt="Ahmed Youssef" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+            <div class="modal-img-placeholder" style="display:none;width:156px;height:156px;border-radius:50%;font-size:0.85rem;">Image</div>
+            <a class="card-name" onclick="event.stopPropagation()">Ahmed Youssef</a>
+            <span class="card-role">AI Staff Engineer, Synopsys</span>
+          </div>
+        </div>
+ 
+        <!-- Sponsorship Chair -->
+        <h2 style="margin-top:1.6rem;">Sponsorship Chair</h2>
+        <hr class="sub-hr">
+        <div class="chair-grid">
+          <div class="person-card" onclick="openModal('ahmed')">
+            <img src="assets/organizers/Ahmed Youssef.jpeg" alt="Ahmed Youssef" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+            <div class="modal-img-placeholder" style="display:none;width:156px;height:156px;border-radius:50%;font-size:0.85rem;">Image</div>
+            <a class="card-name" onclick="event.stopPropagation()">Ahmed Youssef</a>
+            <span class="card-role">AI Staff Engineer, Synopsys</span>
+          </div>
+        </div>
+ 
+        <!-- Publicity and Outreach Chair -->
+        <h2 style="margin-top:1.6rem;">Publicity and Outreach Chair</h2>
+        <hr class="sub-hr">
+        <div class="chair-grid">
+          <div class="person-card" onclick="openModal('yousra')">
+            <img src="assets/organizers/Yousra Farhani.png" alt="Yousra Farhani" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+            <div class="modal-img-placeholder" style="display:none;width:156px;height:156px;border-radius:50%;font-size:0.85rem;">Image</div>
+            <a class="card-name" onclick="event.stopPropagation()">Yousra Farhani</a>
+            <span class="card-role">PhD Student, INSA Lyon and ESI Algiers</span>
+          </div>
+          <div class="person-card" onclick="openModal('rian')">
+            <img src="assets/organizers/Rian Adam Rajagede.jpeg" alt="Rian Adam Rajagede" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+            <div class="modal-img-placeholder" style="display:none;width:156px;height:156px;border-radius:50%;font-size:0.85rem;">Image</div>
+            <a class="card-name" onclick="event.stopPropagation()">Rian Adam Rajagede</a>
+            <span class="card-role">PhD Student, University of Central Florida</span>
+          </div>
+          <div class="person-card" onclick="openModal('azmine')">
+            <img src="assets/organizers/azminewasi.png" alt="Azmine Toushik Wasi" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+            <div class="modal-img-placeholder" style="display:none;width:156px;height:156px;border-radius:50%;font-size:0.85rem;">Image</div>
+            <a class="card-name" onclick="event.stopPropagation()">Azmine Toushik Wasi</a>
+            <span class="card-role">Graduate, SUST</span>
+          </div>
+        </div>
+ 
+        <!-- Shared Task Chair -->
+        <h2 style="margin-top:1.6rem;">Shared Task Chair</h2>
+        <hr class="sub-hr">
+        <div class="chair-grid">
+          <div class="person-card" onclick="openModal('ehsan')">
+            <img src="assets/organizers/Ehsaneddin Asgari.jpeg" alt="Ehsaneddin Asgari" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+            <div class="modal-img-placeholder" style="display:none;width:156px;height:156px;border-radius:50%;font-size:0.85rem;">Image</div>
+            <a class="card-name" onclick="event.stopPropagation()">Ehsaneddin Asgari</a>
+            <span class="card-role">Research Faculty, QCRI</span>
+          </div>
+          <div class="person-card" onclick="openModal('kamran')">
+            <img src="assets/organizers/Kamran Soomro.jpg" alt="Kamran Soomro" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+            <div class="modal-img-placeholder" style="display:none;width:156px;height:156px;border-radius:50%;font-size:0.85rem;">Image</div>
+            <a class="card-name" onclick="event.stopPropagation()">Kamran Soomro</a>
+            <span class="card-role">Faculty, UWE Bristol</span>
+          </div>
+        </div>
+ 
+        <!-- Scientific Programming Chair -->
+        <h2 style="margin-top:1.6rem;">Scientific Programming Chair</h2>
+        <hr class="sub-hr">
+        <div class="chair-grid">
+          <div class="person-card" onclick="openModal('gasser')">
+            <img src="assets/organizers/gasser.ea1dd202ea0309d732b4.jpg" alt="Gasser Elbanna" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+            <div class="modal-img-placeholder" style="display:none;width:156px;height:156px;border-radius:50%;font-size:0.85rem;">Image</div>
+            <a class="card-name" onclick="event.stopPropagation()">Gasser Elbanna</a>
+            <span class="card-role">PhD Candidate, Harvard University</span>
+          </div>
+        </div>
+      </div>
+ 
+      <p><br><br><br><br></p>
+      <p style="font-size: small;">Website theme adapted from <a href="https://ciol-researchlab.github.io/">CIOL Website</a> (<a href="https://github.com/ciol-researchlab/ciol-researchlab.github.io">GitHub</a>)</p>
+ 
+    </main>
+
+    <!-- ══════════════════════════════════════════
+         BIO MODAL
+    ══════════════════════════════════════════ -->
+    <div class="modal-overlay" id="bioModal" onclick="handleOverlayClick(event)">
+      <div class="modal-box" id="modalBox">
+        <button class="modal-close" onclick="closeModal()">&#10005;</button>
+        <div class="modal-img-wrap" id="modalImgWrap">
+          <!-- image injected by JS -->
+        </div>
+        <div class="modal-name" id="modalName"></div>
+        <div class="modal-position" id="modalPosition"></div>
+        <div class="modal-bio" id="modalBio"></div>
+      </div>
+    </div>
+
+    <script>
+      const people = {
+        marzyeh: {
+          name: "Marzyeh Ghassemi",
+          position: "Associate Professor, MIT",
+          img: "assets/organizers/Marzyeh Ghassemi.jpeg",
+          bio: "Dr. Marzyeh Ghassemi is an Associate Professor at MIT in Electrical Engineering and Computer Science (EECS) and Institute for Medical Engineering & Science (IMES), and a Vector Institute faculty member holding a Canadian CIFAR AI Chair and Canada Research Chair. She holds MIT affiliations with the Jameel Clinic and CSAIL. Professor Ghassemi holds a Herman L. F. von Helmholtz Career Development Professorship, and was named a CIFAR Azrieli Global Scholar and one of MIT Tech Review's 35 Innovators Under 35. Previously, she was a Visiting Researcher with Alphabet's Verily and an Assistant Professor at the University of Toronto. Prior to her PhD in Computer Science at MIT, she received an MSc. degree in biomedical engineering from Oxford University as a Marshall Scholar, and B.S. degrees in computer science and electrical engineering as a Goldwater Scholar at New Mexico State University. Professor Ghassemi has previously served as a NeurIPS Workshop Co-Chair and General Chair for the ACM Conference on Health, Inference and Learning (CHIL). She also founded the non-profit Association for Health Learning and Inference. Her work has been featured in outlets such as Fortune, MIT News, NVIDIA, and The Huffington Post."
+        },
+        shakir: {
+          name: "Shakir Mohamed",
+          position: "Research Director – AI, Science and Society, Google DeepMind",
+          img: "assets/organizers/shakir-head-2.jpg",
+          bio: "Shakir Mohamed is a scientist and engineer working at the intersection of statistical machine learning and artificial intelligence. His research blends probabilistic foundations of intelligence, addressing global challenges, and transformative social impact. He develops methods for probabilistic reasoning and agent-based decision-making, with applications in healthcare, the environment, and initiatives that foster diversity, responsibility, and freedom. Shakir is a Director of Research at Google DeepMind in London, where he has been since its early startup days in 2013. He is a founder and Chair of the Board of Trustees of the Deep Learning Indaba, a non-profit dedicated to strengthening African AI and ML communities. He also holds academic positions as an Associate Fellow at the Leverhulme Centre for the Future of Intelligence (University of Cambridge) and Honorary Professor at University College London. Previously, he was a Junior Research Fellow at CIFAR based at UBC. He earned his PhD under Zoubin Ghahramani at the University of Cambridge as a Commonwealth Scholar and completed his undergraduate studies in Electrical and Information Engineering at the University of the Witwatersrand, Johannesburg, South Africa."
+        },
+        ehsan: {
+          name: "Ehsaneddin Asgari",
+          position: "Research Faculty, Qatar Computing Research Institute (QCRI)",
+          img: "assets/organizers/Ehsaneddin Asgari.jpeg",
+          bio: "Ehsaneddin Asgari is a scientist at the Qatar Computing Research Institute (QCRI), working on multilingual and multimodal language processing, with applications spanning low-resource natural languages to language modeling of biological sequences and chemical compounds. Ehsan completed his Ph.D. at the University of California, Berkeley, and his master's from EPFL. Before joining QCRI, he was an NLP technical lead at the Volkswagen Group at Data:Lab and conducted postdoctoral research at the Helmholtz Research Center for Infection Research. His previous roles include research positions at MIT's CSAIL, MIT Brain and Cognitive Sciences, the NLP group at LMU Munich, ABB Research, and the University of Illinois at Urbana-Champaign's Singapore research center (ADSC)."
+        },
+        kamran: {
+          name: "Kamran Soomro",
+          position: "Associate Professor (Reader) of Artificial Intelligence, UWE Bristol, UK",
+          img: "assets/organizers/Kamran Soomro.jpg",
+          bio: "Associate Professor (Reader) of Artificial Intelligence in the School of Computing and Creative Technologies at UWE Bristol, UK. Dr. Soomro has over 15 years of experience in research and academia. His research interests include ICT for smart cities and urban management, knowledge management, artificial intelligence, big data, and natural language processing. Dr. Soomro has previously co-organized MusiML 2024 and co-chaired the Fourth and Fifth International Workshops on Smart City Clouds: Systems, Technologies and Applications in 2017 and 2018."
+        },
+        shaokai: {
+          name: "Shaokai Yang",
+          position: "Postdoctoral Researcher in Physics, University of Alberta",
+          img: "assets/organizers/man.png",
+          bio: "Shaokai Yang is a Postdoctoral Researcher in Physics at the University of Alberta, working under the supervision of Professor Aksel Hallin. His expertise spans deep learning, high energy physics, particle physics, and symbolic regression. Since 2004, he has been engaged in high energy physics research, and since 2012, he has applied deep learning techniques to scientific problems. His research focuses on integrating advanced computational methods with experimental and theoretical studies in particle physics."
+        },
+        ahmed: {
+          name: "Ahmed Youssef",
+          position: "Incoming AI Staff Engineer, GenAI Center of Excellence, Synopsys",
+          img: "assets/organizers/Ahmed Youssef.jpeg",
+          bio: "Ahmed Youssef is an incoming AI Staff Engineer at Synopsys, where he will join the GenAI Center of Excellence to work on scalable generative models, foundation model optimization, and AI for chip design and scientific computing. He recently completed his Ph.D. in Particle Physics with a focus on Machine Learning at the University of Cincinnati, where he developed data-driven methods to simulate particle collisions and model hadronization. His research has been conducted in collaboration with CERN, Fermilab, Berkeley, and MIT, and includes research visits to CERN, TU Dortmund, the University of Heidelberg, and IST Austria. Ahmed has presented at NeurIPS, ICNLP, and the ML4PhysicalSciences community, and has been an invited speaker at venues such as Google DeepMind and IAIFI at MIT."
+        },
+        gasser: {
+          name: "Gasser Elbanna",
+          position: "PhD Candidate, Harvard University",
+          img: "assets/organizers/gasser.ea1dd202ea0309d732b4.jpg",
+          bio: "Gasser Elbanna is a PhD Candidate in Speech and Hearing, Bioscience and Technology at Harvard University. He currently works at the Laboratory for Computational Audition at MIT, where he studies the underlying perceptual and neural mechanisms of speech perception using artificial neural networks. Gasser holds a master's degree in Neuroscience and Neuro-engineering from EPFL, Switzerland, and completed his undergraduate degree in Systems and Biomedical Engineering at Cairo University, Egypt. During his master's, Gasser was awarded the Bertarelli Fellowship to work as a graduate research intern at MIT and Harvard Medical School."
+        },
+        nasik: {
+          name: "Nasik Muhammad Nafi",
+          position: "Postdoctoral Research Associate, Oak Ridge National Laboratory",
+          img: "assets/organizers/nasik_muhammad_nafi.jpeg",
+          bio: "Nasik Muhammad Nafi is a Postdoctoral Research Associate at Oak Ridge National Laboratory (ORNL). He completed his Ph.D. in Computer Science at Kansas State University under the supervision of Dr. William Hsu. His research focuses on deep reinforcement learning and intelligent visual perception, aiming to build agents that learn from visual input and generalize across task variations through robust representation learning. Nasik's broader interests include meta-learning, transfer learning, and sequential decision-making in complex environments. He holds an MS from Kansas State University and a B.Sc. in Computer Science and Engineering from BUET."
+        },
+        irfan: {
+          name: "Muhammad Irfan Khan",
+          position: "Faculty, Turku University of Applied Sciences",
+          img: "assets/organizers/Muhammad Irfan Khan.jpeg",
+          bio: "Researcher in the Health-Tech lab with a research focus on image analysis in distributed optimization, particularly brain tumor segmentation in federated settings. Publications include venues such as MICCAI and ICONIP. Reviewer for MICCAI and ICONIP. Member of the organizing team for the 3rd MusIML workshop at NeurIPS 2024."
+        },
+        suleiman: {
+          name: "Suleiman Ali Khan",
+          position: "Sr. Applied Scientist, Amazon, Seattle",
+          img: "assets/organizers/Suleiman Ali Khan.jpeg",
+          bio: "Suleiman is a Sr. Applied Scientist at Amazon and the science lead for Amazon Catalog's flagship generative AI. He is a fellow at Turku University of Applied Sciences, where he is a member of the steering committee for Privacy-Preserving ML. He completed his PhD in Bayesian Machine Learning with Prof. Samuel Kaski in 2014 from Aalto University, Finland. His research interests center on generative models and federated learning. He has published 50+ peer-reviewed articles with 3,000+ citations, including Nature Biotechnology, ICML, AISTATS, KDD, ECML, Lancet Oncology, and Machine Learning. He has organized multiple scientific meetings, 2x European Bioinformatics meetings, and 11x ML workshops at Amazon."
+        },
+        yousra: {
+          name: "Yousra Farhani",
+          position: "PhD Student, INSA Lyon and ESI Algiers",
+          img: "assets/organizers/Yousra Farhani.png",
+          bio: "Yousra Farhani is a Quantum Machine Learning and Optimisation researcher affiliated with INSA Lyon and the École Supérieure d'Informatique, ESI Algiers. She is a recipient of the Quantum Rising Star Award 2024 for Women in Quantum and the Arab Young Pioneers Award in Quantum Computing."
+        },
+        rian: {
+          name: "Rian Adam Rajagede",
+          position: "PhD Student, University of Central Florida",
+          img: "assets/organizers/Rian Adam Rajagede.jpeg",
+          bio: "Rian is a PhD student at the University of Central Florida, researching Secure and Reliable Machine Learning. He is also a Lecturer at Universitas Islam Indonesia (currently inactive during PhD study). He has various ML project experience in Indonesia, including developing an Automatic Essay Scoring system for the Education Assessment Center at the Ministry of Education and Culture, and creating deep learning-based detection models for Nestle Indonesia's on-shelf product availability monitoring."
+        },
+        azmine: {
+          name: "Azmine Toushik Wasi",
+          position: "Graduate, Shahjalal University of Science and Technology",
+          img: "assets/organizers/azminewasi.png",
+          bio: "Azmine Toushik Wasi is a researcher specializing in AI4Science, Biomedical AI, Generative AI, AI agents, and reasoning, with applications in structural biology, therapeutics, clinical domains, and molecular machine learning. He actively integrates Graph Neural Networks, Digital Twins, and Human-Centered AI into these areas, while pursuing interdisciplinary work bridging computational biology, industrial engineering, human-computer interaction, and computational social science. Azmine collaborates with researchers at institutions including King Saud University, Hanyang University, Carnegie Mellon University, Microsoft Research, and Cohere Labs. His work has been accepted at ICLR, WWW, NeurIPS, ICML, AAAI, COLING, DASFAA, and CSCW. He is a Kaggle Grandmaster and also engages in AI policy, governance, and safety research."
+        }
+      };
+
+      function openModal(id) {
+        const p = people[id];
+        if (!p) return;
+
+        const imgWrap = document.getElementById('modalImgWrap');
+        imgWrap.innerHTML = `<img src="${p.img}" alt="${p.name}" onerror="this.outerHTML='<div class=modal-img-placeholder>Image</div>'">`;
+
+        document.getElementById('modalName').textContent = p.name;
+        document.getElementById('modalPosition').textContent = p.position;
+        document.getElementById('modalBio').textContent = p.bio;
+
+        const overlay = document.getElementById('bioModal');
+        overlay.classList.add('active');
+        document.body.style.overflow = 'hidden';
+      }
+
+      function closeModal() {
+        document.getElementById('bioModal').classList.remove('active');
+        document.body.style.overflow = '';
+      }
+
+      function handleOverlayClick(e) {
+        if (e.target === document.getElementById('bioModal')) closeModal();
+      }
+
+      document.addEventListener('keydown', function(e) {
+        if (e.key === 'Escape') closeModal();
+      });
+    </script>
+
+  </body>
+</html>
